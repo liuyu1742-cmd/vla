@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-055",
+  "semantic_class": "卫生巾盒",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\rgb_head.mp4",
+  "source_video_sha256": "20753e3ebad88972a8043cb96872987fb54d57454f7f8d6b9e23be17d5aa87a7",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-055\\appearance_texture.png",
+  "source_frame_sha256": "1fc5b3be18e2601d6d9e83ced325de445c9b80d4688842debabebf7eddbd4f69",
+  "geometry": "box",
+  "dimensions": [
+    0.09,
+    0.022,
+    0.025
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.65,
+      0.006,
+      0.0002
+    ],
+    "friction_material": "paper_cardboard",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-055\\model.xml",
+  "model_sha256": "d10f34883d2c22b140f9550e741496da2422088dee6dd3da854cb380fee0cbf3"
+}

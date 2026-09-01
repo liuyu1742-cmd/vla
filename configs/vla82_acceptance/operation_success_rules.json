@@ -1,0 +1,18 @@
+{
+  "schema_version": "vla82_operation_success_rules_v1",
+  "grasp": [
+    "ever_grasped",
+    "object_displacement",
+    "target_region"
+  ],
+  "clean": [
+    "tool_contact",
+    "surface_coverage",
+    "completion_state"
+  ],
+  "device_control": [
+    "control_contact",
+    "state_transition",
+    "target_state"
+  ]
+}

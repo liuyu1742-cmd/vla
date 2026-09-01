@@ -1,0 +1,11 @@
+# OpenVLA inference dependencies for the isolated Windows/RTX 3090 environment.
+# Install PyTorch separately from the CUDA 12.1 wheel index before this file.
+accelerate>=0.25.0
+einops
+huggingface_hub
+peft==0.11.1
+protobuf
+sentencepiece==0.1.99
+timm==0.9.10
+tokenizers==0.19.1
+transformers==4.40.1

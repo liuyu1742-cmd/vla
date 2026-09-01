@@ -1,0 +1,28 @@
+<mujoco model="vla82_vla82_055__bathroom_shelf">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.65 0.006 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="bathroom_shelf_bottom" class="visual" mass="0" type="box" pos="0 0 0" size="0.120000 0.070000 0.015000" rgba="0.86 0.91 0.94 1"/>
+    <geom name="bathroom_shelf_back" class="visual" mass="0" type="box" pos="0 0.064000 0.030" size="0.120000 0.006 0.030" rgba="0.72 0.80 0.84 1"/>
+    <geom name="bathroom_shelf_left_side" class="visual" mass="0" type="box" pos="-0.114000 0 0.026" size="0.006 0.070000 0.026" rgba="0.76 0.84 0.88 1"/>
+    <geom name="bathroom_shelf_right_side" class="visual" mass="0" type="box" pos="0.114000 0 0.026" size="0.006 0.070000 0.026" rgba="0.76 0.84 0.88 1"/>
+    <geom name="bathroom_shelf_front_lip" class="visual" mass="0" type="box" pos="0 -0.066000 0.010" size="0.120000 0.004 0.010" rgba="0.68 0.77 0.82 1"/>
+    <geom name="bathroom_shelf_mount_left" class="visual" mass="0" type="cylinder" pos="-0.073 0.058000 0.052" size="0.007 0.007" quat="0.7071068 0.7071068 0 0" rgba="0.40 0.46 0.50 1"/>
+    <geom name="bathroom_shelf_mount_right" class="visual" mass="0" type="cylinder" pos="0.073 0.058000 0.052" size="0.007 0.007" quat="0.7071068 0.7071068 0 0" rgba="0.40 0.46 0.50 1"/>
+    <geom name="collision_bottom" class="collision" type="box" pos="0 0 0" size="0.120000 0.070000 0.015000"/>
+    <geom name="collision_back" class="collision" type="box" pos="0 0.064000 0.030" size="0.120000 0.006 0.030"/>
+    <geom name="collision_left" class="collision" type="box" pos="-0.114000 0 0.026" size="0.006 0.070000 0.026"/>
+    <geom name="collision_right" class="collision" type="box" pos="0.114000 0 0.026" size="0.006 0.070000 0.026"/>
+    <geom name="collision_front_lip" class="collision" type="box" pos="0 -0.066000 0.010" size="0.120000 0.004 0.010"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.120000 0.070000 0.015000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

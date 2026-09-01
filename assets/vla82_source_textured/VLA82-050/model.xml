@@ -1,0 +1,21 @@
+<mujoco model="vla82_vla82_050">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.45 0.004 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="stapler_base" class="visual" type="box" pos="0 0 -0.013750" size="0.070000 0.025000 0.007000" rgba="0.10 0.12 0.16 1"/>
+    <geom name="stapler_metal_channel" class="visual" type="box" pos="0.005600 0 -0.002500" size="0.054600 0.012000 0.003000" rgba="0.62 0.66 0.70 1"/>
+    <geom name="stapler_upper_arm" class="visual" type="box" pos="0.003500 0 0.011250" size="0.064400 0.020500 0.006000" euler="0 -0.100000 0" rgba="0.16 0.20 0.27 1"/>
+    <geom name="stapler_hinge" class="visual" type="cylinder" pos="-0.057400 0 0.002000" size="0.006000 0.019500" quat="0.7071068 0.7071068 0 0" rgba="0.22 0.25 0.29 1"/>
+    <geom name="collision" class="collision" type="box" size="0.070000 0.025000 0.025000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.070000 0.025000 0.025000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

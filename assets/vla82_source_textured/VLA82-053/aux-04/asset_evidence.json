@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-053",
+  "semantic_class": "键盘",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\rgb_head.mp4",
+  "source_video_sha256": "3c19d8fd96deb0bf2ed67a463fe9efa4b0381063efb38153b1e851b5bd37256e",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-053\\aux-04\\source_texture.png",
+  "source_frame_sha256": "8280a7c4ba0170e86435e5c481ed1c2ee1905c341c192825f89720d8efdc5fe8",
+  "geometry": "keyboard",
+  "dimensions": [
+    0.065,
+    0.03,
+    0.006
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-053\\aux-04\\model.xml",
+  "model_sha256": "a3af5ddaff7f17f4e3d748fed5405c2fa8d4b2097cb46187908a962ef69e7879"
+}

@@ -1,0 +1,28 @@
+<mujoco model="vla82_vla82_042">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1" mass="0"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.55 0.005 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="handle_visual" class="visual" type="capsule" pos="0 0 -0.034" size="0.012 0.078" rgba="0.08 0.48 0.75 1"/>
+    <geom name="brush_grip" class="visual" type="box" pos="0 -0.011 -0.038" size="0.006 0.002 0.042" rgba="0.88 0.95 0.98 1"/>
+    <geom name="brush_neck" class="visual" type="cylinder" pos="0 0 0.057" size="0.010 0.025" rgba="0.10 0.53 0.80 1"/>
+    <geom name="brush_head_visual" class="visual" type="ellipsoid" pos="0 0 0.087" size="0.037 0.023 0.020" rgba="0.10 0.56 0.82 1"/>
+    <geom name="brush_head" class="visual" type="ellipsoid" pos="0 -0.018 0.091" size="0.025 0.006 0.012" rgba="0.18 0.66 0.88 1"/>
+    <geom name="bristles_visual" class="visual" type="box" pos="0 0.018 0.104" size="0.034 0.004 0.011" rgba="0.88 0.94 0.97 1"/>
+    <geom name="bristle_group_0" class="visual" type="box" pos="-0.0240 0.021 0.105" size="0.006 0.018 0.012" rgba="0.93 0.96 0.98 1"/>
+    <geom name="bristle_group_1" class="visual" type="box" pos="-0.0080 0.021 0.105" size="0.006 0.018 0.012" rgba="0.20 0.70 0.92 1"/>
+    <geom name="bristle_group_2" class="visual" type="box" pos="0.0080 0.021 0.105" size="0.006 0.018 0.012" rgba="0.93 0.96 0.98 1"/>
+    <geom name="bristle_group_3" class="visual" type="box" pos="0.0240 0.021 0.105" size="0.006 0.018 0.012" rgba="0.20 0.70 0.92 1"/>
+    <geom name="legacy_visual_mass_carrier" class="visual" type="box" size="0.016000 0.016000 0.115000" mass="0.235520000" rgba="0 0 0 0"/>
+    <geom name="collision" class="collision" type="box" size="0.016000 0.016000 0.115000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.016000 0.016000 0.115000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

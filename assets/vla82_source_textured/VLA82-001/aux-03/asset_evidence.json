@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-001",
+  "semantic_class": "汽水罐",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\rgb_head.mp4",
+  "source_video_sha256": "88595eb5a941c6b912bb055aad04106a9162f4bf846b3c3027088064b69b4da4",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-001\\aux-03\\source_texture.png",
+  "source_frame_sha256": "817b4eb938c99b8ff70fdc9278f993ec217a3406792459c09de1231a3c6e2df8",
+  "geometry": "can",
+  "dimensions": [
+    0.032,
+    0.032,
+    0.055
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v1",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-001\\aux-03\\model.xml",
+  "model_sha256": "9c69dd752a683513c020be7587d5261fe3eb44ae2e2fa64f330d9905534081ca"
+}

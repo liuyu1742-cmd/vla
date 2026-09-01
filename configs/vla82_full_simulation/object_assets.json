@@ -1,0 +1,1217 @@
+{
+  "schema_version": "vla82_exact_assets_v1",
+  "assets": [
+    {
+      "selection_id": "VLA82-001",
+      "semantic_class": "垃圾桶",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-001\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "deposit",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\operation.json",
+      "dimensions": [
+        0.115,
+        0.115,
+        0.15
+      ],
+      "geometry": "open_receptacle"
+    },
+    {
+      "selection_id": "VLA82-002",
+      "semantic_class": "海绵",
+      "kind": "robocasa_native",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\third_party\\robocasa\\robocasa\\models\\assets\\objects\\objaverse\\sponge\\sponge_3\\model.xml",
+      "exact_class": true,
+      "collision_validated": true,
+      "visible_validated": true,
+      "affordances": [
+        "grasp",
+        "wipe",
+        "return"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\operation.json",
+      "dimensions": [
+        0.055,
+        0.035,
+        0.018
+      ],
+      "geometry": "sponge"
+    },
+    {
+      "selection_id": "VLA82-003",
+      "semantic_class": "清洁刷",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-003\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "scrub",
+        "return"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\operation.json",
+      "dimensions": [
+        0.014,
+        0.014,
+        0.095
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-004",
+      "semantic_class": "清洁喷雾瓶",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-004\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁喷雾瓶\\instruction.json",
+      "dimensions": [
+        0.025,
+        0.025,
+        0.085
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-005",
+      "semantic_class": "打蛋器",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-005\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\instruction.json",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.105
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-006",
+      "semantic_class": "擀面杖",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-006\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\擀面杖\\instruction.json",
+      "dimensions": [
+        0.02,
+        0.02,
+        0.13
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-007",
+      "semantic_class": "炉灶",
+      "kind": "fixture_part",
+      "asset_path_or_group": "TurnOnStove",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "turn_knob",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\operation.json",
+      "dimensions": [
+        0.12,
+        0.12,
+        0.05
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-008",
+      "semantic_class": "烤箱",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseOven",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤箱\\operation.json",
+      "dimensions": [
+        0.18,
+        0.16,
+        0.12
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-009",
+      "semantic_class": "烤面包机下层烤盘",
+      "kind": "fixture_part",
+      "asset_path_or_group": "SlideToasterOvenRack",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤面包机下层烤盘\\operation.json",
+      "dimensions": [
+        0.11,
+        0.08,
+        0.012
+      ],
+      "geometry": "tray"
+    },
+    {
+      "selection_id": "VLA82-010",
+      "semantic_class": "烹饪托盘",
+      "kind": "fixture_part",
+      "asset_path_or_group": "SlideOvenRack",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "insert"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烹饪托盘\\operation.json",
+      "dimensions": [
+        0.12,
+        0.085,
+        0.015
+      ],
+      "geometry": "tray"
+    },
+    {
+      "selection_id": "VLA82-011",
+      "semantic_class": "碗",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-011\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "insert"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\碗\\operation.json",
+      "dimensions": [
+        0.075,
+        0.075,
+        0.03
+      ],
+      "geometry": "dish"
+    },
+    {
+      "selection_id": "VLA82-012",
+      "semantic_class": "茶壶",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-012\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\instruction.json",
+      "dimensions": [
+        0.05,
+        0.05,
+        0.095
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-013",
+      "semantic_class": "调味罐",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-013\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\调味罐\\instruction.json",
+      "dimensions": [
+        0.025,
+        0.025,
+        0.055
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-014",
+      "semantic_class": "量杯",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-014\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\量杯\\instruction.json",
+      "dimensions": [
+        0.04,
+        0.04,
+        0.055
+      ],
+      "geometry": "cup"
+    },
+    {
+      "selection_id": "VLA82-015",
+      "semantic_class": "锅",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-015\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "insert"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\锅\\operation.json",
+      "dimensions": [
+        0.105,
+        0.105,
+        0.035
+      ],
+      "geometry": "pan"
+    },
+    {
+      "selection_id": "VLA82-016",
+      "semantic_class": "书籍",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-016\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\operation.json",
+      "dimensions": [
+        0.065,
+        0.035,
+        0.015
+      ],
+      "geometry": "book"
+    },
+    {
+      "selection_id": "VLA82-017",
+      "semantic_class": "水瓶",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-017\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\水瓶\\operation.json",
+      "dimensions": [
+        0.032,
+        0.032,
+        0.1
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-018",
+      "semantic_class": "盒装饮料",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-018\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\operation.json",
+      "dimensions": [
+        0.035,
+        0.025,
+        0.08
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-019",
+      "semantic_class": "罐装物",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-019\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\operation.json",
+      "dimensions": [
+        0.032,
+        0.032,
+        0.055
+      ],
+      "geometry": "can"
+    },
+    {
+      "selection_id": "VLA82-020",
+      "semantic_class": "马克杯",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-020\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\马克杯\\operation.json",
+      "dimensions": [
+        0.045,
+        0.045,
+        0.055
+      ],
+      "geometry": "cup"
+    },
+    {
+      "selection_id": "VLA82-021",
+      "semantic_class": "密封保鲜盒",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-021\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\密封保鲜盒\\instruction.json",
+      "dimensions": [
+        0.085,
+        0.06,
+        0.028
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-022",
+      "semantic_class": "床头柜",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-022\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\operation.json",
+      "dimensions": [
+        0.13,
+        0.12,
+        0.1
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-023",
+      "semantic_class": "收纳盒",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-023\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "insert"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳盒\\operation.json",
+      "dimensions": [
+        0.05,
+        0.04,
+        0.03
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-024",
+      "semantic_class": "收纳箱",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-024\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳箱\\operation.json",
+      "dimensions": [
+        0.14,
+        0.1,
+        0.075
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-025",
+      "semantic_class": "纸箱",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-025\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\纸箱\\operation.json",
+      "dimensions": [
+        0.15,
+        0.11,
+        0.09
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-026",
+      "semantic_class": "冰箱层架",
+      "kind": "fixture_part",
+      "asset_path_or_group": "PickPlaceFridgeDrawerToShelf",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "wipe",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\operation.json",
+      "dimensions": [
+        0.16,
+        0.08,
+        0.015
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-027",
+      "semantic_class": "冰箱抽屉",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseFridgeDrawer",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱抽屉\\operation.json",
+      "dimensions": [
+        0.13,
+        0.09,
+        0.05
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-028",
+      "semantic_class": "冰箱门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseFridge",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱门\\operation.json",
+      "dimensions": [
+        0.18,
+        0.02,
+        0.22
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-029",
+      "semantic_class": "微波炉门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseMicrowave",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\微波炉门\\operation.json",
+      "dimensions": [
+        0.15,
+        0.02,
+        0.12
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-030",
+      "semantic_class": "抽屉",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseDrawer",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\抽屉\\operation.json",
+      "dimensions": [
+        0.12,
+        0.08,
+        0.05
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-031",
+      "semantic_class": "橱柜门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseCabinet",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\橱柜门\\operation.json",
+      "dimensions": [
+        0.16,
+        0.02,
+        0.18
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-032",
+      "semantic_class": "洗碗机上层架",
+      "kind": "fixture_part",
+      "asset_path_or_group": "SlideDishwasherRack",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "insert",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机上层架\\operation.json",
+      "dimensions": [
+        0.16,
+        0.1,
+        0.02
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-033",
+      "semantic_class": "洗碗机门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseDishwasher",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机门\\operation.json",
+      "dimensions": [
+        0.18,
+        0.02,
+        0.16
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-034",
+      "semantic_class": "烤箱门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "CloseOven",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤箱门\\operation.json",
+      "dimensions": [
+        0.15,
+        0.02,
+        0.12
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-035",
+      "semantic_class": "烤面包机烤箱门",
+      "kind": "fixture_part",
+      "asset_path_or_group": "OpenToasterOvenDoor",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "pull",
+        "close",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤面包机烤箱门\\operation.json",
+      "dimensions": [
+        0.12,
+        0.02,
+        0.1
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-036",
+      "semantic_class": "咖啡杯",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-036\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\instruction.json",
+      "dimensions": [
+        0.04,
+        0.04,
+        0.055
+      ],
+      "geometry": "cup"
+    },
+    {
+      "selection_id": "VLA82-037",
+      "semantic_class": "夹子",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-037\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\夹子\\operation.json",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.095
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-038",
+      "semantic_class": "披萨刀",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-038\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\披萨刀\\operation.json",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.1
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-039",
+      "semantic_class": "木勺",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-039\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\operation.json",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.12
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-040",
+      "semantic_class": "水罐",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-040\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\水罐\\instruction.json",
+      "dimensions": [
+        0.05,
+        0.05,
+        0.115
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-041",
+      "semantic_class": "汤勺",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-041\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\汤勺\\operation.json",
+      "dimensions": [
+        0.012,
+        0.012,
+        0.11
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-042",
+      "semantic_class": "洗碗刷",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-042\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\洗碗刷\\operation.json",
+      "dimensions": [
+        0.016,
+        0.016,
+        0.115
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-043",
+      "semantic_class": "滤盆",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-043\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\滤盆\\operation.json",
+      "dimensions": [
+        0.1,
+        0.1,
+        0.04
+      ],
+      "geometry": "dish"
+    },
+    {
+      "selection_id": "VLA82-044",
+      "semantic_class": "盘子",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-044\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\operation.json",
+      "dimensions": [
+        0.1,
+        0.1,
+        0.015
+      ],
+      "geometry": "dish"
+    },
+    {
+      "selection_id": "VLA82-045",
+      "semantic_class": "铝箔纸",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-045\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\operation.json",
+      "dimensions": [
+        0.08,
+        0.03,
+        0.03
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-046",
+      "semantic_class": "文件夹",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-046\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\文件夹\\operation.json",
+      "dimensions": [
+        0.065,
+        0.025,
+        0.014
+      ],
+      "geometry": "folder"
+    },
+    {
+      "selection_id": "VLA82-047",
+      "semantic_class": "笔盒",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-047\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\operation.json",
+      "dimensions": [
+        0.1,
+        0.06,
+        0.035
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-048",
+      "semantic_class": "笔记本",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-048\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "stack",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本\\operation.json",
+      "dimensions": [
+        0.05,
+        0.025,
+        0.014
+      ],
+      "geometry": "book"
+    },
+    {
+      "selection_id": "VLA82-049",
+      "semantic_class": "笔记本电脑",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-049\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "close_lid",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本电脑\\operation.json",
+      "dimensions": [
+        0.15,
+        0.105,
+        0.014
+      ],
+      "geometry": "laptop"
+    },
+    {
+      "selection_id": "VLA82-050",
+      "semantic_class": "订书机",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-050\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\订书机\\operation.json",
+      "dimensions": [
+        0.07,
+        0.025,
+        0.025
+      ],
+      "geometry": "stapler"
+    },
+    {
+      "selection_id": "VLA82-051",
+      "semantic_class": "铅笔",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-051\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "insert",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\operation.json",
+      "dimensions": [
+        0.006,
+        0.006,
+        0.095
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-052",
+      "semantic_class": "键盘",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-052\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\键盘\\operation.json",
+      "dimensions": [
+        0.13,
+        0.055,
+        0.012
+      ],
+      "geometry": "keyboard"
+    },
+    {
+      "selection_id": "VLA82-053",
+      "semantic_class": "鼠标",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-053\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\operation.json",
+      "dimensions": [
+        0.035,
+        0.025,
+        0.02
+      ],
+      "geometry": "mouse"
+    },
+    {
+      "selection_id": "VLA82-054",
+      "semantic_class": "卫浴搁板",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-054\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\operation.json",
+      "dimensions": [
+        0.12,
+        0.07,
+        0.015
+      ],
+      "geometry": "fixture"
+    },
+    {
+      "selection_id": "VLA82-055",
+      "semantic_class": "卫生巾盒",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-055\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\operation.json",
+      "dimensions": [
+        0.09,
+        0.022,
+        0.025
+      ],
+      "geometry": "box"
+    },
+    {
+      "selection_id": "VLA82-056",
+      "semantic_class": "固体香皂",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-056\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "grasp",
+        "place"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\固体香皂\\instruction.json",
+      "dimensions": [
+        0.04,
+        0.028,
+        0.015
+      ],
+      "geometry": "soap"
+    },
+    {
+      "selection_id": "VLA82-057",
+      "semantic_class": "洗涤剂",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-057\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "composite",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\operation.json",
+      "dimensions": [
+        0.035,
+        0.025,
+        0.09
+      ],
+      "geometry": "bottle"
+    },
+    {
+      "selection_id": "VLA82-058",
+      "semantic_class": "牙刷",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-058\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "insert",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙刷\\operation.json",
+      "dimensions": [
+        0.01,
+        0.01,
+        0.09
+      ],
+      "geometry": "tool"
+    },
+    {
+      "selection_id": "VLA82-059",
+      "semantic_class": "牙膏",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-059\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "insert",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙膏\\operation.json",
+      "dimensions": [
+        0.018,
+        0.018,
+        0.085
+      ],
+      "geometry": "tube"
+    },
+    {
+      "selection_id": "VLA82-060",
+      "semantic_class": "皂液器",
+      "kind": "custom_same_class",
+      "asset_path_or_group": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-060\\model.xml",
+      "exact_class": false,
+      "collision_validated": false,
+      "visible_validated": false,
+      "affordances": [
+        "press",
+        "place",
+        "grasp"
+      ],
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\皂液器\\operation.json",
+      "dimensions": [
+        0.035,
+        0.035,
+        0.1
+      ],
+      "geometry": "bottle"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+<mujoco model="vla82_vla82_058__mouthwash_cup">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.55 0.005 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="cup_bottom_visual" class="visual" type="cylinder" pos="0 0 -0.057000" size="0.045000 0.004" rgba="0.18 0.58 0.86 0.95"/>
+    <geom name="cup_wall_visual_0" class="visual" type="cylinder" pos="0.041000 0.000000 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_1" class="visual" type="cylinder" pos="0.039972 0.009123 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_2" class="visual" type="cylinder" pos="0.036940 0.017789 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_3" class="visual" type="cylinder" pos="0.032055 0.025563 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_4" class="visual" type="cylinder" pos="0.025563 0.032055 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_5" class="visual" type="cylinder" pos="0.017789 0.036940 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_6" class="visual" type="cylinder" pos="0.009123 0.039972 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_7" class="visual" type="cylinder" pos="0.000000 0.041000 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_8" class="visual" type="cylinder" pos="-0.009123 0.039972 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_9" class="visual" type="cylinder" pos="-0.017789 0.036940 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_10" class="visual" type="cylinder" pos="-0.025563 0.032055 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_11" class="visual" type="cylinder" pos="-0.032055 0.025563 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_12" class="visual" type="cylinder" pos="-0.036940 0.017789 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_13" class="visual" type="cylinder" pos="-0.039972 0.009123 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_14" class="visual" type="cylinder" pos="-0.041000 0.000000 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_15" class="visual" type="cylinder" pos="-0.039972 -0.009123 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_16" class="visual" type="cylinder" pos="-0.036940 -0.017789 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_17" class="visual" type="cylinder" pos="-0.032055 -0.025563 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_18" class="visual" type="cylinder" pos="-0.025563 -0.032055 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_19" class="visual" type="cylinder" pos="-0.017789 -0.036940 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_20" class="visual" type="cylinder" pos="-0.009123 -0.039972 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_21" class="visual" type="cylinder" pos="-0.000000 -0.041000 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_22" class="visual" type="cylinder" pos="0.009123 -0.039972 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_23" class="visual" type="cylinder" pos="0.017789 -0.036940 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_24" class="visual" type="cylinder" pos="0.025563 -0.032055 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_25" class="visual" type="cylinder" pos="0.032055 -0.025563 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_26" class="visual" type="cylinder" pos="0.036940 -0.017789 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_wall_visual_27" class="visual" type="cylinder" pos="0.039972 -0.009123 0.002500" size="0.0046 0.054500" rgba="0.32 0.72 0.94 0.78"/>
+    <geom name="cup_rim_visual_0" class="visual" type="cylinder" pos="0.040486 0.004562 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.7026607 -0.0791708 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_1" class="visual" type="cylinder" pos="0.038456 0.013456 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.6674263 -0.2335426 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_2" class="visual" type="cylinder" pos="0.034497 0.021676 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.5987244 -0.3762035 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_3" class="visual" type="cylinder" pos="0.028809 0.028809 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.5000000 -0.5000000 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_4" class="visual" type="cylinder" pos="0.021676 0.034497 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.3762035 -0.5987244 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_5" class="visual" type="cylinder" pos="0.013456 0.038456 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.2335426 -0.6674263 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_6" class="visual" type="cylinder" pos="0.004562 0.040486 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.0791708 -0.7026607 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_7" class="visual" type="cylinder" pos="-0.004562 0.040486 0.060000" size="0.0030 0.004591" quat="0.7071068 0.0791708 -0.7026607 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_8" class="visual" type="cylinder" pos="-0.013456 0.038456 0.060000" size="0.0030 0.004591" quat="0.7071068 0.2335426 -0.6674263 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_9" class="visual" type="cylinder" pos="-0.021676 0.034497 0.060000" size="0.0030 0.004591" quat="0.7071068 0.3762035 -0.5987244 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_10" class="visual" type="cylinder" pos="-0.028809 0.028809 0.060000" size="0.0030 0.004591" quat="0.7071068 0.5000000 -0.5000000 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_11" class="visual" type="cylinder" pos="-0.034497 0.021676 0.060000" size="0.0030 0.004591" quat="0.7071068 0.5987244 -0.3762035 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_12" class="visual" type="cylinder" pos="-0.038456 0.013456 0.060000" size="0.0030 0.004591" quat="0.7071068 0.6674263 -0.2335426 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_13" class="visual" type="cylinder" pos="-0.040486 0.004562 0.060000" size="0.0030 0.004591" quat="0.7071068 0.7026607 -0.0791708 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_14" class="visual" type="cylinder" pos="-0.040486 -0.004562 0.060000" size="0.0030 0.004591" quat="0.7071068 0.7026607 0.0791708 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_15" class="visual" type="cylinder" pos="-0.038456 -0.013456 0.060000" size="0.0030 0.004591" quat="0.7071068 0.6674263 0.2335426 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_16" class="visual" type="cylinder" pos="-0.034497 -0.021676 0.060000" size="0.0030 0.004591" quat="0.7071068 0.5987244 0.3762035 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_17" class="visual" type="cylinder" pos="-0.028809 -0.028809 0.060000" size="0.0030 0.004591" quat="0.7071068 0.5000000 0.5000000 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_18" class="visual" type="cylinder" pos="-0.021676 -0.034497 0.060000" size="0.0030 0.004591" quat="0.7071068 0.3762035 0.5987244 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_19" class="visual" type="cylinder" pos="-0.013456 -0.038456 0.060000" size="0.0030 0.004591" quat="0.7071068 0.2335426 0.6674263 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_20" class="visual" type="cylinder" pos="-0.004562 -0.040486 0.060000" size="0.0030 0.004591" quat="0.7071068 0.0791708 0.7026607 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_21" class="visual" type="cylinder" pos="0.004562 -0.040486 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.0791708 0.7026607 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_22" class="visual" type="cylinder" pos="0.013456 -0.038456 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.2335426 0.6674263 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_23" class="visual" type="cylinder" pos="0.021676 -0.034497 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.3762035 0.5987244 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_24" class="visual" type="cylinder" pos="0.028809 -0.028809 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.5000000 0.5000000 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_25" class="visual" type="cylinder" pos="0.034497 -0.021676 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.5987244 0.3762035 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_26" class="visual" type="cylinder" pos="0.038456 -0.013456 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.6674263 0.2335426 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="cup_rim_visual_27" class="visual" type="cylinder" pos="0.040486 -0.004562 0.060000" size="0.0030 0.004591" quat="0.7071068 -0.7026607 0.0791708 0" rgba="0.72 0.91 1.00 1"/>
+    <geom name="collision_bottom" class="collision" type="box" pos="0 0 -0.060000" size="0.045000 0.045000 0.008"/>
+    <geom name="collision_front" class="collision" type="box" pos="0 -0.045000 0" size="0.045000 0.008 0.060000"/>
+    <geom name="collision_back" class="collision" type="box" pos="0 0.045000 0" size="0.045000 0.008 0.060000"/>
+    <geom name="collision_left" class="collision" type="box" pos="-0.045000 0 0" size="0.008 0.045000 0.060000"/>
+    <geom name="collision_right" class="collision" type="box" pos="0.045000 0 0" size="0.008 0.045000 0.060000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.045000 0.045000 0.060000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

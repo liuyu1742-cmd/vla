@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-018",
+  "semantic_class": "盒装饮料",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "f6761c762248e53f90350da251c2f32cfb5ee3b858c056303f355cca3b9e5759",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-018\\source_texture.png",
+  "source_frame_sha256": "4ef501d616dc8a884b095dc2de47c0b48ca2cdf83444189515bf76319b11759e",
+  "geometry": "box",
+  "dimensions": [
+    0.035,
+    0.025,
+    0.08
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.65,
+      0.006,
+      0.0002
+    ],
+    "friction_material": "paper_cardboard",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-018\\model.xml",
+  "model_sha256": "4340b2f6ee3f62d7a1ca0974f7ad021e02b8dbc1dd078904153868525d569ff5"
+}

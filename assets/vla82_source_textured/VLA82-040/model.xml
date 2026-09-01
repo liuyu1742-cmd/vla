@@ -1,0 +1,23 @@
+<mujoco model="vla82_vla82_040">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.4 0.004 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="body_visual" class="visual" type="cylinder" size="0.035 0.105" material="source_material"/>
+    <geom name="rim_visual" class="visual" type="cylinder" pos="0 0 0.108" size="0.039 0.006" rgba="0.82 0.84 0.88 1"/>
+    <geom name="spout_visual" class="visual" type="box" pos="-0.040 0 0.095" size="0.015 0.018 0.010" euler="0 -0.28 0" rgba="0.76 0.80 0.84 1"/>
+    <geom name="handle_outer_visual" class="visual" type="capsule" pos="0.039 0 -0.055" size="0.005 0.006" euler="0 1.5707963 0" rgba="0.22 0.25 0.30 1"/>
+    <geom name="handle_upper_visual" class="visual" type="capsule" pos="0.045 0 0.0025" size="0.005 0.0575" rgba="0.22 0.25 0.30 1"/>
+    <geom name="handle_lower_visual" class="visual" type="capsule" pos="0.039 0 0.060" size="0.005 0.006" euler="0 1.5707963 0" rgba="0.22 0.25 0.30 1"/>
+    <geom name="body_collision" class="collision" type="cylinder" size="0.035 0.105"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.050000 0.050000 0.115000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

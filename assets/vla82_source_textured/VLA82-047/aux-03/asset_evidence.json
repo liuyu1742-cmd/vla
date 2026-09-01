@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-047",
+  "semantic_class": "文件夹",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\rgb_head.mp4",
+  "source_video_sha256": "ac485b410ecd871c54c65b2efbc25e8ec90f5eb4b4c40d303d5eedf21ac3e631",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-047\\aux-03\\source_texture.png",
+  "source_frame_sha256": "a2e1899d21a590f00b259bc994c2913879a411fc53607b99f992128894e0ad11",
+  "geometry": "folder",
+  "dimensions": [
+    0.055,
+    0.04,
+    0.005
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-047\\aux-03\\model.xml",
+  "model_sha256": "75674a58062907b769463d73e3868bcb7c09f25b56fe72303fe08dcffab5394b"
+}

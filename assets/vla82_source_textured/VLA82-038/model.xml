@@ -1,0 +1,23 @@
+<mujoco model="vla82_vla82_038">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1" mass="0"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.45 0.004 0.0001" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="pizza_handle" class="visual" type="capsule" pos="0 0 -0.050" size="0.010 0.050" rgba="0.10 0.12 0.16 1"/>
+    <geom name="pizza_handle_grip" class="visual" type="cylinder" pos="0 0 -0.056" size="0.012 0.036" rgba="0.18 0.20 0.24 1"/>
+    <geom name="pizza_fork" class="visual" type="box" pos="0 0 0.014" size="0.006 0.005 0.026" rgba="0.66 0.69 0.72 1"/>
+    <geom name="pizza_blade" class="visual" type="cylinder" pos="0 0 0.066" size="0.040 0.0025" quat="0.7071068 0.7071068 0 0" rgba="0.78 0.81 0.84 1"/>
+    <geom name="blade_axle" class="visual" type="cylinder" pos="0 0 0.066" size="0.007 0.008" quat="0.7071068 0.7071068 0 0" rgba="0.24 0.26 0.30 1"/>
+    <geom name="legacy_visual_mass_carrier" class="visual" type="box" size="0.012000 0.012000 0.100000" mass="0.115200000" rgba="0 0 0 0"/>
+    <geom name="collision" class="collision" type="box" size="0.012000 0.012000 0.100000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.012000 0.012000 0.100000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

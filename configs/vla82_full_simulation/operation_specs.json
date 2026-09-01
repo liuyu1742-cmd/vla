@@ -1,0 +1,1625 @@
+[
+  {
+    "selection_id": "VLA82-001",
+    "task": "室内卫生清洁",
+    "object_name": "垃圾桶",
+    "operation_text": "将垃圾投放至垃圾桶",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\operation.json",
+    "phases": [
+      "deposit"
+    ],
+    "manipulated_objects": [
+      "垃圾桶"
+    ],
+    "predicate_names": [
+      "deposit_completed"
+    ],
+    "source_sha256": "d161bc98aafbaa188ae85da7dd5cd4f96ee2f4092e4b767dc0668a9cd5e32b0a",
+    "source_table": "5-8-1",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "多罐汽水投放：客厅→厨房垃圾桶"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-002",
+    "task": "室内卫生清洁",
+    "object_name": "海绵",
+    "operation_text": "抓取—擦拭—放回",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\operation.json",
+    "phases": [
+      "grasp",
+      "wipe",
+      "return"
+    ],
+    "manipulated_objects": [
+      "海绵"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "wipe_completed",
+      "return_completed"
+    ],
+    "source_sha256": "ebe50a2fa2fa2a921a9fd32813b0fd2c8e38c4d19265d6ddbbf9cb087e3045b4",
+    "source_table": "5-8-1",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "海绵取放：台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-003",
+    "task": "室内卫生清洁",
+    "object_name": "清洁刷",
+    "operation_text": "抓取—刷洗—放回",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\operation.json",
+    "phases": [
+      "grasp",
+      "scrub",
+      "return"
+    ],
+    "manipulated_objects": [
+      "清洁刷"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "scrub_completed",
+      "return_completed"
+    ],
+    "source_sha256": "81c6fdae711940ac15f6bba569a0c8538996824261c0b3c9d7b28050b99db4e2",
+    "source_table": "5-8-1",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "洗碗刷取放：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-004",
+    "task": "室内卫生清洁",
+    "object_name": "清洁喷雾瓶",
+    "operation_text": "Pick the spray from the cabinet and place it on the counter.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁喷雾瓶\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "清洁喷雾瓶"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "65ba2896586a8e91b8b1d10629fa2279bae070243f8261d4fa393e490d5ddce7",
+    "source_table": "5-8-1",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the spray from the cabinet and place it on the counter."
+      ],
+      [
+        "ledger_operation_label",
+        "喷雾瓶取放：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-005",
+    "task": "烹饪与加热辅助",
+    "object_name": "打蛋器",
+    "operation_text": "Pick the whisk from the counter and place it in the drawer.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "打蛋器"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "de38495c00ef00429d9958a8ff6acec85f47437a7188c4e977b59396986ae9bb",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the whisk from the counter and place it in the drawer."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→抽屉单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-006",
+    "task": "烹饪与加热辅助",
+    "object_name": "擀面杖",
+    "operation_text": "Pick the rolling pin from the counter and place it in the drawer.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\擀面杖\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "擀面杖"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "70bd488e6c84325b159136f8f574d5bec06e53d12072db6a32e72c2bb26c7898",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the rolling pin from the counter and place it in the drawer."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→抽屉单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-007",
+    "task": "烹饪与加热辅助",
+    "object_name": "炉灶",
+    "operation_text": "旋钮操作",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\operation.json",
+    "phases": [
+      "turn_knob"
+    ],
+    "manipulated_objects": [
+      "炉灶"
+    ],
+    "predicate_names": [
+      "turn_knob_completed"
+    ],
+    "source_sha256": "0a4d1fdc02ed410c98885e7d43373654827dc5b852c8c2f23841d88ca74973a2",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "导航至厨房炉灶"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-008",
+    "task": "烹饪与加热辅助",
+    "object_name": "烤箱",
+    "operation_text": "Close the oven door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤箱\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "烤箱"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "44f03f59b1e4d2efa85e9932744bc74b6d13ee56349932c5214457635ae419d9",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "开门/关门"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭烤箱门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-009",
+    "task": "烹饪与加热辅助",
+    "object_name": "烤面包机下层烤盘",
+    "operation_text": "柜内→台面放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤面包机下层烤盘\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "烤面包机下层烤盘"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "895dd16fe118824b9c7583626c840135ac9271c8e5034bfd0cd9b85eb2c89e3e",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "将烤箱下层烤盘完全推入"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-010",
+    "task": "烹饪与加热辅助",
+    "object_name": "烹饪托盘",
+    "operation_text": "抓取—放入烤箱",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烹饪托盘\\operation.json",
+    "phases": [
+      "grasp",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "烹饪托盘"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "8f1747902396507d3a5897c4a89ea42e731cb91c21a57f8ca2d9a583efccd800",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "将烤箱上层托盘完全拉出"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-011",
+    "task": "烹饪与加热辅助",
+    "object_name": "碗",
+    "operation_text": "抓取—放入指定区域",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\碗\\operation.json",
+    "phases": [
+      "grasp",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "碗"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "822eabd17048759da47402a53198d79dd9a8f0b08679ad2e6ca7045d375ec660",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "苹果：平底锅→碗"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-012",
+    "task": "烹饪与加热辅助",
+    "object_name": "茶壶",
+    "operation_text": "Pick the teapot from the counter and place it in the cabinet.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "茶壶"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "c59f8c30997d8e7f784ee5584fede2cd96808487b264ecb7d9573d61c9ed540a",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the teapot from the counter and place it in the cabinet."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→橱柜单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-013",
+    "task": "烹饪与加热辅助",
+    "object_name": "调味罐",
+    "operation_text": "Pick the salt and pepper shaker from the counter and place it in the cabinet.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\调味罐\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "调味罐"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "f18164ff31814cde8a7359f89948d6ecc61959eab02689396eede557b482ad03",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the salt and pepper shaker from the counter and place it in the cabinet."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→橱柜单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-014",
+    "task": "烹饪与加热辅助",
+    "object_name": "量杯",
+    "operation_text": "Pick the measuring cup from the counter and place it in the drawer.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\量杯\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "量杯"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "57a692100f2bb3d7d4edf3d5f5e9f8acdc6fccee4b2ee6c6b92bb7cad8231632",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the measuring cup from the counter and place it in the drawer."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→抽屉单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-015",
+    "task": "烹饪与加热辅助",
+    "object_name": "锅",
+    "operation_text": "抓取—放入水槽",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\锅\\operation.json",
+    "phases": [
+      "grasp",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "锅"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "921616bfad1c2185b960992623b1e782fe86a9353129cfcfc6011c724d3c8003",
+    "source_table": "5-8-2",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜单件归位"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-016",
+    "task": "物品递送",
+    "object_name": "书籍",
+    "operation_text": "从床边取用并放至床头柜",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\operation.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "书籍"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "95f92c4fd44bb0ea976d8a8bc2c289cec8c67421f6bfcb01a6a0782d35377a0a",
+    "source_table": "5-8-4",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "书籍：床上→床头柜；两只凉鞋并排放在床边"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-017",
+    "task": "物品递送",
+    "object_name": "水瓶",
+    "operation_text": "橱柜→台面放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\水瓶\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "水瓶"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "dd90b9b204be0f54d897127932c2dbee3542c30faa86767e43676b1d289e9e29",
+    "source_table": "5-8-4",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "水瓶：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-018",
+    "task": "物品递送",
+    "object_name": "盒装饮料",
+    "operation_text": "固定起点→固定终点放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "盒装饮料"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "b5471178641dc8cc0fa28b04a4c1ff5e5119b84fec93ba67a78df43c19266233",
+    "source_table": "5-8-4",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "盒装饮料：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-019",
+    "task": "物品递送",
+    "object_name": "罐装物",
+    "operation_text": "台面→橱柜放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "罐装物"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "29729865983d4e199654981876181c19953fcebc5670c0bec9345cdc68d2d6c9",
+    "source_table": "5-8-4",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "罐装物：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-020",
+    "task": "物品递送",
+    "object_name": "马克杯",
+    "operation_text": "台面→橱柜放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\马克杯\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "马克杯"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "54aabadfc28ad42e10a183563045972b62b1f85405d0b585e35b06b9863777d7",
+    "source_table": "5-8-4",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "马克杯：橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-021",
+    "task": "整理收纳",
+    "object_name": "密封保鲜盒",
+    "operation_text": "Pick the tupperware from the counter and place it in the cabinet.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\密封保鲜盒\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "密封保鲜盒"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "fa9d31fa0c67706262b4aeec8830f0ede21aafd9792b4e414fb9bd6f720d8186",
+    "source_table": "5-8-5",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the tupperware from the counter and place it in the cabinet."
+      ],
+      [
+        "ledger_operation_label",
+        "密封保鲜盒：台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-022",
+    "task": "整理收纳",
+    "object_name": "床头柜",
+    "operation_text": "将书籍从床上移至床头柜",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "床头柜"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "31ebfd23afab9b6ac5d1ca03db389485a66ec3ad12031736cb67653cfb550a47",
+    "source_table": "5-8-5",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "书籍：床→床头柜，凉鞋并排放置"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-023",
+    "task": "整理收纳",
+    "object_name": "收纳盒",
+    "operation_text": "抓取—放入柜位",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳盒\\operation.json",
+    "phases": [
+      "grasp",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "收纳盒"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "3e2aa3d05b1ad222f6fa4d72ccfd4625599556186c69aa7acebbc25051f6d250",
+    "source_table": "5-8-5",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "盒装饮料：台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-024",
+    "task": "整理收纳",
+    "object_name": "收纳箱",
+    "operation_text": "装入书籍收纳",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳箱\\operation.json",
+    "phases": [
+      "insert",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "收纳箱"
+    ],
+    "predicate_names": [
+      "insert_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "4fcae45b4297f6af3fa260619937a103b2859d2f47929aa20fd1b64f3324693f",
+    "source_table": "5-8-5",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "六本书：书架→客厅地面收纳箱"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-025",
+    "task": "整理收纳",
+    "object_name": "纸箱",
+    "operation_text": "将书籍从书架收纳至纸箱",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\纸箱\\operation.json",
+    "phases": [
+      "insert"
+    ],
+    "manipulated_objects": [
+      "纸箱"
+    ],
+    "predicate_names": [
+      "insert_completed"
+    ],
+    "source_sha256": "1425dc45ec5ce97959e5ab308e660889ed90e850192fb6a887a1a5b84f5d2701",
+    "source_table": "5-8-5",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "六本书：书架→客厅地面纸箱"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-026",
+    "task": "储物设施开合",
+    "object_name": "冰箱层架",
+    "operation_text": "接触式擦拭",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\operation.json",
+    "phases": [
+      "wipe"
+    ],
+    "manipulated_objects": [
+      "冰箱层架"
+    ],
+    "predicate_names": [
+      "wipe_completed"
+    ],
+    "source_sha256": "d3b5cccb2cd1b0fe5024f47bd55ebdb6b669294fe9159957936012d3b9ca246e",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "苹果：冰箱抽屉→冰箱层架"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-027",
+    "task": "储物设施开合",
+    "object_name": "冰箱抽屉",
+    "operation_text": "Fully close the fridge drawer.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱抽屉\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "冰箱抽屉"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "eed5a3b6f656d901b4830c63e619947c1fbc8350e33f7ffcff7e68e470e9c8eb",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "完全关闭冰箱抽屉"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-028",
+    "task": "储物设施开合",
+    "object_name": "冰箱门",
+    "operation_text": "Close the fridge door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱门\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "冰箱门"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "704108551c35513b59660cafe6b76258b4bf792a35362909e15e9f829bdaf85c",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭冰箱门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-029",
+    "task": "储物设施开合",
+    "object_name": "微波炉门",
+    "operation_text": "Close the microwave door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\微波炉门\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "微波炉门"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "3de8d805317c368c4e6cce24c271922560b54bc006420bdc837295d20976199c",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭微波炉门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-030",
+    "task": "储物设施开合",
+    "object_name": "抽屉",
+    "operation_text": "Close the left drawer.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\抽屉\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "抽屉"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "d76db806ee40b513d431b0551c57d77d2078d7909bdc2b7f43912141eaf55065",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭左侧抽屉"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-031",
+    "task": "储物设施开合",
+    "object_name": "橱柜门",
+    "operation_text": "Close the cabinet door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\橱柜门\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "橱柜门"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "f62f48bb8c2db196e7593c8981c1614772378bec39bd6c6d64c07d5be92dc869",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭橱柜门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-032",
+    "task": "储物设施开合",
+    "object_name": "洗碗机上层架",
+    "operation_text": "开门—放入衣物",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机上层架\\operation.json",
+    "phases": [
+      "open",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "洗碗机上层架"
+    ],
+    "predicate_names": [
+      "open_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "06b6d11b6233ec55610be579df44e91af5988b4d0c56948a2d0e8ebf416a3e54",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "将洗碗机上层架完全推入"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-033",
+    "task": "储物设施开合",
+    "object_name": "洗碗机门",
+    "operation_text": "Close the dishwasher door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机门\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "洗碗机门"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "1bb85ab15857318bd00e4102fe4481f6613d5650fb0d166cc3ee3f186fdcaf66",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭洗碗机门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-034",
+    "task": "储物设施开合",
+    "object_name": "烤箱门",
+    "operation_text": "Close the toaster oven door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤箱门\\instruction.json",
+    "phases": [
+      "close"
+    ],
+    "manipulated_objects": [
+      "烤箱门"
+    ],
+    "predicate_names": [
+      "close_completed"
+    ],
+    "source_sha256": "afe1f8227abb6cba250c78b30724281c67f4174de5662d940b2dca09f6262158",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "关闭烤箱门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-035",
+    "task": "储物设施开合",
+    "object_name": "烤面包机烤箱门",
+    "operation_text": "Open the toaster oven door.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤面包机烤箱门\\instruction.json",
+    "phases": [
+      "open"
+    ],
+    "manipulated_objects": [
+      "烤面包机烤箱门"
+    ],
+    "predicate_names": [
+      "open_completed"
+    ],
+    "source_sha256": "10755739c012f0deaf8203e703625cec36de2cac3bc00ece95e0f0a3f4b837d8",
+    "source_table": "5-8-6",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "拉开/关闭"
+      ],
+      [
+        "ledger_operation_label",
+        "打开烤面包机烤箱门"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-036",
+    "task": "餐具与容器摆放",
+    "object_name": "咖啡杯",
+    "operation_text": "Pick the coffee cup from the cabinet and place it on the counter.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "咖啡杯"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "f0a62ed50c8549fe16025b252f30b7ba88a7f6f69299beacfa0ed56355ee4408",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the coffee cup from the cabinet and place it on the counter."
+      ],
+      [
+        "ledger_operation_label",
+        "橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-037",
+    "task": "餐具与容器摆放",
+    "object_name": "夹子",
+    "operation_text": "抽屉→台面放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\夹子\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "夹子"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "46b5a6f75554bbe5324395a9d9b5318307f3005abdd13c543e3fc8f07d740e19",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-038",
+    "task": "餐具与容器摆放",
+    "object_name": "披萨刀",
+    "operation_text": "台面→抽屉放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\披萨刀\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "披萨刀"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "9adf3e9759b1281ad337db3dbc5f32f0e1d254ea1697ad4e04e8fab52669b193",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "橱柜→台面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-039",
+    "task": "餐具与容器摆放",
+    "object_name": "木勺",
+    "operation_text": "抽屉→台面放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "木勺"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "a76142b82e5c7dab4570962588f320962a5862c509e86d5f59cca6d7a3130619",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-040",
+    "task": "餐具与容器摆放",
+    "object_name": "水罐",
+    "operation_text": "Pick the pitcher from the counter and place it in the cabinet.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\水罐\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "水罐"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "80d8d1fc0e74bcfeddcd1b64b2a339d6d184ed71ee4e0448fdaf21cf2e1bd937",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the pitcher from the counter and place it in the cabinet."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-041",
+    "task": "餐具与容器摆放",
+    "object_name": "汤勺",
+    "operation_text": "台面→抽屉放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\汤勺\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "汤勺"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "e16c101efcf246eb487727d399e78cc0589baa96b90da2b09275b38de5b0d59f",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-042",
+    "task": "餐具与容器摆放",
+    "object_name": "洗碗刷",
+    "operation_text": "水槽→橱柜放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\洗碗刷\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "洗碗刷"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "167eef81733d63bba803f501a190bacbf304fee39d8d06792213290680dbc2c8",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-043",
+    "task": "餐具与容器摆放",
+    "object_name": "滤盆",
+    "operation_text": "橱柜→台面放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\滤盆\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "滤盆"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "1455d8ef9a80839801fa1e2554bf34cc801b65a76406411f37f04d720634e8ef",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-044",
+    "task": "餐具与容器摆放",
+    "object_name": "盘子",
+    "operation_text": "台面→橱柜放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "盘子"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "ba44fb5dc23f8c47075af3cad88015e4990a7e31bd514b47039c0ac208dd0777",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "苹果：平底锅→盘子"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-045",
+    "task": "餐具与容器摆放",
+    "object_name": "铝箔纸",
+    "operation_text": "台面→抽屉放置",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "铝箔纸"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "9c98a4221830ac862db7fef7e1c14fbc797f5a100d3a5132cc6c1f55029f6d7e",
+    "source_table": "5-8-8",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-046",
+    "task": "工作学习区服务",
+    "object_name": "文件夹",
+    "operation_text": "摆放至书桌",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\文件夹\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "文件夹"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "f5d28447d62263bc9466e576c84cabd95239ab81f45dfc3208c0c763088ffcd3",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "转椅→书桌并置于鼠标旁"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-047",
+    "task": "工作学习区服务",
+    "object_name": "笔盒",
+    "operation_text": "收纳文具",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\operation.json",
+    "phases": [
+      "insert"
+    ],
+    "manipulated_objects": [
+      "笔盒"
+    ],
+    "predicate_names": [
+      "insert_completed"
+    ],
+    "source_sha256": "7109376309a96020175dd0c9c6f3ea72fac3f6caf441098ac3af570886978c3d",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "铅笔和两支笔→笔盒，笔盒留在桌面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-048",
+    "task": "工作学习区服务",
+    "object_name": "笔记本",
+    "operation_text": "叠放于文件夹上",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本\\operation.json",
+    "phases": [
+      "stack"
+    ],
+    "manipulated_objects": [
+      "笔记本"
+    ],
+    "predicate_names": [
+      "stack_completed"
+    ],
+    "source_sha256": "d1a9b6367814c965961dc0f68fcc02f00f952491d612765c26815cd6fa331ba6",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "叠放在文件夹上"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-049",
+    "task": "工作学习区服务",
+    "object_name": "笔记本电脑",
+    "operation_text": "摆放至书桌并合盖",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本电脑\\operation.json",
+    "phases": [
+      "place",
+      "close_lid"
+    ],
+    "manipulated_objects": [
+      "笔记本电脑"
+    ],
+    "predicate_names": [
+      "place_completed",
+      "close_lid_completed"
+    ],
+    "source_sha256": "e961e21dc97be09ba90f0bfbeb37aea321c427781d3686c100d0e8dcfd078bf3",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "床→书桌并合上电脑"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-050",
+    "task": "工作学习区服务",
+    "object_name": "订书机",
+    "operation_text": "摆放至书桌",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\订书机\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "订书机"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "ca7970d118c0c19e8231f1e7e6744b21ab39d04af0a58cf21758016ee276fcf7",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "书柜→桌面"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-051",
+    "task": "工作学习区服务",
+    "object_name": "铅笔",
+    "operation_text": "放入笔盒",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\operation.json",
+    "phases": [
+      "insert"
+    ],
+    "manipulated_objects": [
+      "铅笔"
+    ],
+    "predicate_names": [
+      "insert_completed"
+    ],
+    "source_sha256": "95368cb4336e98c8cc46f676660610ba60596e49144dda80f4ad68efdd6da80d",
+    "source_table": "5-8-10",
+    "source_differences": []
+  },
+  {
+    "selection_id": "VLA82-052",
+    "task": "工作学习区服务",
+    "object_name": "键盘",
+    "operation_text": "摆放至书桌",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\键盘\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "键盘"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "f2ad531d59f4d02c33b2981327f3c0e3e47ba46df9f41948ce069432f7216880",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "放在显示器旁"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-053",
+    "task": "工作学习区服务",
+    "object_name": "鼠标",
+    "operation_text": "摆放至键盘旁",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "鼠标"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "36508c31d4d3594e64025a92815b947261ce68b3e5cd77966ceab5128f292efe",
+    "source_table": "5-8-10",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "放在键盘旁"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-054",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "卫浴搁板",
+    "operation_text": "将卫生巾盒摆放至卫浴搁板",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "卫浴搁板"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "871aebbaef0d54874d829d9340fd2fcd07bf5f728ca1af04227cd88d8b187ee8",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "接收卫生巾盒并保持浴室用品分区"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-055",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "卫生巾盒",
+    "operation_text": "摆放至卫浴置物架",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\operation.json",
+    "phases": [
+      "place"
+    ],
+    "manipulated_objects": [
+      "卫生巾盒"
+    ],
+    "predicate_names": [
+      "place_completed"
+    ],
+    "source_sha256": "576b47360f0fc1f77179ede552c605f9ae2afc87b1e818239b677880f552f5e3",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "卧室篮→浴室搁板"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-056",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "固体香皂",
+    "operation_text": "Pick the bar soap from the counter and place it in the cabinet.",
+    "source_kind": "instruction_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\固体香皂\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "固体香皂"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "e1675a6236ea040136a2c6ce1b6440f0040c31af73992ae371fda87c065baf7e",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "原始指令：Pick the bar soap from the counter and place it in the cabinet."
+      ],
+      [
+        "ledger_operation_label",
+        "台面→橱柜"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-057",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "洗涤剂",
+    "operation_text": "放至水槽下方收纳",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\operation.json",
+    "phases": [
+      "place",
+      "insert"
+    ],
+    "manipulated_objects": [
+      "洗涤剂"
+    ],
+    "predicate_names": [
+      "place_completed",
+      "insert_completed"
+    ],
+    "source_sha256": "811120abb7d2b83e14196ec8a8771257067647beb18739eacb8c172a2b234389",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "卧室篮→洗手池下方并排放置"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-058",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "牙刷",
+    "operation_text": "放入漱口杯",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙刷\\operation.json",
+    "phases": [
+      "insert"
+    ],
+    "manipulated_objects": [
+      "牙刷"
+    ],
+    "predicate_names": [
+      "insert_completed"
+    ],
+    "source_sha256": "6aede1408653a9c7978f23338d823e10cb4c5060cd9fd3e14ffa7ed72307f091",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "放入洗手台上的杯中"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-059",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "牙膏",
+    "operation_text": "放入漱口杯",
+    "source_kind": "operation_json",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙膏\\operation.json",
+    "phases": [
+      "insert"
+    ],
+    "manipulated_objects": [
+      "牙膏"
+    ],
+    "predicate_names": [
+      "insert_completed"
+    ],
+    "source_sha256": "d0efda33a1615fe77580416fe6aa1f66e646eca75d78e1a1c99da7ae5aa154ab",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_operation_label",
+        "放入洗手台上的杯中"
+      ]
+    ]
+  },
+  {
+    "selection_id": "VLA82-060",
+    "task": "卫浴用品与个人卫生服务",
+    "object_name": "皂液器",
+    "operation_text": "Pick the soap dispenser from the cabinet and place it on the counter.",
+    "source_kind": "instruction_json_specific",
+    "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\皂液器\\instruction.json",
+    "phases": [
+      "grasp",
+      "place"
+    ],
+    "manipulated_objects": [
+      "皂液器"
+    ],
+    "predicate_names": [
+      "grasp_completed",
+      "place_completed"
+    ],
+    "source_sha256": "4809367e36a18a0fa713696ecd3a0f9e8d5f4e1e88db6359316d7a3c3a133e07",
+    "source_table": "5-8-11",
+    "source_differences": [
+      [
+        "ledger_real_video_annotation",
+        "按压/摆放"
+      ],
+      [
+        "ledger_operation_label",
+        "橱柜→台面"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,32 @@
+# Python environments and cache
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.idea/
+.run/
+
+# Codex and temporary files
+.codex_artifact_work/
+.tmp_*/
+tmp/
+*.diff
+
+# Generated files and logs
+logs/
+outputs/
+*.log
+MUJOCO_LOG.TXT
+
+# Large local data
+datasets/
+models/
+
+# Secrets
+.env
+.env.*
+!.env.example

@@ -1,0 +1,22 @@
+<mujoco model="vla82_vla82_048__aux_02">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.65 0.006 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="target_folder_pages" class="visual" type="box" pos="0.003 0 0" size="0.064000 0.042000 0.004000" rgba="0.95 0.91 0.82 1"/>
+    <geom name="target_folder_cover" class="visual" type="box" pos="0 0 0.005000" size="0.070000 0.045000 0.001" rgba="0.82 0.30 0.18 1"/>
+    <geom name="target_folder_bottom" class="visual" type="box" pos="0 0 -0.005000" size="0.070000 0.045000 0.001" rgba="0.58 0.16 0.10 1"/>
+    <geom name="target_folder_spine" class="visual" type="box" pos="-0.066000 0 0" size="0.004 0.045000 0.006000" rgba="0.45 0.10 0.07 1"/>
+    <geom name="target_folder_label" class="visual" type="box" pos="0.020 0 0.006700" size="0.026 0.016 0.0007" rgba="0.98 0.95 0.86 1"/>
+    <geom name="collision" class="collision" type="box" size="0.070000 0.045000 0.006000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.070000 0.045000 0.006000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

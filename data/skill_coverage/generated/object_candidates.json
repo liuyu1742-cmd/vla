@@ -1,0 +1,1262 @@
+[
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "maintenance_management"
+    ],
+    "display_name": "空调",
+    "object_id": "air_conditioner",
+    "source_rows": [
+      44,
+      125
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "易拉罐",
+    "object_id": "aluminum_can",
+    "source_rows": [
+      71
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "阳台栏杆",
+    "object_id": "balcony_railing",
+    "source_rows": [
+      88
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "绷带",
+    "object_id": "bandage",
+    "source_rows": [
+      116
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "浴室地面",
+    "object_id": "bathroom_floor",
+    "source_rows": [
+      22
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "浴缸",
+    "object_id": "bathtub",
+    "source_rows": [
+      19
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "电池",
+    "object_id": "battery",
+    "source_rows": [
+      73
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "床",
+    "object_id": "bed",
+    "source_rows": [
+      90
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "床单",
+    "object_id": "bed_sheet",
+    "source_rows": [
+      80
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "卧室灯",
+    "object_id": "bedroom_lamp",
+    "source_rows": [
+      95
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "搅拌机",
+    "object_id": "blender",
+    "source_rows": [
+      39
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "百叶窗",
+    "object_id": "blind",
+    "source_rows": [
+      86
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "血压计",
+    "object_id": "blood_pressure_monitor",
+    "source_rows": [
+      114
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service",
+      "object_fetching"
+    ],
+    "display_name": "书",
+    "object_id": "book",
+    "source_rows": [
+      109,
+      135
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "书架",
+    "object_id": "bookshelf",
+    "source_rows": [
+      26
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "饮料瓶",
+    "object_id": "bottle",
+    "source_rows": [
+      100
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "碗",
+    "object_id": "bowl",
+    "source_rows": [
+      11
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "柜子",
+    "object_id": "cabinet",
+    "source_rows": [
+      29
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "纸箱",
+    "object_id": "cardboard_box",
+    "source_rows": [
+      70
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "地毯",
+    "object_id": "carpet",
+    "source_rows": [
+      2
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management"
+    ],
+    "display_name": "吸顶灯",
+    "object_id": "ceiling_light",
+    "source_rows": [
+      41
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "儿童衣物",
+    "object_id": "child_clothing",
+    "source_rows": [
+      58
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "筷子",
+    "object_id": "chopsticks",
+    "source_rows": [
+      104
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "衣架",
+    "object_id": "clothes_hanger",
+    "source_rows": [
+      96
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "茶几",
+    "object_id": "coffee_table",
+    "source_rows": [
+      31
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "棉服",
+    "object_id": "cotton_coat",
+    "source_rows": [
+      60
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "杯子",
+    "object_id": "cup",
+    "source_rows": [
+      9
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "窗帘",
+    "object_id": "curtain",
+    "source_rows": [
+      85
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "书桌",
+    "object_id": "desk",
+    "source_rows": [
+      30
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "餐碟",
+    "object_id": "dinner_plate",
+    "source_rows": [
+      102
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "门铃按钮",
+    "object_id": "doorbell_button",
+    "source_rows": [
+      56
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "门把手",
+    "object_id": "doorknob",
+    "source_rows": [
+      54
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "羽绒服",
+    "object_id": "down_jacket",
+    "source_rows": [
+      61
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "抽屉",
+    "object_id": "drawer",
+    "source_rows": [
+      28
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "连衣裙",
+    "object_id": "dress",
+    "source_rows": [
+      74
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "maintenance_management"
+    ],
+    "display_name": "电动窗帘",
+    "object_id": "electric_curtain",
+    "source_rows": [
+      47,
+      128
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "电热水壶",
+    "object_id": "electric_kettle",
+    "source_rows": [
+      38
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "maintenance_management"
+    ],
+    "display_name": "风扇",
+    "object_id": "fan",
+    "source_rows": [
+      48,
+      127
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "水龙头",
+    "object_id": "faucet",
+    "source_rows": [
+      23
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "maintenance_management",
+      "security_monitoring"
+    ],
+    "display_name": "烟雾报警器",
+    "object_id": "fire_alarm",
+    "source_rows": [
+      52,
+      123
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "灭火器",
+    "object_id": "fire_extinguisher",
+    "source_rows": [
+      53
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "急救箱",
+    "object_id": "first_aid_kit",
+    "source_rows": [
+      117
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "maintenance_management"
+    ],
+    "display_name": "花盆",
+    "object_id": "flower_pot",
+    "source_rows": [
+      130
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "厨余垃圾",
+    "object_id": "food",
+    "source_rows": [
+      68
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "餐盘",
+    "object_id": "food_tray",
+    "source_rows": [
+      101
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "叉子",
+    "object_id": "fork",
+    "source_rows": [
+      14
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "平底锅",
+    "object_id": "frying_pan",
+    "source_rows": [
+      37
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service"
+    ],
+    "display_name": "游戏手柄",
+    "object_id": "game_controller",
+    "source_rows": [
+      138
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "玻璃瓶",
+    "object_id": "glass_bottle",
+    "source_rows": [
+      72
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "电磁炉",
+    "object_id": "induction_cooker",
+    "source_rows": [
+      34
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "熨斗",
+    "object_id": "iron",
+    "source_rows": [
+      81
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "object_fetching"
+    ],
+    "display_name": "钥匙",
+    "object_id": "keys",
+    "source_rows": [
+      112
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "刀具",
+    "object_id": "knife",
+    "source_rows": [
+      15
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "复合地板",
+    "object_id": "laminate_floor",
+    "source_rows": [
+      6
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service",
+      "object_fetching"
+    ],
+    "display_name": "笔记本电脑",
+    "object_id": "laptop",
+    "source_rows": [
+      108,
+      134
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "洗衣篮",
+    "object_id": "laundry_basket",
+    "source_rows": [
+      97
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "大理石地面",
+    "object_id": "marble_floor",
+    "source_rows": [
+      5
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "床垫",
+    "object_id": "mattress",
+    "source_rows": [
+      93
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "医用手套",
+    "object_id": "medical_glove",
+    "source_rows": [
+      121
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "医用口罩",
+    "object_id": "medical_mask",
+    "source_rows": [
+      120
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "微波炉",
+    "object_id": "microwave",
+    "source_rows": [
+      36
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "镜子",
+    "object_id": "mirror",
+    "source_rows": [
+      21
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service",
+      "object_fetching"
+    ],
+    "display_name": "手机",
+    "object_id": "mobile_phone",
+    "source_rows": [
+      107,
+      136
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "马克杯",
+    "object_id": "mug",
+    "source_rows": [
+      10
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "床头柜",
+    "object_id": "nightstand",
+    "source_rows": [
+      94
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "烤箱",
+    "object_id": "oven",
+    "source_rows": [
+      35
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "挂锁",
+    "object_id": "padlock",
+    "source_rows": [
+      55
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "裤子",
+    "object_id": "pants",
+    "source_rows": [
+      64
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "枕头",
+    "object_id": "pillow",
+    "source_rows": [
+      91
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "塑料袋",
+    "object_id": "plastic_bag",
+    "source_rows": [
+      69
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "盘子",
+    "object_id": "plate",
+    "source_rows": [
+      12
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "锅",
+    "object_id": "pot",
+    "source_rows": [
+      16
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "压力锅",
+    "object_id": "pressure_cooker",
+    "source_rows": [
+      40
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "bedroom_service"
+    ],
+    "display_name": "被子",
+    "object_id": "quilt",
+    "source_rows": [
+      92
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management"
+    ],
+    "display_name": "阅读灯",
+    "object_id": "reading_lamp",
+    "source_rows": [
+      42
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "可回收瓶",
+    "object_id": "recyclable_bottle",
+    "source_rows": [
+      67
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "maintenance_management"
+    ],
+    "display_name": "冰箱",
+    "object_id": "refrigerator",
+    "source_rows": [
+      45,
+      126
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "entertainment_service",
+      "object_fetching"
+    ],
+    "display_name": "遥控器",
+    "object_id": "remote_control",
+    "source_rows": [
+      49,
+      106,
+      132
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "smart_cooking"
+    ],
+    "display_name": "电饭煲",
+    "object_id": "rice_cooker",
+    "source_rows": [
+      33
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning",
+      "maintenance_management"
+    ],
+    "display_name": "扫地机器人",
+    "object_id": "robot_vacuum",
+    "source_rows": [
+      8,
+      122
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "卫生巾",
+    "object_id": "sanitary_pad",
+    "source_rows": [
+      119
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "围巾",
+    "object_id": "scarf",
+    "source_rows": [
+      79
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "纱窗",
+    "object_id": "screen_window",
+    "source_rows": [
+      87
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "摄像头",
+    "object_id": "security_camera",
+    "source_rows": [
+      51
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "汤碗",
+    "object_id": "serving_bowl",
+    "source_rows": [
+      103
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "衬衫",
+    "object_id": "shirt",
+    "source_rows": [
+      63
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "鞋子",
+    "object_id": "shoes",
+    "source_rows": [
+      59
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "淋浴喷头",
+    "object_id": "shower",
+    "source_rows": [
+      20
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "洗手池",
+    "object_id": "sink",
+    "source_rows": [
+      18
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "裙子",
+    "object_id": "skirt",
+    "source_rows": [
+      77
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "maintenance_management",
+      "security_monitoring"
+    ],
+    "display_name": "智能门锁",
+    "object_id": "smart_lock",
+    "source_rows": [
+      50,
+      129
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "肥皂",
+    "object_id": "soap",
+    "source_rows": [
+      24
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "袜子",
+    "object_id": "socks",
+    "source_rows": [
+      78
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service"
+    ],
+    "display_name": "音箱",
+    "object_id": "speaker",
+    "source_rows": [
+      139
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "object_fetching"
+    ],
+    "display_name": "眼镜",
+    "object_id": "spectacles",
+    "source_rows": [
+      110
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "勺子",
+    "object_id": "spoon",
+    "source_rows": [
+      13
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "收纳箱",
+    "object_id": "storage_box",
+    "source_rows": [
+      25
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "西装",
+    "object_id": "suit",
+    "source_rows": [
+      75
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "clothing_care"
+    ],
+    "display_name": "毛衣",
+    "object_id": "sweater",
+    "source_rows": [
+      76
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "entertainment_service"
+    ],
+    "display_name": "电视",
+    "object_id": "television",
+    "source_rows": [
+      43,
+      133
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "体温计",
+    "object_id": "thermometer",
+    "source_rows": [
+      115
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "保温杯",
+    "object_id": "thermos",
+    "source_rows": [
+      105
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "瓷砖地面",
+    "object_id": "tile_floor",
+    "source_rows": [
+      4
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "马桶",
+    "object_id": "toilet",
+    "source_rows": [
+      17
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "毛巾",
+    "object_id": "towel",
+    "source_rows": [
+      65
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "entertainment_service",
+      "organizing"
+    ],
+    "display_name": "玩具",
+    "object_id": "toy",
+    "source_rows": [
+      32,
+      137
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "waste_disposal"
+    ],
+    "display_name": "垃圾桶",
+    "object_id": "trash_bin",
+    "source_rows": [
+      66
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "security_monitoring"
+    ],
+    "display_name": "可视门铃",
+    "object_id": "video_doorbell",
+    "source_rows": [
+      57
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "塑胶地板",
+    "object_id": "vinyl_floor",
+    "source_rows": [
+      7
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "object_fetching"
+    ],
+    "display_name": "拐杖",
+    "object_id": "walking_cane",
+    "source_rows": [
+      111
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "object_fetching"
+    ],
+    "display_name": "钱包",
+    "object_id": "wallet",
+    "source_rows": [
+      113
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "organizing"
+    ],
+    "display_name": "衣柜",
+    "object_id": "wardrobe",
+    "source_rows": [
+      27
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "appliance_management",
+      "maintenance_management"
+    ],
+    "display_name": "洗衣机",
+    "object_id": "washing_machine",
+    "source_rows": [
+      46,
+      124
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "水杯",
+    "object_id": "water_cup",
+    "source_rows": [
+      98
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "maintenance_management"
+    ],
+    "display_name": "浇水壶",
+    "object_id": "watering_can",
+    "source_rows": [
+      131
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "elderly_assistance"
+    ],
+    "display_name": "轮椅",
+    "object_id": "wheelchair",
+    "source_rows": [
+      118
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "窗户",
+    "object_id": "window",
+    "source_rows": [
+      82
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "窗框",
+    "object_id": "window_frame",
+    "source_rows": [
+      84
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "窗玻璃",
+    "object_id": "window_glass",
+    "source_rows": [
+      83
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "window_care"
+    ],
+    "display_name": "窗台",
+    "object_id": "window_sill",
+    "source_rows": [
+      89
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "food_serving"
+    ],
+    "display_name": "酒杯",
+    "object_id": "wine_glass",
+    "source_rows": [
+      99
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "cleaning"
+    ],
+    "display_name": "木地板",
+    "object_id": "wood_floor",
+    "source_rows": [
+      3
+    ]
+  },
+  {
+    "dataset_task_groups": [
+      "laundry"
+    ],
+    "display_name": "羊毛衣物",
+    "object_id": "wool_garment",
+    "source_rows": [
+      62
+    ]
+  }
+]

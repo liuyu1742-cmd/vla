@@ -1,0 +1,98 @@
+{
+  "version": "1.0.0",
+  "primary_by_dataset_task": {
+    "cleaning": "cleaning_service",
+    "organizing": "organization_storage",
+    "smart_cooking": "cooking_assistance",
+    "appliance_management": "appliance_management",
+    "security_monitoring": "security_entry",
+    "laundry": "cleaning_service",
+    "waste_disposal": "cleaning_service",
+    "clothing_care": "organization_storage",
+    "window_care": "cleaning_service",
+    "bedroom_service": "organization_storage",
+    "food_serving": "item_delivery",
+    "object_fetching": "item_delivery",
+    "elderly_assistance": "health_care",
+    "maintenance_management": "maintenance_management",
+    "entertainment_service": "entertainment_service"
+  },
+  "secondary_by_object": {
+    "security_camera": [
+      {"service_task_id": "security_environment", "applicability": "direct"}
+    ],
+    "fire_alarm": [
+      {"service_task_id": "security_entry", "applicability": "not_applicable"},
+      {"service_task_id": "security_environment", "applicability": "direct"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"}
+    ],
+    "fire_extinguisher": [
+      {"service_task_id": "security_entry", "applicability": "not_applicable"},
+      {"service_task_id": "security_environment", "applicability": "direct"}
+    ],
+    "air_conditioner": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "fan": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"}
+    ],
+    "electric_curtain": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "window": [
+      {"service_task_id": "environment_adjustment", "applicability": "direct"}
+    ],
+    "blind": [
+      {"service_task_id": "environment_adjustment", "applicability": "direct"}
+    ],
+    "ceiling_light": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "reading_lamp": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"}
+    ],
+    "bedroom_lamp": [
+      {"service_task_id": "environment_adjustment", "applicability": "device_control"},
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "television": [
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "refrigerator": [
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"}
+    ],
+    "washing_machine": [
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"}
+    ],
+    "robot_vacuum": [
+      {"service_task_id": "energy_management", "applicability": "device_control"},
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"}
+    ],
+    "smart_lock": [
+      {"service_task_id": "facility_monitoring", "applicability": "device_control"},
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"}
+    ],
+    "speaker": [
+      {"service_task_id": "scene_linkage", "applicability": "composite_resource"},
+      {"service_task_id": "other_comprehensive", "applicability": "device_control"}
+    ],
+    "mobile_phone": [
+      {"service_task_id": "other_comprehensive", "applicability": "device_control"}
+    ]
+  }
+}

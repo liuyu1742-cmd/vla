@@ -1,0 +1,42 @@
+<mujoco model="vla82_vla82_052">
+  <compiler angle="radian"/>
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png"/>
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1"/>
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1"/></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.55 0.005 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001"/></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0"/></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="keyboard_base" class="visual" type="box" size="0.130000 0.055000 0.012000" rgba="0.055 0.065 0.080 1"/>
+    <geom name="keyboard_key_0_0" class="visual" type="box" pos="-0.104000 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_1" class="visual" type="box" pos="-0.074286 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_2" class="visual" type="box" pos="-0.044571 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_3" class="visual" type="box" pos="-0.014857 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_4" class="visual" type="box" pos="0.014857 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_5" class="visual" type="box" pos="0.044571 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_6" class="visual" type="box" pos="0.074286 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_0_7" class="visual" type="box" pos="0.104000 -0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_0" class="visual" type="box" pos="-0.104000 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_1" class="visual" type="box" pos="-0.074286 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_2" class="visual" type="box" pos="-0.044571 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_3" class="visual" type="box" pos="-0.014857 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_4" class="visual" type="box" pos="0.014857 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_5" class="visual" type="box" pos="0.044571 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_6" class="visual" type="box" pos="0.074286 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_1_7" class="visual" type="box" pos="0.104000 0.000000 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_0" class="visual" type="box" pos="-0.104000 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_1" class="visual" type="box" pos="-0.074286 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_2" class="visual" type="box" pos="-0.044571 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_3" class="visual" type="box" pos="-0.014857 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_4" class="visual" type="box" pos="0.014857 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_5" class="visual" type="box" pos="0.044571 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_6" class="visual" type="box" pos="0.074286 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="keyboard_key_2_7" class="visual" type="box" pos="0.104000 0.034100 0.013500" size="0.011050 0.006325 0.0015" rgba="0.72 0.74 0.77 1"/>
+    <geom name="collision" class="collision" type="box" size="0.130000 0.055000 0.012000"/>
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.130000 0.055000 0.015000"/>
+  </body></body></worldbody>
+  <actuator/>
+</mujoco>

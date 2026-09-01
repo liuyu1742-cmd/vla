@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf8'?>
+<mujoco model="vla82_vla82_042">
+  <compiler angle="radian" />
+  <asset>
+    <texture name="source_texture" type="2d" file="source_texture.png" />
+    <material name="source_material" texture="source_texture" rgba="1 1 1 1" />
+  </asset>
+  <default>
+    <default class="visual"><geom contype="0" conaffinity="0" group="1" /></default>
+    <default class="collision"><geom contype="1" conaffinity="1" group="0" density="300" friction="0.55 0.005 0.0002" solref="0.02 1" solimp="0.9 0.95 0.001" /></default>
+    <default class="region"><geom contype="0" conaffinity="0" group="1" rgba="0 1 0 0" mass="0" /></default>
+  </default>
+  <worldbody><body><body name="object">
+    <geom name="handle_visual" class="visual" type="capsule" fromto="0 0 -0.115 0 0 0.060" size="0.012" material="source_material" />
+    <geom name="brush_head_visual" class="visual" type="box" pos="0 0 0.083" size="0.035 0.018 0.020" material="source_material" />
+    <geom name="bristles_visual" class="visual" type="box" pos="0 0.010 0.108" size="0.034 0.024 0.008" rgba="0.85 0.90 0.95 1" />
+    <geom name="collision" class="collision" type="box" size="0.016000 0.016000 0.115000" />
+    <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.035000 0.024000 0.120000" />
+  </body></body></worldbody>
+  <actuator />
+</mujoco>

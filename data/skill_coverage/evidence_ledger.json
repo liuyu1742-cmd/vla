@@ -1,0 +1,44 @@
+{
+  "records": [
+    {
+      "adapter_sha256": "f616629c171d280118e20608dbee7b034d8a0fbb07d9a21f245c1d763ca15d88",
+      "bundle_absolute_path": "C:\\OpenVLA-Simulator\\outputs\\formal_skill_dagger_r3_hybrid_v3_eval\\acceptance_summary.json",
+      "bundle_path": "outputs/formal_skill_dagger_r3_hybrid_v3_eval/acceptance_summary.json",
+      "bundle_sha256": "4e89010d6050d5bce9012f9d94210fe3b372c00a5761de8792caa07378500d47",
+      "dataset_task_id": "organizing",
+      "evaluated_seeds": 3,
+      "evaluation_mode": "hybrid_closed_loop",
+      "evidence_level": "L3",
+      "heldout_seeds": [
+        101,
+        102,
+        103
+      ],
+      "manifest_sha256": "3404b671ba96965bcced6ce5592b6d98c91ca032149488df4dffa403bdd26f25",
+      "object_id": "toy",
+      "pure_autonomous_vla": false,
+      "relation_key": "organizing::toy",
+      "reports": [
+        {
+          "path": "outputs/formal_skill_dagger_r3_hybrid_v3_eval/seed_101/report.json",
+          "seed": 101,
+          "sha256": "a8da18c803534f9796c1137cf6da18ad6b583ae1efcee8af50a18d7f3ebb1b74"
+        },
+        {
+          "path": "outputs/formal_skill_dagger_r3_hybrid_v3_eval/seed_102/report.json",
+          "seed": 102,
+          "sha256": "eb25e54d353b516e38956bd8219fcaa9b459a2b73c56264b73c7b2b757f6e1d0"
+        },
+        {
+          "path": "outputs/formal_skill_dagger_r3_hybrid_v3_eval/seed_103/report.json",
+          "seed": 103,
+          "sha256": "b11720500bb670a157aebe141c3014f10135e431392e4cc301aef97deec62fdf"
+        }
+      ],
+      "service_task_id": "organization_storage",
+      "successful_seeds": 3,
+      "validation_state": "passed"
+    }
+  ],
+  "schema_version": "skill_coverage_evidence_ledger_v1"
+}

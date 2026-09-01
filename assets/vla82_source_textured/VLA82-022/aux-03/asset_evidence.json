@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-022",
+  "semantic_class": "书籍",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\rgb_head.mp4",
+  "source_video_sha256": "5db85276ce62d20c98db21767e5f371070cd373a6f1e502b94792689c747ee34",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-022\\aux-03\\source_texture.png",
+  "source_frame_sha256": "45ed51a8e8e47c120299a0f8ba9192a9967e3a1ec557f36be31bbd7bdfdaa89d",
+  "geometry": "book",
+  "dimensions": [
+    0.05,
+    0.035,
+    0.008
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.82,
+      0.008,
+      0.0003
+    ],
+    "friction_material": "wood",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v1",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-022\\aux-03\\model.xml",
+  "model_sha256": "67e43000a08dafcda54bf0aedde434ff6045b891911a6e7a198683f3fcdc94e1"
+}

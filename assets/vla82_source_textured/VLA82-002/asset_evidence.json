@@ -1,0 +1,37 @@
+{
+  "selection_id": "VLA82-002",
+  "semantic_class": "海绵",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "7e83be34c389268fe43a065e773ae7943fc131dabc0b9399eb4a02206067c4b1",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-002\\source_texture.png",
+  "source_frame_sha256": "35b325c3b79c9be5863195cd88cb2d2214272a6de498d1b4b4dd0f709930d334",
+  "geometry": "sponge",
+  "dimensions": [
+    0.055,
+    0.035,
+    0.018
+  ],
+  "physics_profile": {
+    "density": 65,
+    "friction": [
+      1.2,
+      0.35,
+      0.12
+    ],
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.88,
+      0.95,
+      0.003
+    ],
+    "mass_basis": "18g composite sponge: 12g core + 3g per side",
+    "collision_model": "inner core plus two 4mm compliant side layers; no adhesion/equality constraints"
+  },
+  "collision_geom_count": 4,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-002\\model.xml",
+  "model_sha256": "20e5a1f316c03e8ba384637c4cf2993258f11bea975422ff6b508e8cc0cac566"
+}

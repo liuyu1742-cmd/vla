@@ -1,0 +1,18 @@
+# Reproducible supplemental requirements for the validated Windows OpenVLA environment.
+# Install CUDA PyTorch first from the cu121 wheel index, then install this file.
+numpy==1.26.4
+accelerate==1.14.0
+draccus==0.8.0
+einops==0.8.2
+huggingface_hub==0.36.2
+json-numpy==2.1.1
+jsonlines==4.0.0
+matplotlib==3.10.8
+peft==0.11.1
+protobuf==7.35.1
+rich==15.0.0
+sentencepiece==0.1.99
+timm==0.9.10
+tokenizers==0.19.1
+transformers==4.40.1
+wandb==0.28.1

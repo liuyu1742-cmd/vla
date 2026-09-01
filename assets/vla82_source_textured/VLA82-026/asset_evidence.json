@@ -1,0 +1,18 @@
+{
+  "selection_id": "VLA82-026",
+  "semantic_class": "冰箱层架",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "f792c18f2a78b099051c1409114708930a363a9379d368d36a5fa132fd2dd806",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-026\\source_texture.png",
+  "source_frame_sha256": "533e91eb4296e554135435dcb3541582deda9f57f8c279eaa9d6f1159d18ddb1",
+  "geometry": "fixture",
+  "dimensions": [
+    0.16,
+    0.08,
+    0.015
+  ],
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-026\\model.xml",
+  "model_sha256": "d3e1a910ce9a9a1df0f3efeb259e1d10fb41019c6e0b8023ae9c310c11c170f3"
+}

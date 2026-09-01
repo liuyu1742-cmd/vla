@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-045",
+  "semantic_class": "铝箔纸",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "2da11add3bbdc69b457499a36a4c2a5c177eab6038f9133f1d6465900b721bd3",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-045\\source_texture.png",
+  "source_frame_sha256": "a4394332adb9212ea8306cd36ccb130836355b772da314e5153d6092cc558a84",
+  "geometry": "box",
+  "dimensions": [
+    0.08,
+    0.03,
+    0.03
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.65,
+      0.006,
+      0.0002
+    ],
+    "friction_material": "paper_cardboard",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-045\\model.xml",
+  "model_sha256": "ee9d7ae4612eccde9b1a9feebf636ea89e804c137391ac6ea9bcacdf32a7dcbe"
+}

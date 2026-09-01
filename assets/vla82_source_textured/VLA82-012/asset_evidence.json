@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-012",
+  "semantic_class": "茶壶",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\instruction.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "9cd0640eda50f302a2baaea3a83f7df623db2ae8e167c29414302a3a61209506",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-012\\source_texture.png",
+  "source_frame_sha256": "a54be81f67d6068327624c337c3bc17d55fa57e4343d04c2840576141c4dfc58",
+  "geometry": "bottle",
+  "dimensions": [
+    0.05,
+    0.05,
+    0.095
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.4,
+      0.004,
+      0.0001
+    ],
+    "friction_material": "smooth_ceramic_glass",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-012\\model.xml",
+  "model_sha256": "db6d8582fa9df5b078a969bbf24c7cc7157d8b55ac634547c9e16f72ad65b2a1"
+}

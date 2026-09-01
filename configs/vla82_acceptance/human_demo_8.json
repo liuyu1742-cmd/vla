@@ -1,0 +1,101 @@
+{
+  "schema_version": "vla82_human_demo_bindings_v1",
+  "bindings": [
+    {
+      "source_table": "5-8-1",
+      "task": "室内卫生清洁",
+      "selection_id": "VLA82-002",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P02_123_196",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\plate\\videos\\epic_kitchens_100\\epic_kitchens_100__P02_123_196.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 0.6,
+      "semantic_operation": "clean and handle tableware"
+    },
+    {
+      "source_table": "5-8-2",
+      "task": "烹饪与加热辅助",
+      "selection_id": "VLA82-005",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P01_15_clip_0004",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\frying_pan\\videos\\epic_kitchens_100\\epic_kitchens_100__P01_15_clip_0004.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 6.0,
+      "semantic_operation": "handle cookware during cooking"
+    },
+    {
+      "source_table": "5-8-4",
+      "task": "物品递送",
+      "selection_id": "VLA82-017",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P01_15_clip_0012",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\bottle\\videos\\epic_kitchens_100\\epic_kitchens_100__P01_15_clip_0012.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 4.0,
+      "semantic_operation": "pick and deliver a bottle"
+    },
+    {
+      "source_table": "5-8-5",
+      "task": "整理收纳",
+      "selection_id": "VLA82-021",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P03_109_384",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\storage_box\\videos\\epic_kitchens_100\\epic_kitchens_100__P03_109_384.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 2.5,
+      "semantic_operation": "pick and store a container"
+    },
+    {
+      "source_table": "5-8-6",
+      "task": "储物设施开合",
+      "selection_id": "VLA82-030",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P02_123_101",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\drawer\\videos\\epic_kitchens_100\\epic_kitchens_100__P02_123_101.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 0.8,
+      "semantic_operation": "open or close a drawer"
+    },
+    {
+      "source_table": "5-8-8",
+      "task": "餐具与容器摆放",
+      "selection_id": "VLA82-037",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P02_123_234",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\fork\\videos\\epic_kitchens_100\\epic_kitchens_100__P02_123_234.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 0.7,
+      "semantic_operation": "pick and place tableware"
+    },
+    {
+      "source_table": "5-8-10",
+      "task": "工作学习区服务",
+      "selection_id": "VLA82-050",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P04_120_31",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\book\\videos\\epic_kitchens_100\\epic_kitchens_100__P04_120_31.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 4.0,
+      "semantic_operation": "fetch and place a study object"
+    },
+    {
+      "source_table": "5-8-11",
+      "task": "卫浴用品与个人卫生服务",
+      "selection_id": "VLA82-056",
+      "source_kind": "public_human_demonstration",
+      "dataset": "EPIC-KITCHENS-100",
+      "clip_id": "epic_P02_123_217",
+      "video": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\soap\\videos\\epic_kitchens_100\\epic_kitchens_100__P02_123_217.mp4",
+      "start_seconds": 0.0,
+      "stop_seconds": 0.9,
+      "semantic_operation": "handle personal hygiene soap"
+    }
+  ]
+}

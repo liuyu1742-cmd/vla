@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mujoco model="task2_toy_block_calibrated">
+  <compiler angle="radian" />
+  <asset>
+    <material name="toy_yellow" rgba="0.98 0.65 0.05 1" specular="0.25" shininess="0.35" />
+  </asset>
+  <default>
+    <default class="visual">
+      <geom contype="0" conaffinity="0" group="1" />
+    </default>
+    <default class="collision">
+      <geom group="0" rgba="0.98 0.65 0.05 0" solimp="0.998 0.998 0.001" solref="0.001 1" />
+    </default>
+    <default class="region">
+      <geom group="1" contype="0" conaffinity="0" rgba="0 1 0 0" mass="0" />
+    </default>
+  </default>
+  <worldbody>
+    <body>
+      <body name="object">
+        <geom name="toy_visual" class="visual" type="box" size="0.025 0.025 0.025" material="toy_yellow" />
+        <geom name="toy_collision" class="collision" type="box" size="0.025 0.025 0.025" mass="0.08" friction="0.9 0.25 0.08" />
+        <geom name="reg_bbox" class="region" type="box" pos="0 0 0" size="0.025 0.025 0.025" />
+      </body>
+    </body>
+  </worldbody>
+  <actuator />
+</mujoco>

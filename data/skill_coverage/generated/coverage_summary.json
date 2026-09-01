@@ -1,0 +1,19 @@
+{
+  "acceptance_target": 120,
+  "blocked_object_count": 0,
+  "candidate_object_count": 123,
+  "dataset_task_count": 15,
+  "failed_object_count": 0,
+  "generator_version": "1.0.0",
+  "matrix_entry_count": 1845,
+  "remaining_validation_gap": 119,
+  "semantically_mapped_object_count": 123,
+  "service_task_count": 15,
+  "source": {
+    "path": "C:\\RobotProject\\RobotProject\\docs\\家庭服务任务物体数据表.xlsx",
+    "sha256": "23e39dd2803f3d90725169a6095f354b227feb4c1f54f92310679e84732e9ae0",
+    "sheet": "任务物体数据表"
+  },
+  "source_relation_count": 138,
+  "validated_object_count": 1
+}

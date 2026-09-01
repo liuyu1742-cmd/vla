@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-003",
+  "semantic_class": "清洁刷",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "c8a630ae3e3b16b4ccb3122ea0fd584ed9a637bc9fe848d82359e9c5b4006949",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-003\\source_texture.png",
+  "source_frame_sha256": "781e63ad269225ed8a339b9357f7d699ef96a8bffe0737c716be3727624b090a",
+  "geometry": "tool",
+  "dimensions": [
+    0.014,
+    0.014,
+    0.095
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-003\\model.xml",
+  "model_sha256": "b60be65d50421e42b203a5acf847c6efd2e59f6a1de3398e5bc1d22afe243c4e"
+}

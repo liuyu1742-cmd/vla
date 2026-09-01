@@ -1,0 +1,122 @@
+[
+  {
+    "ordinal": 1,
+    "service_task_id": "appliance_management",
+    "display_name": "家电综合管理任务",
+    "source_section": "5.2.1",
+    "backend_classes": ["smart_home", "device_control"],
+    "acceptance_kind": "device_state"
+  },
+  {
+    "ordinal": 2,
+    "service_task_id": "environment_adjustment",
+    "display_name": "环境调节任务",
+    "source_section": "5.2.2",
+    "backend_classes": ["smart_home", "monitoring"],
+    "acceptance_kind": "device_state"
+  },
+  {
+    "ordinal": 3,
+    "service_task_id": "security_entry",
+    "display_name": "智慧安防任务（入口安全）",
+    "source_section": "5.2.3",
+    "backend_classes": ["monitoring", "device_control"],
+    "acceptance_kind": "monitoring"
+  },
+  {
+    "ordinal": 4,
+    "service_task_id": "security_environment",
+    "display_name": "智慧安防任务（环境安全）",
+    "source_section": "5.2.4",
+    "backend_classes": ["monitoring", "device_control"],
+    "acceptance_kind": "monitoring"
+  },
+  {
+    "ordinal": 5,
+    "service_task_id": "cleaning_service",
+    "display_name": "清洁服务任务",
+    "source_section": "5.2.5",
+    "backend_classes": ["surface_cleaning", "rigid_manipulation"],
+    "acceptance_kind": "physical"
+  },
+  {
+    "ordinal": 6,
+    "service_task_id": "cooking_assistance",
+    "display_name": "烹饪辅助任务",
+    "source_section": "5.2.6",
+    "backend_classes": ["rigid_manipulation", "device_control"],
+    "acceptance_kind": "physical"
+  },
+  {
+    "ordinal": 7,
+    "service_task_id": "maintenance_management",
+    "display_name": "养护管理任务",
+    "source_section": "5.2.7",
+    "backend_classes": ["monitoring", "rigid_manipulation"],
+    "acceptance_kind": "composite"
+  },
+  {
+    "ordinal": 8,
+    "service_task_id": "item_delivery",
+    "display_name": "物品递送任务",
+    "source_section": "5.2.8",
+    "backend_classes": ["rigid_manipulation", "mobile_service"],
+    "acceptance_kind": "physical"
+  },
+  {
+    "ordinal": 9,
+    "service_task_id": "organization_storage",
+    "display_name": "整理收纳任务",
+    "source_section": "5.2.9",
+    "backend_classes": ["rigid_manipulation", "deformable_manipulation"],
+    "acceptance_kind": "physical"
+  },
+  {
+    "ordinal": 10,
+    "service_task_id": "energy_management",
+    "display_name": "能源管理任务",
+    "source_section": "5.2.10",
+    "backend_classes": ["smart_home", "monitoring"],
+    "acceptance_kind": "device_state"
+  },
+  {
+    "ordinal": 11,
+    "service_task_id": "facility_monitoring",
+    "display_name": "设施监控任务",
+    "source_section": "5.2.11",
+    "backend_classes": ["monitoring"],
+    "acceptance_kind": "monitoring"
+  },
+  {
+    "ordinal": 12,
+    "service_task_id": "scene_linkage",
+    "display_name": "场景联动任务",
+    "source_section": "5.2.12",
+    "backend_classes": ["smart_home", "composite_orchestration"],
+    "acceptance_kind": "composite"
+  },
+  {
+    "ordinal": 13,
+    "service_task_id": "health_care",
+    "display_name": "健康关怀任务",
+    "source_section": "5.2.13",
+    "backend_classes": ["monitoring", "mobile_service"],
+    "acceptance_kind": "monitoring"
+  },
+  {
+    "ordinal": 14,
+    "service_task_id": "entertainment_service",
+    "display_name": "娱乐服务任务",
+    "source_section": "5.2.14",
+    "backend_classes": ["smart_home", "device_control"],
+    "acceptance_kind": "device_state"
+  },
+  {
+    "ordinal": 15,
+    "service_task_id": "other_comprehensive",
+    "display_name": "其他综合任务",
+    "source_section": "5.2.15",
+    "backend_classes": ["smart_home", "monitoring", "mobile_service"],
+    "acceptance_kind": "composite"
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-054",
+  "semantic_class": "牙刷",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\rgb_head.mp4",
+  "source_video_sha256": "3bb556537210e8f4f3910dcb2844f56ff3af2afbf9b575aa180a360a529f7702",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-054\\aux-01\\source_texture.png",
+  "source_frame_sha256": "d4b037bb4d7d799bc5978648b4670e0d3b67520ffd7f3fbfd9450ce1598d42ec",
+  "geometry": "tool",
+  "dimensions": [
+    0.01,
+    0.01,
+    0.09
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-054\\aux-01\\model.xml",
+  "model_sha256": "38103f56543cb70078bd6eef60fc029812267222f8b013846981e99877351373"
+}

@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-039",
+  "semantic_class": "木勺",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "08b1a04ea107b2ead1bbf89d05554f3689edb0420803a7f7aabb3623b717279d",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-039\\source_texture.png",
+  "source_frame_sha256": "b3b73e8f696ae439018edc4aa98776e579a301d0d1b1dc734b5b460b7f65a071",
+  "geometry": "tool",
+  "dimensions": [
+    0.012,
+    0.012,
+    0.12
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.82,
+      0.008,
+      0.0003
+    ],
+    "friction_material": "wood",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-039\\model.xml",
+  "model_sha256": "b291328224d77d1bb71c5e3eaf5e25c6ff8dcd1b87a0ade44349c5e6bdabc0d9"
+}

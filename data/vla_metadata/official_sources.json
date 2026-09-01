@@ -1,0 +1,51 @@
+[
+  {
+    "dataset_id": "robocasa",
+    "official_url": "https://robocasa.ai/docs/build/html/datasets/datasets_overview.html",
+    "official_scale": "365 tasks; RoboCasa365 includes 65 atomic and 300 composite task definitions",
+    "survey_role": "primary simulated household task and object taxonomy",
+    "task_metadata_status": "local official source registry parsed"
+  },
+  {
+    "dataset_id": "bridge_v2",
+    "official_url": "https://rail-berkeley.github.io/bridgedata/",
+    "official_scale": "large real-robot kitchen and household manipulation corpus",
+    "survey_role": "local real-robot trajectory and language validation",
+    "task_metadata_status": "local TFDS schema parsed; episode language sampling pending"
+  },
+  {
+    "dataset_id": "libero",
+    "official_url": "https://lifelong-robot-learning.github.io/LIBERO/html/getting_started/overview.html",
+    "official_scale": "130 tasks in four suites",
+    "survey_role": "candidate metadata-only supplement for household goals and objects",
+    "task_metadata_status": "official task manifest retrieval pending"
+  },
+  {
+    "dataset_id": "droid",
+    "official_url": "https://droid-dataset.github.io/droid/the-droid-dataset.html",
+    "official_scale": "76k trajectories, 350 hours, 564 scenes",
+    "survey_role": "candidate real-world language and scene diversity supplement",
+    "task_metadata_status": "aggregate registered; language metadata retrieval pending"
+  },
+  {
+    "dataset_id": "robomind",
+    "official_url": "https://x-humanoid-robomind.github.io/",
+    "official_scale": "107k real trajectories, 479 tasks, 96 object classes",
+    "survey_role": "candidate real-world task and object supplement",
+    "task_metadata_status": "aggregate registered; official metadata retrieval pending"
+  },
+  {
+    "dataset_id": "rh20t",
+    "official_url": "https://rh20t.github.io/",
+    "official_scale": "110k+ contact-rich sequences across 147 task definitions",
+    "survey_role": "candidate contact-rich and human-video/robot-action supplement",
+    "task_metadata_status": "aggregate registered; task descriptions retrieval pending"
+  },
+  {
+    "dataset_id": "behavior_1k",
+    "official_url": "https://behavior.stanford.edu/",
+    "official_scale": "1,000 household activities and 10k+ objects",
+    "survey_role": "candidate high-level household goal and object-scope supplement",
+    "task_metadata_status": "aggregate registered; BDDL task metadata retrieval pending"
+  }
+]

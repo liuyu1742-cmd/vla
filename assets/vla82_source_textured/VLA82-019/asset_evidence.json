@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-019",
+  "semantic_class": "罐装物",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "e7e78746c6300e1c6ba344cd0c32573c7a156234c4383f389f156d8cea07eb39",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-019\\source_texture.png",
+  "source_frame_sha256": "d3c68eb34fb1b9de1df84757b14336c98d8c38117435898b1eebf489aee0d506",
+  "geometry": "can",
+  "dimensions": [
+    0.032,
+    0.032,
+    0.055
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.45,
+      0.004,
+      0.0001
+    ],
+    "friction_material": "metal",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-019\\model.xml",
+  "model_sha256": "7d439b7cd8baec320094022ec71097ccda6622a864ca0e253e9ca73d71a3292d"
+}

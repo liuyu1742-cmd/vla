@@ -1,0 +1,11 @@
+{
+  "schema_version": "task2_contract_lock_v1",
+  "xlsx_path": "C:\\RobotProject\\RobotProject\\docs\\家庭服务任务物体数据表.xlsx",
+  "xlsx_sheet": "任务物体数据表",
+  "xlsx_sha256": "23e39dd2803f3d90725169a6095f354b227feb4c1f54f92310679e84732e9ae0",
+  "benchmark_path": "C:\\RobotProject\\RobotProject\\datasets\\acceptance_instruction_action_benchmark_15tasks.json",
+  "benchmark_sha256": "97198b51f7b0ebf3e160bd6397fbaed70ae73cd966b431180a8431ad6b75e212",
+  "expected_tasks": 15,
+  "expected_unique_objects": 123,
+  "expected_relations": 138
+}

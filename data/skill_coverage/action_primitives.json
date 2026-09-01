@@ -1,0 +1,17 @@
+[
+  {"ordinal": 1, "primitive_id": "whole_hand_grasp", "display_name": "握取", "source_label": "握取", "category": "抓取类"},
+  {"ordinal": 2, "primitive_id": "pinch_grasp", "display_name": "捏取", "source_label": "捏取", "category": "抓取类"},
+  {"ordinal": 3, "primitive_id": "support_lift", "display_name": "托举", "source_label": "托举", "category": "抓取类"},
+  {"ordinal": 4, "primitive_id": "gentle_place", "display_name": "轻放", "source_label": "轻放", "category": "放置类"},
+  {"ordinal": 5, "primitive_id": "push_into", "display_name": "推入", "source_label": "推入", "category": "放置类"},
+  {"ordinal": 6, "primitive_id": "hang", "display_name": "悬挂", "source_label": "悬挂", "category": "放置类"},
+  {"ordinal": 7, "primitive_id": "wipe", "display_name": "擦拭", "source_label": "擦拭", "category": "清洁类"},
+  {"ordinal": 8, "primitive_id": "mop", "display_name": "拖洗", "source_label": "托洗", "category": "清洁类", "normalization_note": "按上下文将原表标签托洗归一化为拖洗"},
+  {"ordinal": 9, "primitive_id": "fold", "display_name": "折叠", "source_label": "折叠", "category": "整理类"},
+  {"ordinal": 10, "primitive_id": "stack", "display_name": "堆叠", "source_label": "堆叠", "category": "整理类"},
+  {"ordinal": 11, "primitive_id": "arrange", "display_name": "排列", "source_label": "排列", "category": "整理类"},
+  {"ordinal": 12, "primitive_id": "push_move", "display_name": "推送", "source_label": "推送", "category": "搬运类"},
+  {"ordinal": 13, "primitive_id": "transport", "display_name": "搬运", "source_label": "搬运", "category": "搬运类"},
+  {"ordinal": 14, "primitive_id": "rotate", "display_name": "旋转", "source_label": "旋转", "category": "操作类"},
+  {"ordinal": 15, "primitive_id": "deliver", "display_name": "递送", "source_label": "递送", "category": "服务类"}
+]

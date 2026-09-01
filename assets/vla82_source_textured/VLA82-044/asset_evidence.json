@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-044",
+  "semantic_class": "盘子",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "57306a804d48433036089a0b85220c5ceb1bfc803aa6dfef280c58d32be01970",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-044\\source_texture.png",
+  "source_frame_sha256": "598a253dfd9ebaf4a4dcb07a143f12521c1bb8cb02e856b65ec33194bd36b0a8",
+  "geometry": "dish",
+  "dimensions": [
+    0.1,
+    0.1,
+    0.015
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.4,
+      0.004,
+      0.0001
+    ],
+    "friction_material": "smooth_ceramic_glass",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-044\\model.xml",
+  "model_sha256": "86e8d802ff25186f2a52590c3b9796d1a3efe0647cb02c07a48cd438451b4e7c"
+}

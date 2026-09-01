@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-057",
+  "semantic_class": "牙膏",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\rgb_head.mp4",
+  "source_video_sha256": "747225e6d627364621aaed6ceb5d962bab0cb54498b6bf99f1949d7cdbddb13f",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-057\\aux-02\\source_texture.png",
+  "source_frame_sha256": "5d362070d31e09f78f81922e46a70099412343d86784549f5a62656d04d52ae5",
+  "geometry": "tube",
+  "dimensions": [
+    0.018,
+    0.018,
+    0.085
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.55,
+      0.005,
+      0.0002
+    ],
+    "friction_material": "plastic",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-057\\aux-02\\model.xml",
+  "model_sha256": "f9f5eec167afa04a416d3afb0c2cd0bc3c808af7cddc7beee58b835611e15aa7"
+}

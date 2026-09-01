@@ -1,0 +1,18 @@
+{
+  "selection_id": "VLA82-007",
+  "semantic_class": "炉灶",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "82d6653994f5dac0c26ca45c6f94ba6663535360b6b9812e086c25bd20b5ab3d",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-007\\source_texture.png",
+  "source_frame_sha256": "d1f8ad35eb91fd18a3b996cf6efb128ccc7ab1d1f25b96ece8ff42944a1bf9c7",
+  "geometry": "fixture",
+  "dimensions": [
+    0.12,
+    0.12,
+    0.05
+  ],
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-007\\model.xml",
+  "model_sha256": "03eec8c24593eea9eaea1f5fb41d345ddc8010b86605e1ad910c0fcbc540128e"
+}

@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-005",
+  "semantic_class": "打蛋器",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\instruction.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "1c930d2d7b4269b07da0a4a50e2ae7d15a24accdf54965f9ddd480c3b36f91c6",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-005\\source_texture.png",
+  "source_frame_sha256": "ee64f49309d01bac010c1fff301f0286efec578b4db8c60b8eb48e9d73cbb067",
+  "geometry": "tool",
+  "dimensions": [
+    0.012,
+    0.012,
+    0.105
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.45,
+      0.004,
+      0.0001
+    ],
+    "friction_material": "metal",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-005\\model.xml",
+  "model_sha256": "628e69000c9ea6b736a5d11e3b5c4ef783451d040731cf90982e89e5858b7584"
+}

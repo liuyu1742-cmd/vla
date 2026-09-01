@@ -1,0 +1,22 @@
+{
+  "canonical_actions": [
+    "locate(toy)",
+    "grasp(toy)",
+    "move(storage)",
+    "place(toy)"
+  ],
+  "contract_version": "task2_snapshot_23e39dd2803f_97198b51f7b0",
+  "execution_evidence": null,
+  "execution_request": null,
+  "instruction": "整理任务：整理并归位玩具（toy）。",
+  "object_id": "toy",
+  "object_name": "玩具",
+  "parser_evidence": null,
+  "perception_evidence": null,
+  "relation_key": "organizing::toy",
+  "schema_version": "household_skill_ir_v2",
+  "source_video": null,
+  "target": "none",
+  "task_id": "organizing",
+  "task_name": "整理任务"
+}

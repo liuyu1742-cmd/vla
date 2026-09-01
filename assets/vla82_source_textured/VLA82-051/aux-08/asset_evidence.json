@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-051",
+  "semantic_class": "订书机",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\rgb_head.mp4",
+  "source_video_sha256": "fdbaa570ec300c6b930492fbaf8b010eab1217f69cf3ea570fbdd3d943fa90ec",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-051\\aux-08\\source_texture.png",
+  "source_frame_sha256": "ee0530c19595a585aa080c62f674f74bb413b5d0aa6ddf7c0af80390dfe5d1e5",
+  "geometry": "stapler",
+  "dimensions": [
+    0.07,
+    0.025,
+    0.025
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.82,
+      0.008,
+      0.0003
+    ],
+    "friction_material": "wood",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-051\\aux-08\\model.xml",
+  "model_sha256": "8e79be18ae28fb324249ce5c01ee9f4d4fe255c5ec9fd5b5c0b61970cb2b64c4"
+}

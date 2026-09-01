@@ -1,0 +1,1952 @@
+{
+  "schema_version": "vla82_authoritative_manifest_v1",
+  "records": [
+    {
+      "selection_id": "VLA82-001",
+      "source_table": "5-8-1",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\operation.json",
+      "source_sha256": "d161bc98aafbaa188ae85da7dd5cd4f96ee2f4092e4b767dc0668a9cd5e32b0a",
+      "ledger": {
+        "ledger_row": "2",
+        "object": "垃圾桶",
+        "operation_label": "多罐汽水投放：客厅→厨房垃圾桶",
+        "real_video_annotation": "将垃圾投放至垃圾桶",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\垃圾桶\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-001\\source_texture.png",
+      "object_profile": {
+        "geometry": "open_receptacle",
+        "dimensions": [
+          0.115,
+          0.115,
+          0.15
+        ]
+      },
+      "manipulated_objects": [
+        "垃圾桶",
+        "汽水罐",
+        "汽水罐",
+        "汽水罐"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToSink",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-002",
+      "source_table": "5-8-1",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\operation.json",
+      "source_sha256": "ebe50a2fa2fa2a921a9fd32813b0fd2c8e38c4d19265d6ddbbf9cb087e3045b4",
+      "ledger": {
+        "ledger_row": "3",
+        "object": "海绵",
+        "operation_label": "海绵取放：台面→橱柜",
+        "real_video_annotation": "抓取—擦拭—放回",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\海绵\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-002\\source_texture.png",
+      "object_profile": {
+        "geometry": "sponge",
+        "dimensions": [
+          0.055,
+          0.035,
+          0.018
+        ]
+      },
+      "manipulated_objects": [
+        "海绵"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-003",
+      "source_table": "5-8-1",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\operation.json",
+      "source_sha256": "81c6fdae711940ac15f6bba569a0c8538996824261c0b3c9d7b28050b99db4e2",
+      "ledger": {
+        "ledger_row": "4",
+        "object": "清洁刷",
+        "operation_label": "洗碗刷取放：橱柜→台面",
+        "real_video_annotation": "抓取—刷洗—放回",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁刷\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-003\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.014,
+          0.014,
+          0.095
+        ]
+      },
+      "manipulated_objects": [
+        "清洁刷"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-004",
+      "source_table": "5-8-1",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁喷雾瓶\\instruction.json",
+      "source_sha256": "65ba2896586a8e91b8b1d10629fa2279bae070243f8261d4fa393e490d5ddce7",
+      "ledger": {
+        "ledger_row": "5",
+        "object": "清洁喷雾瓶",
+        "operation_label": "喷雾瓶取放：橱柜→台面",
+        "real_video_annotation": "原始指令：Pick the spray from the cabinet and place it on the counter.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁喷雾瓶"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_5_室内卫生清洁\\清洁喷雾瓶\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-004\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.025,
+          0.025,
+          0.085
+        ]
+      },
+      "manipulated_objects": [
+        "清洁喷雾瓶"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-005",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\instruction.json",
+      "source_sha256": "de38495c00ef00429d9958a8ff6acec85f47437a7188c4e977b59396986ae9bb",
+      "ledger": {
+        "ledger_row": "6",
+        "object": "打蛋器",
+        "operation_label": "台面→抽屉单件归位",
+        "real_video_annotation": "原始指令：Pick the whisk from the counter and place it in the drawer.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\打蛋器\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-005\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.012,
+          0.012,
+          0.105
+        ]
+      },
+      "manipulated_objects": [
+        "打蛋器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-006",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\擀面杖\\instruction.json",
+      "source_sha256": "70bd488e6c84325b159136f8f574d5bec06e53d12072db6a32e72c2bb26c7898",
+      "ledger": {
+        "ledger_row": "7",
+        "object": "擀面杖",
+        "operation_label": "台面→抽屉单件归位",
+        "real_video_annotation": "原始指令：Pick the rolling pin from the counter and place it in the drawer.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\擀面杖"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\擀面杖\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-006\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.02,
+          0.02,
+          0.13
+        ]
+      },
+      "manipulated_objects": [
+        "擀面杖"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-007",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\operation.json",
+      "source_sha256": "0a4d1fdc02ed410c98885e7d43373654827dc5b852c8c2f23841d88ca74973a2",
+      "ledger": {
+        "ledger_row": "8",
+        "object": "炉灶",
+        "operation_label": "导航至厨房炉灶",
+        "real_video_annotation": "旋钮操作",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\炉灶\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-007\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.12,
+          0.12,
+          0.05
+        ]
+      },
+      "manipulated_objects": [
+        "炉灶"
+      ],
+      "fixture_target": {
+        "task_class": "TurnOnStove",
+        "part_role": "fixture",
+        "required_identifier": "TurnOnStove"
+      }
+    },
+    {
+      "selection_id": "VLA82-008",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤箱\\operation.json",
+      "source_sha256": "244473059fc982d21d21982caf9f9c8e2b8b5df92b88458f21198a8c4ac8e470",
+      "ledger": {
+        "ledger_row": "9",
+        "object": "烤箱",
+        "operation_label": "关闭烤箱门",
+        "real_video_annotation": "开门/关门",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤箱"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤箱\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-008\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.18,
+          0.16,
+          0.12
+        ]
+      },
+      "manipulated_objects": [
+        "烤箱"
+      ],
+      "fixture_target": {
+        "task_class": "CloseOven",
+        "part_role": "fixture",
+        "required_identifier": "CloseOven"
+      }
+    },
+    {
+      "selection_id": "VLA82-009",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤面包机下层烤盘\\operation.json",
+      "source_sha256": "895dd16fe118824b9c7583626c840135ac9271c8e5034bfd0cd9b85eb2c89e3e",
+      "ledger": {
+        "ledger_row": "10",
+        "object": "烤面包机下层烤盘",
+        "operation_label": "将烤箱下层烤盘完全推入",
+        "real_video_annotation": "柜内→台面放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤面包机下层烤盘"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烤面包机下层烤盘\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-009\\source_texture.png",
+      "object_profile": {
+        "geometry": "tray",
+        "dimensions": [
+          0.11,
+          0.08,
+          0.012
+        ]
+      },
+      "manipulated_objects": [
+        "烤面包机下层烤盘"
+      ],
+      "fixture_target": {
+        "task_class": "SlideToasterOvenRack",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-010",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烹饪托盘\\operation.json",
+      "source_sha256": "8f1747902396507d3a5897c4a89ea42e731cb91c21a57f8ca2d9a583efccd800",
+      "ledger": {
+        "ledger_row": "11",
+        "object": "烹饪托盘",
+        "operation_label": "将烤箱上层托盘完全拉出",
+        "real_video_annotation": "抓取—放入烤箱",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烹饪托盘"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\烹饪托盘\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-010\\source_texture.png",
+      "object_profile": {
+        "geometry": "tray",
+        "dimensions": [
+          0.12,
+          0.085,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "烹饪托盘"
+      ],
+      "fixture_target": {
+        "task_class": "SlideOvenRack",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-011",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\碗\\operation.json",
+      "source_sha256": "822eabd17048759da47402a53198d79dd9a8f0b08679ad2e6ca7045d375ec660",
+      "ledger": {
+        "ledger_row": "12",
+        "object": "碗",
+        "operation_label": "苹果：平底锅→碗",
+        "real_video_annotation": "抓取—放入指定区域",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\碗"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\碗\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-011\\source_texture.png",
+      "object_profile": {
+        "geometry": "dish",
+        "dimensions": [
+          0.075,
+          0.075,
+          0.03
+        ]
+      },
+      "manipulated_objects": [
+        "碗"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-012",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\instruction.json",
+      "source_sha256": "c59f8c30997d8e7f784ee5584fede2cd96808487b264ecb7d9573d61c9ed540a",
+      "ledger": {
+        "ledger_row": "13",
+        "object": "茶壶",
+        "operation_label": "台面→橱柜单件归位",
+        "real_video_annotation": "原始指令：Pick the teapot from the counter and place it in the cabinet.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\茶壶\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-012\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.05,
+          0.05,
+          0.095
+        ]
+      },
+      "manipulated_objects": [
+        "茶壶"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-013",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\调味罐\\instruction.json",
+      "source_sha256": "f18164ff31814cde8a7359f89948d6ecc61959eab02689396eede557b482ad03",
+      "ledger": {
+        "ledger_row": "14",
+        "object": "调味罐",
+        "operation_label": "台面→橱柜单件归位",
+        "real_video_annotation": "原始指令：Pick the salt and pepper shaker from the counter and place it in the cabinet.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\调味罐"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\调味罐\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-013\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.025,
+          0.025,
+          0.055
+        ]
+      },
+      "manipulated_objects": [
+        "调味罐"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-014",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\量杯\\instruction.json",
+      "source_sha256": "57a692100f2bb3d7d4edf3d5f5e9f8acdc6fccee4b2ee6c6b92bb7cad8231632",
+      "ledger": {
+        "ledger_row": "15",
+        "object": "量杯",
+        "operation_label": "台面→抽屉单件归位",
+        "real_video_annotation": "原始指令：Pick the measuring cup from the counter and place it in the drawer.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\量杯"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\量杯\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-014\\source_texture.png",
+      "object_profile": {
+        "geometry": "cup",
+        "dimensions": [
+          0.04,
+          0.04,
+          0.055
+        ]
+      },
+      "manipulated_objects": [
+        "量杯"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-015",
+      "source_table": "5-8-2",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\锅\\operation.json",
+      "source_sha256": "921616bfad1c2185b960992623b1e782fe86a9353129cfcfc6011c724d3c8003",
+      "ledger": {
+        "ledger_row": "16",
+        "object": "锅",
+        "operation_label": "台面→橱柜单件归位",
+        "real_video_annotation": "抓取—放入水槽",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\锅"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_6_烹饪与加热辅助\\锅\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-015\\source_texture.png",
+      "object_profile": {
+        "geometry": "pan",
+        "dimensions": [
+          0.105,
+          0.105,
+          0.035
+        ]
+      },
+      "manipulated_objects": [
+        "锅"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-016",
+      "source_table": "5-8-4",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\operation.json",
+      "source_sha256": "95f92c4fd44bb0ea976d8a8bc2c289cec8c67421f6bfcb01a6a0782d35377a0a",
+      "ledger": {
+        "ledger_row": "17",
+        "object": "书籍",
+        "operation_label": "书籍：床上→床头柜；两只凉鞋并排放在床边",
+        "real_video_annotation": "从床边取用并放至床头柜",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-016\\source_texture.png",
+      "object_profile": {
+        "geometry": "book",
+        "dimensions": [
+          0.065,
+          0.035,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "书籍",
+        "凉鞋",
+        "凉鞋"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-017",
+      "source_table": "5-8-4",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\水瓶\\operation.json",
+      "source_sha256": "dd90b9b204be0f54d897127932c2dbee3542c30faa86767e43676b1d289e9e29",
+      "ledger": {
+        "ledger_row": "18",
+        "object": "水瓶",
+        "operation_label": "水瓶：橱柜→台面",
+        "real_video_annotation": "橱柜→台面放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\水瓶"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\水瓶\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-017\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.032,
+          0.032,
+          0.1
+        ]
+      },
+      "manipulated_objects": [
+        "水瓶"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-018",
+      "source_table": "5-8-4",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\operation.json",
+      "source_sha256": "b5471178641dc8cc0fa28b04a4c1ff5e5119b84fec93ba67a78df43c19266233",
+      "ledger": {
+        "ledger_row": "19",
+        "object": "盒装饮料",
+        "operation_label": "盒装饮料：橱柜→台面",
+        "real_video_annotation": "固定起点→固定终点放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\盒装饮料\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-018\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.035,
+          0.025,
+          0.08
+        ]
+      },
+      "manipulated_objects": [
+        "盒装饮料"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-019",
+      "source_table": "5-8-4",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\operation.json",
+      "source_sha256": "29729865983d4e199654981876181c19953fcebc5670c0bec9345cdc68d2d6c9",
+      "ledger": {
+        "ledger_row": "20",
+        "object": "罐装物",
+        "operation_label": "罐装物：橱柜→台面",
+        "real_video_annotation": "台面→橱柜放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\罐装物\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-019\\source_texture.png",
+      "object_profile": {
+        "geometry": "can",
+        "dimensions": [
+          0.032,
+          0.032,
+          0.055
+        ]
+      },
+      "manipulated_objects": [
+        "罐装物"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-020",
+      "source_table": "5-8-4",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\马克杯\\operation.json",
+      "source_sha256": "54aabadfc28ad42e10a183563045972b62b1f85405d0b585e35b06b9863777d7",
+      "ledger": {
+        "ledger_row": "21",
+        "object": "马克杯",
+        "operation_label": "马克杯：橱柜→台面",
+        "real_video_annotation": "台面→橱柜放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\马克杯"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\马克杯\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-020\\source_texture.png",
+      "object_profile": {
+        "geometry": "cup",
+        "dimensions": [
+          0.045,
+          0.045,
+          0.055
+        ]
+      },
+      "manipulated_objects": [
+        "马克杯"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-021",
+      "source_table": "5-8-5",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\密封保鲜盒\\instruction.json",
+      "source_sha256": "fa9d31fa0c67706262b4aeec8830f0ede21aafd9792b4e414fb9bd6f720d8186",
+      "ledger": {
+        "ledger_row": "22",
+        "object": "密封保鲜盒",
+        "operation_label": "密封保鲜盒：台面→橱柜",
+        "real_video_annotation": "原始指令：Pick the tupperware from the counter and place it in the cabinet.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\密封保鲜盒"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\密封保鲜盒\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-021\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.085,
+          0.06,
+          0.028
+        ]
+      },
+      "manipulated_objects": [
+        "密封保鲜盒"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-022",
+      "source_table": "5-8-5",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\operation.json",
+      "source_sha256": "31ebfd23afab9b6ac5d1ca03db389485a66ec3ad12031736cb67653cfb550a47",
+      "ledger": {
+        "ledger_row": "23",
+        "object": "床头柜",
+        "operation_label": "书籍：床→床头柜，凉鞋并排放置",
+        "real_video_annotation": "将书籍从床上移至床头柜",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\床头柜\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-022\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.13,
+          0.12,
+          0.1
+        ]
+      },
+      "manipulated_objects": [
+        "床头柜",
+        "凉鞋",
+        "凉鞋",
+        "书籍"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "fixture",
+        "required_identifier": "PickPlaceCounterToCabinet"
+      }
+    },
+    {
+      "selection_id": "VLA82-023",
+      "source_table": "5-8-5",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳盒\\operation.json",
+      "source_sha256": "3e2aa3d05b1ad222f6fa4d72ccfd4625599556186c69aa7acebbc25051f6d250",
+      "ledger": {
+        "ledger_row": "24",
+        "object": "收纳盒",
+        "operation_label": "盒装饮料：台面→橱柜",
+        "real_video_annotation": "抓取—放入柜位",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳盒"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳盒\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-023\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.05,
+          0.04,
+          0.03
+        ]
+      },
+      "manipulated_objects": [
+        "收纳盒"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-024",
+      "source_table": "5-8-5",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳箱\\operation.json",
+      "source_sha256": "4fcae45b4297f6af3fa260619937a103b2859d2f47929aa20fd1b64f3324693f",
+      "ledger": {
+        "ledger_row": "25",
+        "object": "收纳箱",
+        "operation_label": "六本书：书架→客厅地面收纳箱",
+        "real_video_annotation": "装入书籍收纳",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳箱"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\收纳箱\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-024\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.14,
+          0.1,
+          0.075
+        ]
+      },
+      "manipulated_objects": [
+        "收纳箱",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-025",
+      "source_table": "5-8-5",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\纸箱\\operation.json",
+      "source_sha256": "1425dc45ec5ce97959e5ab308e660889ed90e850192fb6a887a1a5b84f5d2701",
+      "ledger": {
+        "ledger_row": "26",
+        "object": "纸箱",
+        "operation_label": "六本书：书架→客厅地面纸箱",
+        "real_video_annotation": "将书籍从书架收纳至纸箱",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\纸箱"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_9_整理收纳\\纸箱\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-025\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.15,
+          0.11,
+          0.09
+        ]
+      },
+      "manipulated_objects": [
+        "纸箱",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍",
+        "书籍"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-026",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\operation.json",
+      "source_sha256": "d3b5cccb2cd1b0fe5024f47bd55ebdb6b669294fe9159957936012d3b9ca246e",
+      "ledger": {
+        "ledger_row": "27",
+        "object": "冰箱层架",
+        "operation_label": "苹果：冰箱抽屉→冰箱层架",
+        "real_video_annotation": "接触式擦拭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱层架\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-026\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.16,
+          0.08,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "冰箱层架"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceFridgeDrawerToShelf",
+        "part_role": "fixture",
+        "required_identifier": "PickPlaceFridgeDrawerToShelf"
+      }
+    },
+    {
+      "selection_id": "VLA82-027",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱抽屉\\operation.json",
+      "source_sha256": "74abf1fbabafcb217ddcfcff1d388cb287abe7b8db4a2eff05464d0998192216",
+      "ledger": {
+        "ledger_row": "28",
+        "object": "冰箱抽屉",
+        "operation_label": "完全关闭冰箱抽屉",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱抽屉"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱抽屉\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-027\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.13,
+          0.09,
+          0.05
+        ]
+      },
+      "manipulated_objects": [
+        "冰箱抽屉"
+      ],
+      "fixture_target": {
+        "task_class": "CloseFridgeDrawer",
+        "part_role": "fixture",
+        "required_identifier": "CloseFridgeDrawer"
+      }
+    },
+    {
+      "selection_id": "VLA82-028",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱门\\operation.json",
+      "source_sha256": "c8a277bbd8e7bc1fad02042acb68c8d0518af211d125b330a1b2a819aeb50f58",
+      "ledger": {
+        "ledger_row": "29",
+        "object": "冰箱门",
+        "operation_label": "关闭冰箱门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\冰箱门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-028\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.18,
+          0.02,
+          0.22
+        ]
+      },
+      "manipulated_objects": [
+        "冰箱门"
+      ],
+      "fixture_target": {
+        "task_class": "CloseFridge",
+        "part_role": "fixture",
+        "required_identifier": "CloseFridge"
+      }
+    },
+    {
+      "selection_id": "VLA82-029",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\微波炉门\\operation.json",
+      "source_sha256": "7b3ed1c7ff21b465c31aa7dc4441a064be8f60eb7f45c5fb0bea73fb004b6d84",
+      "ledger": {
+        "ledger_row": "30",
+        "object": "微波炉门",
+        "operation_label": "关闭微波炉门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\微波炉门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\微波炉门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-029\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.15,
+          0.02,
+          0.12
+        ]
+      },
+      "manipulated_objects": [
+        "微波炉门"
+      ],
+      "fixture_target": {
+        "task_class": "CloseMicrowave",
+        "part_role": "fixture",
+        "required_identifier": "CloseMicrowave"
+      }
+    },
+    {
+      "selection_id": "VLA82-030",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\抽屉\\operation.json",
+      "source_sha256": "99774047173575c2484450f251ee9d586bb44bf405493a07b87ffdda7826ee80",
+      "ledger": {
+        "ledger_row": "31",
+        "object": "抽屉",
+        "operation_label": "关闭左侧抽屉",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\抽屉"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\抽屉\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-030\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.12,
+          0.08,
+          0.05
+        ]
+      },
+      "manipulated_objects": [
+        "抽屉"
+      ],
+      "fixture_target": {
+        "task_class": "CloseDrawer",
+        "part_role": "fixture",
+        "required_identifier": "CloseDrawer"
+      }
+    },
+    {
+      "selection_id": "VLA82-031",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\橱柜门\\operation.json",
+      "source_sha256": "2f74d5f4c537679e5771fb5869011fb07f51d7a44f971d63a1990e9771e0737e",
+      "ledger": {
+        "ledger_row": "32",
+        "object": "橱柜门",
+        "operation_label": "关闭橱柜门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\橱柜门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\橱柜门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-031\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.16,
+          0.02,
+          0.18
+        ]
+      },
+      "manipulated_objects": [
+        "橱柜门"
+      ],
+      "fixture_target": {
+        "task_class": "CloseCabinet",
+        "part_role": "fixture",
+        "required_identifier": "CloseCabinet"
+      }
+    },
+    {
+      "selection_id": "VLA82-032",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机上层架\\operation.json",
+      "source_sha256": "06b6d11b6233ec55610be579df44e91af5988b4d0c56948a2d0e8ebf416a3e54",
+      "ledger": {
+        "ledger_row": "33",
+        "object": "洗碗机上层架",
+        "operation_label": "将洗碗机上层架完全推入",
+        "real_video_annotation": "开门—放入衣物",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机上层架"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机上层架\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-032\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.16,
+          0.1,
+          0.02
+        ]
+      },
+      "manipulated_objects": [
+        "洗碗机上层架"
+      ],
+      "fixture_target": {
+        "task_class": "SlideDishwasherRack",
+        "part_role": "fixture",
+        "required_identifier": "SlideDishwasherRack"
+      }
+    },
+    {
+      "selection_id": "VLA82-033",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机门\\operation.json",
+      "source_sha256": "a91eeb559f5cfce223f4c0a95d1b758427c9637a6e6e0eac489e185d701b07ea",
+      "ledger": {
+        "ledger_row": "34",
+        "object": "洗碗机门",
+        "operation_label": "关闭洗碗机门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\洗碗机门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-033\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.18,
+          0.02,
+          0.16
+        ]
+      },
+      "manipulated_objects": [
+        "洗碗机门"
+      ],
+      "fixture_target": {
+        "task_class": "CloseDishwasher",
+        "part_role": "fixture",
+        "required_identifier": "CloseDishwasher"
+      }
+    },
+    {
+      "selection_id": "VLA82-034",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤箱门\\operation.json",
+      "source_sha256": "82389b36704c99da4f65ff10e203e8d2f363668508eb50792b3aecf331cc6eac",
+      "ledger": {
+        "ledger_row": "35",
+        "object": "烤箱门",
+        "operation_label": "关闭烤箱门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤箱门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤箱门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-034\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.15,
+          0.02,
+          0.12
+        ]
+      },
+      "manipulated_objects": [
+        "烤箱门"
+      ],
+      "fixture_target": {
+        "task_class": "CloseOven",
+        "part_role": "fixture",
+        "required_identifier": "CloseOven"
+      }
+    },
+    {
+      "selection_id": "VLA82-035",
+      "source_table": "5-8-6",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤面包机烤箱门\\operation.json",
+      "source_sha256": "16ab655b4c38e097f1327d49233f67f1c002d11cd5d5ebcb9efc607cfac877b8",
+      "ledger": {
+        "ledger_row": "36",
+        "object": "烤面包机烤箱门",
+        "operation_label": "打开烤面包机烤箱门",
+        "real_video_annotation": "拉开/关闭",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤面包机烤箱门"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_10_储物柜与抽屉开关\\烤面包机烤箱门\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-035\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.12,
+          0.02,
+          0.1
+        ]
+      },
+      "manipulated_objects": [
+        "烤面包机烤箱门",
+        "笔"
+      ],
+      "fixture_target": {
+        "task_class": "OpenToasterOvenDoor",
+        "part_role": "fixture",
+        "required_identifier": "OpenToasterOvenDoor"
+      }
+    },
+    {
+      "selection_id": "VLA82-036",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\instruction.json",
+      "source_sha256": "f0a62ed50c8549fe16025b252f30b7ba88a7f6f69299beacfa0ed56355ee4408",
+      "ledger": {
+        "ledger_row": "37",
+        "object": "咖啡杯",
+        "operation_label": "橱柜→台面",
+        "real_video_annotation": "原始指令：Pick the coffee cup from the cabinet and place it on the counter.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-036\\source_texture.png",
+      "object_profile": {
+        "geometry": "cup",
+        "dimensions": [
+          0.04,
+          0.04,
+          0.055
+        ]
+      },
+      "manipulated_objects": [
+        "咖啡杯"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-037",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\夹子\\operation.json",
+      "source_sha256": "46b5a6f75554bbe5324395a9d9b5318307f3005abdd13c543e3fc8f07d740e19",
+      "ledger": {
+        "ledger_row": "38",
+        "object": "夹子",
+        "operation_label": "橱柜→台面",
+        "real_video_annotation": "抽屉→台面放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\夹子"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\夹子\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-037\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.012,
+          0.012,
+          0.095
+        ]
+      },
+      "manipulated_objects": [
+        "夹子"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceDrawerToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-038",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\披萨刀\\operation.json",
+      "source_sha256": "9adf3e9759b1281ad337db3dbc5f32f0e1d254ea1697ad4e04e8fab52669b193",
+      "ledger": {
+        "ledger_row": "39",
+        "object": "披萨刀",
+        "operation_label": "橱柜→台面",
+        "real_video_annotation": "台面→抽屉放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\披萨刀"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\披萨刀\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-038\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.012,
+          0.012,
+          0.1
+        ]
+      },
+      "manipulated_objects": [
+        "披萨刀"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-039",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\operation.json",
+      "source_sha256": "a76142b82e5c7dab4570962588f320962a5862c509e86d5f59cca6d7a3130619",
+      "ledger": {
+        "ledger_row": "40",
+        "object": "木勺",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "抽屉→台面放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\木勺\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-039\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.012,
+          0.012,
+          0.12
+        ]
+      },
+      "manipulated_objects": [
+        "木勺"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceDrawerToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-040",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\水罐\\instruction.json",
+      "source_sha256": "80d8d1fc0e74bcfeddcd1b64b2a339d6d184ed71ee4e0448fdaf21cf2e1bd937",
+      "ledger": {
+        "ledger_row": "41",
+        "object": "水罐",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "原始指令：Pick the pitcher from the counter and place it in the cabinet.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\水罐"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\水罐\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-040\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.05,
+          0.05,
+          0.115
+        ]
+      },
+      "manipulated_objects": [
+        "水罐"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-041",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\汤勺\\operation.json",
+      "source_sha256": "e16c101efcf246eb487727d399e78cc0589baa96b90da2b09275b38de5b0d59f",
+      "ledger": {
+        "ledger_row": "42",
+        "object": "汤勺",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "台面→抽屉放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\汤勺"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\汤勺\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-041\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.012,
+          0.012,
+          0.11
+        ]
+      },
+      "manipulated_objects": [
+        "汤勺"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-042",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\洗碗刷\\operation.json",
+      "source_sha256": "167eef81733d63bba803f501a190bacbf304fee39d8d06792213290680dbc2c8",
+      "ledger": {
+        "ledger_row": "43",
+        "object": "洗碗刷",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "水槽→橱柜放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\洗碗刷"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\洗碗刷\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-042\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.016,
+          0.016,
+          0.115
+        ]
+      },
+      "manipulated_objects": [
+        "洗碗刷"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceSinkToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-043",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\滤盆\\operation.json",
+      "source_sha256": "1455d8ef9a80839801fa1e2554bf34cc801b65a76406411f37f04d720634e8ef",
+      "ledger": {
+        "ledger_row": "44",
+        "object": "滤盆",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "橱柜→台面放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\滤盆"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\滤盆\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-043\\source_texture.png",
+      "object_profile": {
+        "geometry": "dish",
+        "dimensions": [
+          0.1,
+          0.1,
+          0.04
+        ]
+      },
+      "manipulated_objects": [
+        "滤盆"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToSink",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-044",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\operation.json",
+      "source_sha256": "ba44fb5dc23f8c47075af3cad88015e4990a7e31bd514b47039c0ac208dd0777",
+      "ledger": {
+        "ledger_row": "45",
+        "object": "盘子",
+        "operation_label": "苹果：平底锅→盘子",
+        "real_video_annotation": "台面→橱柜放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\盘子\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-044\\source_texture.png",
+      "object_profile": {
+        "geometry": "dish",
+        "dimensions": [
+          0.1,
+          0.1,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "盘子"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToSink",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-045",
+      "source_table": "5-8-8",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\operation.json",
+      "source_sha256": "9c98a4221830ac862db7fef7e1c14fbc797f5a100d3a5132cc6c1f55029f6d7e",
+      "ledger": {
+        "ledger_row": "46",
+        "object": "铝箔纸",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "台面→抽屉放置",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\铝箔纸\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-045\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.08,
+          0.03,
+          0.03
+        ]
+      },
+      "manipulated_objects": [
+        "铝箔纸"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToDrawer",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-046",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\文件夹\\operation.json",
+      "source_sha256": "f5d28447d62263bc9466e576c84cabd95239ab81f45dfc3208c0c763088ffcd3",
+      "ledger": {
+        "ledger_row": "47",
+        "object": "文件夹",
+        "operation_label": "转椅→书桌并置于鼠标旁",
+        "real_video_annotation": "摆放至书桌",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\文件夹"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\文件夹\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-046\\source_texture.png",
+      "object_profile": {
+        "geometry": "folder",
+        "dimensions": [
+          0.065,
+          0.025,
+          0.014
+        ]
+      },
+      "manipulated_objects": [
+        "文件夹",
+        "书籍",
+        "笔",
+        "键盘",
+        "鼠标"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-047",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\operation.json",
+      "source_sha256": "7109376309a96020175dd0c9c6f3ea72fac3f6caf441098ac3af570886978c3d",
+      "ledger": {
+        "ledger_row": "48",
+        "object": "笔盒",
+        "operation_label": "铅笔和两支笔→笔盒，笔盒留在桌面",
+        "real_video_annotation": "收纳文具",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔盒\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-047\\source_texture.png",
+      "object_profile": {
+        "geometry": "box",
+        "dimensions": [
+          0.1,
+          0.06,
+          0.035
+        ]
+      },
+      "manipulated_objects": [
+        "笔盒",
+        "书籍",
+        "书籍",
+        "文件夹",
+        "文件夹",
+        "铅笔",
+        "笔",
+        "笔",
+        "订书机",
+        "笔记本电脑"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-048",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本\\operation.json",
+      "source_sha256": "d1a9b6367814c965961dc0f68fcc02f00f952491d612765c26815cd6fa331ba6",
+      "ledger": {
+        "ledger_row": "49",
+        "object": "笔记本",
+        "operation_label": "叠放在文件夹上",
+        "real_video_annotation": "叠放于文件夹上",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-048\\source_texture.png",
+      "object_profile": {
+        "geometry": "book",
+        "dimensions": [
+          0.05,
+          0.025,
+          0.014
+        ]
+      },
+      "manipulated_objects": [
+        "笔记本",
+        "书籍",
+        "文件夹",
+        "笔",
+        "键盘",
+        "鼠标"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-049",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本电脑\\operation.json",
+      "source_sha256": "e961e21dc97be09ba90f0bfbeb37aea321c427781d3686c100d0e8dcfd078bf3",
+      "ledger": {
+        "ledger_row": "50",
+        "object": "笔记本电脑",
+        "operation_label": "床→书桌并合上电脑",
+        "real_video_annotation": "摆放至书桌并合盖",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本电脑"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\笔记本电脑\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-049\\source_texture.png",
+      "object_profile": {
+        "geometry": "laptop",
+        "dimensions": [
+          0.15,
+          0.105,
+          0.014
+        ]
+      },
+      "manipulated_objects": [
+        "笔记本电脑",
+        "书籍",
+        "书籍",
+        "文件夹",
+        "文件夹",
+        "笔盒",
+        "铅笔",
+        "笔",
+        "笔",
+        "订书机"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-050",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\订书机\\operation.json",
+      "source_sha256": "ca7970d118c0c19e8231f1e7e6744b21ab39d04af0a58cf21758016ee276fcf7",
+      "ledger": {
+        "ledger_row": "51",
+        "object": "订书机",
+        "operation_label": "书柜→桌面",
+        "real_video_annotation": "摆放至书桌",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\订书机"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\订书机\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-050\\source_texture.png",
+      "object_profile": {
+        "geometry": "stapler",
+        "dimensions": [
+          0.07,
+          0.025,
+          0.025
+        ]
+      },
+      "manipulated_objects": [
+        "订书机",
+        "书籍",
+        "书籍",
+        "文件夹",
+        "文件夹",
+        "笔盒",
+        "铅笔",
+        "笔",
+        "笔",
+        "笔记本电脑"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-051",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\operation.json",
+      "source_sha256": "95368cb4336e98c8cc46f676660610ba60596e49144dda80f4ad68efdd6da80d",
+      "ledger": {
+        "ledger_row": "52",
+        "object": "铅笔",
+        "operation_label": "放入笔盒",
+        "real_video_annotation": "放入笔盒",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\铅笔\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-051\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.006,
+          0.006,
+          0.095
+        ]
+      },
+      "manipulated_objects": [
+        "铅笔",
+        "书籍",
+        "书籍",
+        "文件夹",
+        "文件夹",
+        "笔盒",
+        "笔",
+        "笔",
+        "订书机",
+        "笔记本电脑"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-052",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\键盘\\operation.json",
+      "source_sha256": "f2ad531d59f4d02c33b2981327f3c0e3e47ba46df9f41948ce069432f7216880",
+      "ledger": {
+        "ledger_row": "53",
+        "object": "键盘",
+        "operation_label": "放在显示器旁",
+        "real_video_annotation": "摆放至书桌",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\键盘"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\键盘\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-052\\source_texture.png",
+      "object_profile": {
+        "geometry": "keyboard",
+        "dimensions": [
+          0.13,
+          0.055,
+          0.012
+        ]
+      },
+      "manipulated_objects": [
+        "键盘",
+        "书籍",
+        "文件夹",
+        "笔",
+        "鼠标"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-053",
+      "source_table": "5-8-10",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\operation.json",
+      "source_sha256": "36508c31d4d3594e64025a92815b947261ce68b3e5cd77966ceab5128f292efe",
+      "ledger": {
+        "ledger_row": "54",
+        "object": "鼠标",
+        "operation_label": "放在键盘旁",
+        "real_video_annotation": "摆放至键盘旁",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_14_工作学习区服务\\鼠标\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-053\\source_texture.png",
+      "object_profile": {
+        "geometry": "mouse",
+        "dimensions": [
+          0.035,
+          0.025,
+          0.02
+        ]
+      },
+      "manipulated_objects": [
+        "鼠标",
+        "书籍",
+        "文件夹",
+        "笔",
+        "键盘"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-054",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\operation.json",
+      "source_sha256": "871aebbaef0d54874d829d9340fd2fcd07bf5f728ca1af04227cd88d8b187ee8",
+      "ledger": {
+        "ledger_row": "55",
+        "object": "卫浴搁板",
+        "operation_label": "接收卫生巾盒并保持浴室用品分区",
+        "real_video_annotation": "将卫生巾盒摆放至卫浴搁板",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫浴搁板\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-054\\source_texture.png",
+      "object_profile": {
+        "geometry": "fixture",
+        "dimensions": [
+          0.12,
+          0.07,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "卫浴搁板",
+        "牙刷",
+        "牙膏",
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "fixture",
+        "required_identifier": "PickPlaceCounterToCabinet"
+      }
+    },
+    {
+      "selection_id": "VLA82-055",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\operation.json",
+      "source_sha256": "576b47360f0fc1f77179ede552c605f9ae2afc87b1e818239b677880f552f5e3",
+      "ledger": {
+        "ledger_row": "56",
+        "object": "卫生巾盒",
+        "operation_label": "卧室篮→浴室搁板",
+        "real_video_annotation": "摆放至卫浴置物架",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\卫生巾盒\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-055\\source_texture.png",
+    "object_profile": {
+      "geometry": "box",
+      "dimensions": [
+        0.09,
+        0.022,
+        0.025
+      ]
+      },
+      "manipulated_objects": [
+        "卫生巾盒",
+        "牙刷",
+        "牙膏",
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-056",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\固体香皂\\instruction.json",
+      "source_sha256": "e1675a6236ea040136a2c6ce1b6440f0040c31af73992ae371fda87c065baf7e",
+      "ledger": {
+        "ledger_row": "57",
+        "object": "固体香皂",
+        "operation_label": "台面→橱柜",
+        "real_video_annotation": "原始指令：Pick the bar soap from the counter and place it in the cabinet.",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\固体香皂"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\固体香皂\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-056\\source_texture.png",
+      "object_profile": {
+        "geometry": "soap",
+        "dimensions": [
+          0.04,
+          0.028,
+          0.015
+        ]
+      },
+      "manipulated_objects": [
+        "固体香皂"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-057",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\operation.json",
+      "source_sha256": "811120abb7d2b83e14196ec8a8771257067647beb18739eacb8c172a2b234389",
+      "ledger": {
+        "ledger_row": "58",
+        "object": "洗涤剂",
+        "operation_label": "卧室篮→洗手池下方并排放置",
+        "real_video_annotation": "放至水槽下方收纳",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\洗涤剂\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-057\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.035,
+          0.025,
+          0.09
+        ]
+      },
+      "manipulated_objects": [
+        "洗涤剂",
+        "牙刷",
+        "牙膏",
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-058",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙刷\\operation.json",
+      "source_sha256": "6aede1408653a9c7978f23338d823e10cb4c5060cd9fd3e14ffa7ed72307f091",
+      "ledger": {
+        "ledger_row": "59",
+        "object": "牙刷",
+        "operation_label": "放入洗手台上的杯中",
+        "real_video_annotation": "放入漱口杯",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙刷"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙刷\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-058\\source_texture.png",
+      "object_profile": {
+        "geometry": "tool",
+        "dimensions": [
+          0.01,
+          0.01,
+          0.09
+        ]
+      },
+      "manipulated_objects": [
+        "牙刷",
+        "牙膏",
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToSink",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-059",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙膏\\operation.json",
+      "source_sha256": "d0efda33a1615fe77580416fe6aa1f66e646eca75d78e1a1c99da7ae5aa154ab",
+      "ledger": {
+        "ledger_row": "60",
+        "object": "牙膏",
+        "operation_label": "放入洗手台上的杯中",
+        "real_video_annotation": "放入漱口杯",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙膏"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\牙膏\\rgb_head.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-059\\source_texture.png",
+      "object_profile": {
+        "geometry": "tube",
+        "dimensions": [
+          0.018,
+          0.018,
+          0.085
+        ]
+      },
+      "manipulated_objects": [
+        "牙膏",
+        "牙刷",
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCounterToCabinet",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    },
+    {
+      "selection_id": "VLA82-060",
+      "source_table": "5-8-11",
+      "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\皂液器\\operation.json",
+      "source_sha256": "e2727fec627f8dacd4d3e5884fb7da73b7bea9629ededae7e2466078f36993ae",
+      "ledger": {
+        "ledger_row": "61",
+        "object": "皂液器",
+        "operation_label": "橱柜→台面",
+        "real_video_annotation": "按压/摆放",
+        "data_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\皂液器"
+      },
+      "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_15_卫浴用品与个人卫生服务\\皂液器\\rgb_robot0_agentview_left.mp4",
+      "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-060\\source_texture.png",
+      "object_profile": {
+        "geometry": "bottle",
+        "dimensions": [
+          0.035,
+          0.035,
+          0.1
+        ]
+      },
+      "manipulated_objects": [
+        "皂液器"
+      ],
+      "fixture_target": {
+        "task_class": "PickPlaceCabinetToCounter",
+        "part_role": "object",
+        "required_identifier": "obj"
+      }
+    }
+  ]
+}

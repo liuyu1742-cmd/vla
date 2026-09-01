@@ -1,0 +1,3483 @@
+[
+  {
+    "benchmark_id": "acceptance_001_cleaning_carpet",
+    "canonical_actions": [
+      "locate(carpet)",
+      "clean(carpet)",
+      "inspect(carpet)"
+    ],
+    "instruction": "地面清洁：清洁地毯（carpet）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 324,
+      "images": 321,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\carpet\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\carpet",
+    "object_id": "carpet",
+    "object_name": "地毯",
+    "relation_key": "cleaning::carpet",
+    "source_row": 2,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_002_cleaning_wood_floor",
+    "canonical_actions": [
+      "locate(wood_floor)",
+      "clean(wood_floor)",
+      "inspect(wood_floor)"
+    ],
+    "instruction": "地面清洁：清洁木地板（wood_floor）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 227,
+      "images": 227,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\wood_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\wood_floor",
+    "object_id": "wood_floor",
+    "object_name": "木地板",
+    "relation_key": "cleaning::wood_floor",
+    "source_row": 3,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_003_cleaning_tile_floor",
+    "canonical_actions": [
+      "locate(tile_floor)",
+      "clean(tile_floor)",
+      "inspect(tile_floor)"
+    ],
+    "instruction": "地面清洁：清洁瓷砖地面（tile_floor）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 133,
+      "images": 130,
+      "metadata": 200,
+      "videos": 3
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\tile_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\tile_floor\\images",
+    "object_id": "tile_floor",
+    "object_name": "瓷砖地面",
+    "relation_key": "cleaning::tile_floor",
+    "source_row": 4,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_004_cleaning_marble_floor",
+    "canonical_actions": [
+      "locate(marble_floor)",
+      "clean(marble_floor)",
+      "inspect(marble_floor)"
+    ],
+    "instruction": "地面清洁：清洁大理石地面（marble_floor）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 239,
+      "images": 239,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\marble_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\marble_floor\\images",
+    "object_id": "marble_floor",
+    "object_name": "大理石地面",
+    "relation_key": "cleaning::marble_floor",
+    "source_row": 5,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_005_cleaning_laminate_floor",
+    "canonical_actions": [
+      "locate(laminate_floor)",
+      "clean(laminate_floor)",
+      "inspect(laminate_floor)"
+    ],
+    "instruction": "地面清洁：清洁复合地板（laminate_floor）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 100,
+      "images": 100,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\laminate_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\laminate_floor",
+    "object_id": "laminate_floor",
+    "object_name": "复合地板",
+    "relation_key": "cleaning::laminate_floor",
+    "source_row": 6,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_006_cleaning_vinyl_floor",
+    "canonical_actions": [
+      "locate(vinyl_floor)",
+      "clean(vinyl_floor)",
+      "inspect(vinyl_floor)"
+    ],
+    "instruction": "地面清洁：清洁塑胶地板（vinyl_floor）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 100,
+      "images": 100,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\vinyl_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\vinyl_floor",
+    "object_id": "vinyl_floor",
+    "object_name": "塑胶地板",
+    "relation_key": "cleaning::vinyl_floor",
+    "source_row": 7,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_008_cleaning_robot_vacuum",
+    "canonical_actions": [
+      "locate(robot_vacuum)",
+      "turn_on(robot_vacuum)",
+      "clean(robot_vacuum)",
+      "inspect(robot_vacuum)",
+      "turn_off(robot_vacuum)"
+    ],
+    "instruction": "地面清洁：启动扫地机器人清洁地面（robot_vacuum）。",
+    "legacy_task_id": "floor_cleaning",
+    "media_counts": {
+      "annotations": 370,
+      "images": 360,
+      "metadata": 0,
+      "videos": 10
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\robot_vacuum\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\robot_vacuum",
+    "object_id": "robot_vacuum",
+    "object_name": "扫地机器人",
+    "relation_key": "cleaning::robot_vacuum",
+    "source_row": 8,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_050_cleaning_cup",
+    "canonical_actions": [
+      "locate(cup)",
+      "grasp(cup)",
+      "move(sink)",
+      "wash(cup)",
+      "rinse(cup)",
+      "place(cup)"
+    ],
+    "instruction": "餐具清洗：把杯子洗干净（cup）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 10168,
+      "images": 4596,
+      "metadata": 0,
+      "videos": 59
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\cup\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\cup",
+    "object_id": "cup",
+    "object_name": "杯子",
+    "relation_key": "cleaning::cup",
+    "source_row": 9,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_051_cleaning_mug",
+    "canonical_actions": [
+      "locate(mug)",
+      "grasp(mug)",
+      "move(sink)",
+      "wash(mug)",
+      "rinse(mug)",
+      "place(mug)"
+    ],
+    "instruction": "餐具清洗：把马克杯洗干净（mug）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\mug\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\mug",
+    "object_id": "mug",
+    "object_name": "马克杯",
+    "relation_key": "cleaning::mug",
+    "source_row": 10,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_052_cleaning_bowl",
+    "canonical_actions": [
+      "locate(bowl)",
+      "grasp(bowl)",
+      "move(sink)",
+      "wash(bowl)",
+      "rinse(bowl)",
+      "place(bowl)"
+    ],
+    "instruction": "餐具清洗：把碗洗干净（bowl）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 10471,
+      "images": 4913,
+      "metadata": 0,
+      "videos": 110
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\bowl\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\bowl",
+    "object_id": "bowl",
+    "object_name": "碗",
+    "relation_key": "cleaning::bowl",
+    "source_row": 11,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_053_cleaning_plate",
+    "canonical_actions": [
+      "locate(plate)",
+      "grasp(plate)",
+      "move(sink)",
+      "wash(plate)",
+      "rinse(plate)",
+      "place(plate)"
+    ],
+    "instruction": "餐具清洗：把盘子洗干净（plate）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 1370,
+      "images": 448,
+      "metadata": 0,
+      "videos": 296
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\plate\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\plate",
+    "object_id": "plate",
+    "object_name": "盘子",
+    "relation_key": "cleaning::plate",
+    "source_row": 12,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_054_cleaning_spoon",
+    "canonical_actions": [
+      "locate(spoon)",
+      "grasp(spoon)",
+      "move(sink)",
+      "wash(spoon)",
+      "rinse(spoon)",
+      "place(spoon)"
+    ],
+    "instruction": "餐具清洗：把勺子洗干净（spoon）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 1434,
+      "images": 528,
+      "metadata": 0,
+      "videos": 229
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\spoon\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\spoon",
+    "object_id": "spoon",
+    "object_name": "勺子",
+    "relation_key": "cleaning::spoon",
+    "source_row": 13,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_055_cleaning_fork",
+    "canonical_actions": [
+      "locate(fork)",
+      "grasp(fork)",
+      "move(sink)",
+      "wash(fork)",
+      "rinse(fork)",
+      "place(fork)"
+    ],
+    "instruction": "餐具清洗：把叉子洗干净（fork）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 2882,
+      "images": 1274,
+      "metadata": 0,
+      "videos": 118
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\fork\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\fork",
+    "object_id": "fork",
+    "object_name": "叉子",
+    "relation_key": "cleaning::fork",
+    "source_row": 14,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_056_cleaning_knife",
+    "canonical_actions": [
+      "locate(knife)",
+      "grasp(knife)",
+      "move(sink)",
+      "wash(knife)",
+      "rinse(knife)",
+      "place(knife)"
+    ],
+    "instruction": "餐具清洗：把刀具洗干净（knife）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 5896,
+      "images": 2153,
+      "metadata": 0,
+      "videos": 178
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\knife\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\knife",
+    "object_id": "knife",
+    "object_name": "刀具",
+    "relation_key": "cleaning::knife",
+    "source_row": 15,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_057_cleaning_pot",
+    "canonical_actions": [
+      "locate(pot)",
+      "grasp(pot)",
+      "move(sink)",
+      "wash(pot)",
+      "rinse(pot)",
+      "place(pot)"
+    ],
+    "instruction": "餐具清洗：把锅洗干净（pot）。",
+    "legacy_task_id": "dish_washing",
+    "media_counts": {
+      "annotations": 850,
+      "images": 800,
+      "metadata": 0,
+      "videos": 50
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\dish_washing__餐具清洗\\objects\\pot\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\pot",
+    "object_id": "pot",
+    "object_name": "锅",
+    "relation_key": "cleaning::pot",
+    "source_row": 16,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_082_cleaning_toilet",
+    "canonical_actions": [
+      "locate(toilet)",
+      "scrub(toilet)",
+      "rinse(toilet)",
+      "inspect(toilet)"
+    ],
+    "instruction": "卫浴清洁：清洁马桶（toilet）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 3226,
+      "images": 1608,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\toilet\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\toilet",
+    "object_id": "toilet",
+    "object_name": "马桶",
+    "relation_key": "cleaning::toilet",
+    "source_row": 17,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_083_cleaning_sink",
+    "canonical_actions": [
+      "locate(sink)",
+      "scrub(sink)",
+      "rinse(sink)",
+      "inspect(sink)"
+    ],
+    "instruction": "卫浴清洁：清洁洗手池（sink）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 4732,
+      "images": 2333,
+      "metadata": 0,
+      "videos": 27
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\sink\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\sink",
+    "object_id": "sink",
+    "object_name": "洗手池",
+    "relation_key": "cleaning::sink",
+    "source_row": 18,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_084_cleaning_bathtub",
+    "canonical_actions": [
+      "locate(bathtub)",
+      "scrub(bathtub)",
+      "rinse(bathtub)",
+      "inspect(bathtub)"
+    ],
+    "instruction": "卫浴清洁：清洁浴缸（bathtub）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 754,
+      "images": 377,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\bathtub\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\bathtub",
+    "object_id": "bathtub",
+    "object_name": "浴缸",
+    "relation_key": "cleaning::bathtub",
+    "source_row": 19,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_085_cleaning_shower",
+    "canonical_actions": [
+      "locate(shower)",
+      "scrub(shower)",
+      "rinse(shower)",
+      "inspect(shower)"
+    ],
+    "instruction": "卫浴清洁：清洁淋浴喷头（shower）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 294,
+      "images": 147,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\shower\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\shower",
+    "object_id": "shower",
+    "object_name": "淋浴喷头",
+    "relation_key": "cleaning::shower",
+    "source_row": 20,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_086_cleaning_mirror",
+    "canonical_actions": [
+      "locate(mirror)",
+      "scrub(mirror)",
+      "rinse(mirror)",
+      "inspect(mirror)"
+    ],
+    "instruction": "卫浴清洁：清洁镜子（mirror）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 1002,
+      "images": 501,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\mirror\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\mirror",
+    "object_id": "mirror",
+    "object_name": "镜子",
+    "relation_key": "cleaning::mirror",
+    "source_row": 21,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_087_cleaning_bathroom_floor",
+    "canonical_actions": [
+      "locate(bathroom_floor)",
+      "scrub(bathroom_floor)",
+      "rinse(bathroom_floor)",
+      "inspect(bathroom_floor)"
+    ],
+    "instruction": "卫浴清洁：清洁浴室地面（bathroom_floor）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 122,
+      "images": 61,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\bathroom_floor\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\bathroom_floor",
+    "object_id": "bathroom_floor",
+    "object_name": "浴室地面",
+    "relation_key": "cleaning::bathroom_floor",
+    "source_row": 22,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_088_cleaning_faucet",
+    "canonical_actions": [
+      "locate(faucet)",
+      "scrub(faucet)",
+      "rinse(faucet)",
+      "inspect(faucet)"
+    ],
+    "instruction": "卫浴清洁：清洁水龙头（faucet）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 768,
+      "images": 152,
+      "metadata": 0,
+      "videos": 339
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\faucet\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\faucet",
+    "object_id": "faucet",
+    "object_name": "水龙头",
+    "relation_key": "cleaning::faucet",
+    "source_row": 23,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_089_cleaning_soap",
+    "canonical_actions": [
+      "locate(soap)",
+      "scrub(soap)",
+      "rinse(soap)",
+      "inspect(soap)"
+    ],
+    "instruction": "卫浴清洁：清洁肥皂（soap）。",
+    "legacy_task_id": "bathroom_cleaning",
+    "media_counts": {
+      "annotations": 950,
+      "images": 408,
+      "metadata": 0,
+      "videos": 85
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bathroom_cleaning__卫浴清洁\\objects\\soap\\images | C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\cleaning__清洁任务\\objects\\soap",
+    "object_id": "soap",
+    "object_name": "肥皂",
+    "relation_key": "cleaning::soap",
+    "source_row": 24,
+    "target": "none",
+    "task_id": "cleaning",
+    "task_name": "清洁任务"
+  },
+  {
+    "benchmark_id": "acceptance_009_organizing_storage_box",
+    "canonical_actions": [
+      "locate(storage_box)",
+      "grasp(storage_box)",
+      "move(storage)",
+      "place(storage_box)"
+    ],
+    "instruction": "整理任务：整理并归位收纳箱（storage_box）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1557,
+      "images": 653,
+      "metadata": 0,
+      "videos": 231
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\storage_box\\images",
+    "object_id": "storage_box",
+    "object_name": "收纳箱",
+    "relation_key": "organizing::storage_box",
+    "source_row": 25,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_010_organizing_bookshelf",
+    "canonical_actions": [
+      "locate(bookshelf)",
+      "grasp(bookshelf)",
+      "move(storage)",
+      "place(bookshelf)"
+    ],
+    "instruction": "整理任务：整理并归位书架（bookshelf）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 755,
+      "images": 364,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\bookshelf\\images",
+    "object_id": "bookshelf",
+    "object_name": "书架",
+    "relation_key": "organizing::bookshelf",
+    "source_row": 26,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_011_organizing_wardrobe",
+    "canonical_actions": [
+      "locate(wardrobe)",
+      "grasp(wardrobe)",
+      "move(storage)",
+      "place(wardrobe)"
+    ],
+    "instruction": "整理任务：整理并归位衣柜（wardrobe）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 537,
+      "images": 189,
+      "metadata": 0,
+      "videos": 126
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\wardrobe\\images",
+    "object_id": "wardrobe",
+    "object_name": "衣柜",
+    "relation_key": "organizing::wardrobe",
+    "source_row": 27,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_012_organizing_drawer",
+    "canonical_actions": [
+      "locate(drawer)",
+      "grasp(drawer)",
+      "move(storage)",
+      "place(drawer)"
+    ],
+    "instruction": "整理任务：整理并归位抽屉（drawer）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 845,
+      "images": 367,
+      "metadata": 0,
+      "videos": 90
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\drawer\\images",
+    "object_id": "drawer",
+    "object_name": "抽屉",
+    "relation_key": "organizing::drawer",
+    "source_row": 28,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_013_organizing_cabinet",
+    "canonical_actions": [
+      "locate(cabinet)",
+      "grasp(cabinet)",
+      "move(storage)",
+      "place(cabinet)"
+    ],
+    "instruction": "整理任务：整理并归位柜子（cabinet）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 3814,
+      "images": 1740,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\cabinet\\images",
+    "object_id": "cabinet",
+    "object_name": "柜子",
+    "relation_key": "organizing::cabinet",
+    "source_row": 29,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_014_organizing_desk",
+    "canonical_actions": [
+      "locate(desk)",
+      "grasp(desk)",
+      "move(storage)",
+      "place(desk)"
+    ],
+    "instruction": "整理任务：整理并归位书桌（desk）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1425,
+      "images": 713,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\desk\\images",
+    "object_id": "desk",
+    "object_name": "书桌",
+    "relation_key": "organizing::desk",
+    "source_row": 30,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_015_organizing_coffee_table",
+    "canonical_actions": [
+      "locate(coffee_table)",
+      "grasp(coffee_table)",
+      "move(storage)",
+      "place(coffee_table)"
+    ],
+    "instruction": "整理任务：整理并归位茶几（coffee_table）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 3995,
+      "images": 1624,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\coffee_table\\images",
+    "object_id": "coffee_table",
+    "object_name": "茶几",
+    "relation_key": "organizing::coffee_table",
+    "source_row": 31,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_016_organizing_toy",
+    "canonical_actions": [
+      "locate(toy)",
+      "grasp(toy)",
+      "move(storage)",
+      "place(toy)"
+    ],
+    "instruction": "整理任务：整理并归位玩具（toy）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2294,
+      "images": 924,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\toy\\images",
+    "object_id": "toy",
+    "object_name": "玩具",
+    "relation_key": "organizing::toy",
+    "source_row": 32,
+    "target": "none",
+    "task_id": "organizing",
+    "task_name": "整理任务"
+  },
+  {
+    "benchmark_id": "acceptance_017_smart_cooking_rice_cooker",
+    "canonical_actions": [
+      "locate(rice_cooker)",
+      "turn_on(rice_cooker)",
+      "cook(rice_cooker)",
+      "turn_off(rice_cooker)"
+    ],
+    "instruction": "智能烹饪：用电饭煲煮饭（rice_cooker）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 182,
+      "images": 175,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\rice_cooker\\images",
+    "object_id": "rice_cooker",
+    "object_name": "电饭煲",
+    "relation_key": "smart_cooking::rice_cooker",
+    "source_row": 33,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_018_smart_cooking_induction_cooker",
+    "canonical_actions": [
+      "locate(induction_cooker)",
+      "turn_on(induction_cooker)",
+      "cook(induction_cooker)",
+      "turn_off(induction_cooker)"
+    ],
+    "instruction": "智能烹饪：启动电磁炉并完成烹饪操作（induction_cooker）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 297,
+      "images": 213,
+      "metadata": 0,
+      "videos": 48
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\induction_cooker\\images",
+    "object_id": "induction_cooker",
+    "object_name": "电磁炉",
+    "relation_key": "smart_cooking::induction_cooker",
+    "source_row": 34,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_019_smart_cooking_oven",
+    "canonical_actions": [
+      "locate(oven)",
+      "turn_on(oven)",
+      "cook(oven)",
+      "turn_off(oven)"
+    ],
+    "instruction": "智能烹饪：启动烤箱并完成烹饪操作（oven）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2063,
+      "images": 1091,
+      "metadata": 0,
+      "videos": 30
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\oven\\images",
+    "object_id": "oven",
+    "object_name": "烤箱",
+    "relation_key": "smart_cooking::oven",
+    "source_row": 35,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_020_smart_cooking_microwave",
+    "canonical_actions": [
+      "locate(microwave)",
+      "turn_on(microwave)",
+      "cook(microwave)",
+      "turn_off(microwave)"
+    ],
+    "instruction": "智能烹饪：启动微波炉并完成烹饪操作（microwave）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1329,
+      "images": 758,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\microwave\\images",
+    "object_id": "microwave",
+    "object_name": "微波炉",
+    "relation_key": "smart_cooking::microwave",
+    "source_row": 36,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_021_smart_cooking_frying_pan",
+    "canonical_actions": [
+      "locate(frying_pan)",
+      "turn_on(frying_pan)",
+      "cook(frying_pan)",
+      "turn_off(frying_pan)"
+    ],
+    "instruction": "智能烹饪：启动平底锅并完成烹饪操作（frying_pan）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 688,
+      "images": 308,
+      "metadata": 0,
+      "videos": 165
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\frying_pan\\images",
+    "object_id": "frying_pan",
+    "object_name": "平底锅",
+    "relation_key": "smart_cooking::frying_pan",
+    "source_row": 37,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_022_smart_cooking_electric_kettle",
+    "canonical_actions": [
+      "locate(electric_kettle)",
+      "turn_on(electric_kettle)",
+      "cook(electric_kettle)",
+      "turn_off(electric_kettle)"
+    ],
+    "instruction": "智能烹饪：用电热水壶烧水（electric_kettle）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1224,
+      "images": 800,
+      "metadata": 0,
+      "videos": 16
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\electric_kettle\\images",
+    "object_id": "electric_kettle",
+    "object_name": "电热水壶",
+    "relation_key": "smart_cooking::electric_kettle",
+    "source_row": 38,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_023_smart_cooking_blender",
+    "canonical_actions": [
+      "locate(blender)",
+      "turn_on(blender)",
+      "cook(blender)",
+      "turn_off(blender)"
+    ],
+    "instruction": "智能烹饪：启动搅拌机并完成烹饪操作（blender）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 417,
+      "images": 228,
+      "metadata": 0,
+      "videos": 36
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\blender\\images",
+    "object_id": "blender",
+    "object_name": "搅拌机",
+    "relation_key": "smart_cooking::blender",
+    "source_row": 39,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_024_smart_cooking_pressure_cooker",
+    "canonical_actions": [
+      "locate(pressure_cooker)",
+      "turn_on(pressure_cooker)",
+      "cook(pressure_cooker)",
+      "turn_off(pressure_cooker)"
+    ],
+    "instruction": "智能烹饪：启动压力锅并完成烹饪操作（pressure_cooker）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 388,
+      "images": 381,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\smart_cooking__智能烹饪\\objects\\pressure_cooker\\images",
+    "object_id": "pressure_cooker",
+    "object_name": "压力锅",
+    "relation_key": "smart_cooking::pressure_cooker",
+    "source_row": 40,
+    "target": "none",
+    "task_id": "smart_cooking",
+    "task_name": "智能烹饪"
+  },
+  {
+    "benchmark_id": "acceptance_025_appliance_management_ceiling_light",
+    "canonical_actions": [
+      "locate(ceiling_light)",
+      "turn_on(ceiling_light)",
+      "inspect(ceiling_light)"
+    ],
+    "instruction": "家电综合管理：打开吸顶灯（ceiling_light）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\ceiling_light\\images",
+    "object_id": "ceiling_light",
+    "object_name": "吸顶灯",
+    "relation_key": "appliance_management::ceiling_light",
+    "source_row": 41,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_026_appliance_management_reading_lamp",
+    "canonical_actions": [
+      "locate(reading_lamp)",
+      "turn_on(reading_lamp)",
+      "inspect(reading_lamp)"
+    ],
+    "instruction": "家电综合管理：打开阅读灯（reading_lamp）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 922,
+      "images": 521,
+      "metadata": 0,
+      "videos": 4
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\reading_lamp\\images",
+    "object_id": "reading_lamp",
+    "object_name": "阅读灯",
+    "relation_key": "appliance_management::reading_lamp",
+    "source_row": 42,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_027_appliance_management_television",
+    "canonical_actions": [
+      "locate(television)",
+      "turn_on(television)",
+      "inspect(television)"
+    ],
+    "instruction": "家电综合管理：打开电视（television）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1121,
+      "images": 956,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\television\\images",
+    "object_id": "television",
+    "object_name": "电视",
+    "relation_key": "appliance_management::television",
+    "source_row": 43,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_028_appliance_management_air_conditioner",
+    "canonical_actions": [
+      "locate(air_conditioner)",
+      "turn_on(air_conditioner)",
+      "inspect(air_conditioner)"
+    ],
+    "instruction": "家电综合管理：打开空调（air_conditioner）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1030,
+      "images": 571,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\air_conditioner\\images",
+    "object_id": "air_conditioner",
+    "object_name": "空调",
+    "relation_key": "appliance_management::air_conditioner",
+    "source_row": 44,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_029_appliance_management_refrigerator",
+    "canonical_actions": [
+      "locate(refrigerator)",
+      "turn_off(refrigerator)",
+      "inspect(refrigerator)"
+    ],
+    "instruction": "家电综合管理：检查并关闭冰箱门（refrigerator）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1099,
+      "images": 513,
+      "metadata": 0,
+      "videos": 34
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\refrigerator\\images",
+    "object_id": "refrigerator",
+    "object_name": "冰箱",
+    "relation_key": "appliance_management::refrigerator",
+    "source_row": 45,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_030_appliance_management_washing_machine",
+    "canonical_actions": [
+      "locate(washing_machine)",
+      "turn_on(washing_machine)",
+      "inspect(washing_machine)"
+    ],
+    "instruction": "家电综合管理：启动洗衣机（washing_machine）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 805,
+      "images": 466,
+      "metadata": 0,
+      "videos": 33
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\washing_machine\\images",
+    "object_id": "washing_machine",
+    "object_name": "洗衣机",
+    "relation_key": "appliance_management::washing_machine",
+    "source_row": 46,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_031_appliance_management_electric_curtain",
+    "canonical_actions": [
+      "locate(electric_curtain)",
+      "turn_on(electric_curtain)",
+      "inspect(electric_curtain)"
+    ],
+    "instruction": "家电综合管理：打开电动窗帘（electric_curtain）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\electric_curtain\\images",
+    "object_id": "electric_curtain",
+    "object_name": "电动窗帘",
+    "relation_key": "appliance_management::electric_curtain",
+    "source_row": 47,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_032_appliance_management_fan",
+    "canonical_actions": [
+      "locate(fan)",
+      "turn_on(fan)",
+      "inspect(fan)"
+    ],
+    "instruction": "家电综合管理：打开风扇（fan）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1020,
+      "images": 510,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\fan\\images",
+    "object_id": "fan",
+    "object_name": "风扇",
+    "relation_key": "appliance_management::fan",
+    "source_row": 48,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_033_appliance_management_remote_control",
+    "canonical_actions": [
+      "locate(remote_control)",
+      "turn_on(remote_control)",
+      "inspect(remote_control)"
+    ],
+    "instruction": "家电综合管理：打开并检查遥控器（remote_control）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1000,
+      "images": 1000,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\remote_control\\images",
+    "object_id": "remote_control",
+    "object_name": "遥控器",
+    "relation_key": "appliance_management::remote_control",
+    "source_row": 49,
+    "target": "none",
+    "task_id": "appliance_management",
+    "task_name": "家电综合管理"
+  },
+  {
+    "benchmark_id": "acceptance_034_security_monitoring_smart_lock",
+    "canonical_actions": [
+      "locate(smart_lock)",
+      "lock(smart_lock)",
+      "inspect(smart_lock)"
+    ],
+    "instruction": "智慧安防：检查并锁好智能门锁（smart_lock）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 42,
+      "images": 21,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\smart_lock\\images",
+    "object_id": "smart_lock",
+    "object_name": "智能门锁",
+    "relation_key": "security_monitoring::smart_lock",
+    "source_row": 50,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_035_security_monitoring_security_camera",
+    "canonical_actions": [
+      "locate(security_camera)",
+      "inspect(security_camera)"
+    ],
+    "instruction": "智慧安防：查看摄像头监控画面（security_camera）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1179,
+      "images": 989,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\security_camera\\images",
+    "object_id": "security_camera",
+    "object_name": "摄像头",
+    "relation_key": "security_monitoring::security_camera",
+    "source_row": 51,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_036_security_monitoring_fire_alarm",
+    "canonical_actions": [
+      "locate(fire_alarm)",
+      "inspect(fire_alarm)"
+    ],
+    "instruction": "智慧安防：检查烟雾报警器状态（fire_alarm）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 568,
+      "images": 462,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\fire_alarm\\images",
+    "object_id": "fire_alarm",
+    "object_name": "烟雾报警器",
+    "relation_key": "security_monitoring::fire_alarm",
+    "source_row": 52,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_037_security_monitoring_fire_extinguisher",
+    "canonical_actions": [
+      "locate(fire_extinguisher)",
+      "inspect(fire_extinguisher)"
+    ],
+    "instruction": "智慧安防：检查灭火器状态（fire_extinguisher）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 857,
+      "images": 762,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\fire_extinguisher\\images",
+    "object_id": "fire_extinguisher",
+    "object_name": "灭火器",
+    "relation_key": "security_monitoring::fire_extinguisher",
+    "source_row": 53,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_038_security_monitoring_doorknob",
+    "canonical_actions": [
+      "locate(doorknob)",
+      "inspect(doorknob)"
+    ],
+    "instruction": "智慧安防：检查门把手是否牢固（doorknob）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2498,
+      "images": 1248,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\doorknob\\images",
+    "object_id": "doorknob",
+    "object_name": "门把手",
+    "relation_key": "security_monitoring::doorknob",
+    "source_row": 54,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_039_security_monitoring_padlock",
+    "canonical_actions": [
+      "locate(padlock)",
+      "lock(padlock)",
+      "inspect(padlock)"
+    ],
+    "instruction": "智慧安防：检查并锁好挂锁（padlock）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 432,
+      "images": 336,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\padlock\\images",
+    "object_id": "padlock",
+    "object_name": "挂锁",
+    "relation_key": "security_monitoring::padlock",
+    "source_row": 55,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_040_security_monitoring_doorbell_button",
+    "canonical_actions": [
+      "locate(doorbell_button)",
+      "press(doorbell_button)",
+      "inspect(doorbell_button)"
+    ],
+    "instruction": "智慧安防：按下门铃按钮并确认响应（doorbell_button）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 758,
+      "images": 379,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\doorbell_button\\images",
+    "object_id": "doorbell_button",
+    "object_name": "门铃按钮",
+    "relation_key": "security_monitoring::doorbell_button",
+    "source_row": 56,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_041_security_monitoring_video_doorbell",
+    "canonical_actions": [
+      "locate(video_doorbell)",
+      "inspect(video_doorbell)"
+    ],
+    "instruction": "智慧安防：查看可视门铃画面（video_doorbell）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 247,
+      "images": 247,
+      "metadata": 494,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\video_doorbell\\images",
+    "object_id": "video_doorbell",
+    "object_name": "可视门铃",
+    "relation_key": "security_monitoring::video_doorbell",
+    "source_row": 57,
+    "target": "none",
+    "task_id": "security_monitoring",
+    "task_name": "智慧安防"
+  },
+  {
+    "benchmark_id": "acceptance_042_laundry_child_clothing",
+    "canonical_actions": [
+      "locate(child_clothing)",
+      "grasp(child_clothing)",
+      "move(washer)",
+      "wash(child_clothing)",
+      "dry(child_clothing)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干儿童衣物（child_clothing）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 113,
+      "images": 113,
+      "metadata": 226,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\child_clothing\\images",
+    "object_id": "child_clothing",
+    "object_name": "儿童衣物",
+    "relation_key": "laundry::child_clothing",
+    "source_row": 58,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_043_laundry_shoes",
+    "canonical_actions": [
+      "locate(shoes)",
+      "grasp(shoes)",
+      "move(washer)",
+      "wash(shoes)",
+      "dry(shoes)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干鞋子（shoes）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\shoes\\images",
+    "object_id": "shoes",
+    "object_name": "鞋子",
+    "relation_key": "laundry::shoes",
+    "source_row": 59,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_044_laundry_cotton_coat",
+    "canonical_actions": [
+      "locate(cotton_coat)",
+      "grasp(cotton_coat)",
+      "move(washer)",
+      "wash(cotton_coat)",
+      "dry(cotton_coat)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干棉服（cotton_coat）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\cotton_coat\\images",
+    "object_id": "cotton_coat",
+    "object_name": "棉服",
+    "relation_key": "laundry::cotton_coat",
+    "source_row": 60,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_045_laundry_down_jacket",
+    "canonical_actions": [
+      "locate(down_jacket)",
+      "grasp(down_jacket)",
+      "move(washer)",
+      "wash(down_jacket)",
+      "dry(down_jacket)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干羽绒服（down_jacket）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\down_jacket\\images",
+    "object_id": "down_jacket",
+    "object_name": "羽绒服",
+    "relation_key": "laundry::down_jacket",
+    "source_row": 61,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_046_laundry_wool_garment",
+    "canonical_actions": [
+      "locate(wool_garment)",
+      "grasp(wool_garment)",
+      "move(washer)",
+      "wash(wool_garment)",
+      "dry(wool_garment)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干羊毛衣物（wool_garment）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\wool_garment\\images",
+    "object_id": "wool_garment",
+    "object_name": "羊毛衣物",
+    "relation_key": "laundry::wool_garment",
+    "source_row": 62,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_047_laundry_shirt",
+    "canonical_actions": [
+      "locate(shirt)",
+      "grasp(shirt)",
+      "move(washer)",
+      "wash(shirt)",
+      "dry(shirt)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干衬衫（shirt）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\shirt\\images",
+    "object_id": "shirt",
+    "object_name": "衬衫",
+    "relation_key": "laundry::shirt",
+    "source_row": 63,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_048_laundry_pants",
+    "canonical_actions": [
+      "locate(pants)",
+      "grasp(pants)",
+      "move(washer)",
+      "wash(pants)",
+      "dry(pants)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干裤子（pants）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 500,
+      "images": 500,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\pants\\images",
+    "object_id": "pants",
+    "object_name": "裤子",
+    "relation_key": "laundry::pants",
+    "source_row": 64,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_049_laundry_towel",
+    "canonical_actions": [
+      "locate(towel)",
+      "grasp(towel)",
+      "move(washer)",
+      "wash(towel)",
+      "dry(towel)"
+    ],
+    "instruction": "衣物清洗：清洗并晾干毛巾（towel）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 656,
+      "images": 328,
+      "metadata": 0,
+      "videos": 147
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\laundry__衣物清洗\\objects\\towel\\images",
+    "object_id": "towel",
+    "object_name": "毛巾",
+    "relation_key": "laundry::towel",
+    "source_row": 65,
+    "target": "none",
+    "task_id": "laundry",
+    "task_name": "衣物清洗"
+  },
+  {
+    "benchmark_id": "acceptance_058_waste_disposal_trash_bin",
+    "canonical_actions": [
+      "locate(trash_bin)",
+      "grasp(trash_bin)",
+      "move(trash_bin)",
+      "dispose(trash_bin)"
+    ],
+    "instruction": "垃圾处理：分类投放垃圾桶（trash_bin）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2014,
+      "images": 611,
+      "metadata": 0,
+      "videos": 38
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\trash_bin\\images",
+    "object_id": "trash_bin",
+    "object_name": "垃圾桶",
+    "relation_key": "waste_disposal::trash_bin",
+    "source_row": 66,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_059_waste_disposal_recyclable_bottle",
+    "canonical_actions": [
+      "locate(recyclable_bottle)",
+      "grasp(recyclable_bottle)",
+      "move(trash_bin)",
+      "dispose(recyclable_bottle)"
+    ],
+    "instruction": "垃圾处理：分类投放可回收瓶（recyclable_bottle）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1600,
+      "images": 800,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\recyclable_bottle\\images",
+    "object_id": "recyclable_bottle",
+    "object_name": "可回收瓶",
+    "relation_key": "waste_disposal::recyclable_bottle",
+    "source_row": 67,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_060_waste_disposal_food",
+    "canonical_actions": [
+      "locate(food)",
+      "grasp(food)",
+      "move(trash_bin)",
+      "dispose(food)"
+    ],
+    "instruction": "垃圾处理：分类投放厨余垃圾（food）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1033,
+      "images": 500,
+      "metadata": 0,
+      "videos": 19
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\food\\images",
+    "object_id": "food",
+    "object_name": "厨余垃圾",
+    "relation_key": "waste_disposal::food",
+    "source_row": 68,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_061_waste_disposal_plastic_bag",
+    "canonical_actions": [
+      "locate(plastic_bag)",
+      "grasp(plastic_bag)",
+      "move(trash_bin)",
+      "dispose(plastic_bag)"
+    ],
+    "instruction": "垃圾处理：分类投放塑料袋（plastic_bag）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 963,
+      "images": 458,
+      "metadata": 0,
+      "videos": 41
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\plastic_bag\\images",
+    "object_id": "plastic_bag",
+    "object_name": "塑料袋",
+    "relation_key": "waste_disposal::plastic_bag",
+    "source_row": 69,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_062_waste_disposal_cardboard_box",
+    "canonical_actions": [
+      "locate(cardboard_box)",
+      "grasp(cardboard_box)",
+      "move(trash_bin)",
+      "dispose(cardboard_box)"
+    ],
+    "instruction": "垃圾处理：分类投放纸箱（cardboard_box）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\cardboard_box\\images",
+    "object_id": "cardboard_box",
+    "object_name": "纸箱",
+    "relation_key": "waste_disposal::cardboard_box",
+    "source_row": 70,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_063_waste_disposal_aluminum_can",
+    "canonical_actions": [
+      "locate(aluminum_can)",
+      "grasp(aluminum_can)",
+      "move(trash_bin)",
+      "dispose(aluminum_can)"
+    ],
+    "instruction": "垃圾处理：分类投放易拉罐（aluminum_can）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1418,
+      "images": 512,
+      "metadata": 0,
+      "videos": 1
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\aluminum_can\\images",
+    "object_id": "aluminum_can",
+    "object_name": "易拉罐",
+    "relation_key": "waste_disposal::aluminum_can",
+    "source_row": 71,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_064_waste_disposal_glass_bottle",
+    "canonical_actions": [
+      "locate(glass_bottle)",
+      "grasp(glass_bottle)",
+      "move(trash_bin)",
+      "dispose(glass_bottle)"
+    ],
+    "instruction": "垃圾处理：分类投放玻璃瓶（glass_bottle）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\glass_bottle\\images",
+    "object_id": "glass_bottle",
+    "object_name": "玻璃瓶",
+    "relation_key": "waste_disposal::glass_bottle",
+    "source_row": 72,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_065_waste_disposal_battery",
+    "canonical_actions": [
+      "locate(battery)",
+      "grasp(battery)",
+      "move(trash_bin)",
+      "dispose(battery)"
+    ],
+    "instruction": "垃圾处理：分类投放电池（battery）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 553,
+      "images": 534,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\waste_disposal__垃圾处理\\objects\\battery\\images",
+    "object_id": "battery",
+    "object_name": "电池",
+    "relation_key": "waste_disposal::battery",
+    "source_row": 73,
+    "target": "none",
+    "task_id": "waste_disposal",
+    "task_name": "垃圾处理"
+  },
+  {
+    "benchmark_id": "acceptance_066_clothing_care_dress",
+    "canonical_actions": [
+      "locate(dress)",
+      "grasp(dress)",
+      "fold(dress)",
+      "move(wardrobe)",
+      "place(dress)"
+    ],
+    "instruction": "服装护理：整理并护理连衣裙（dress）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\dress\\images",
+    "object_id": "dress",
+    "object_name": "连衣裙",
+    "relation_key": "clothing_care::dress",
+    "source_row": 74,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_067_clothing_care_suit",
+    "canonical_actions": [
+      "locate(suit)",
+      "grasp(suit)",
+      "fold(suit)",
+      "move(wardrobe)",
+      "place(suit)"
+    ],
+    "instruction": "服装护理：整理并护理西装（suit）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 499,
+      "images": 485,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\suit\\images",
+    "object_id": "suit",
+    "object_name": "西装",
+    "relation_key": "clothing_care::suit",
+    "source_row": 75,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_068_clothing_care_sweater",
+    "canonical_actions": [
+      "locate(sweater)",
+      "grasp(sweater)",
+      "fold(sweater)",
+      "move(wardrobe)",
+      "place(sweater)"
+    ],
+    "instruction": "服装护理：整理并护理毛衣（sweater）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\sweater\\images",
+    "object_id": "sweater",
+    "object_name": "毛衣",
+    "relation_key": "clothing_care::sweater",
+    "source_row": 76,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_069_clothing_care_skirt",
+    "canonical_actions": [
+      "locate(skirt)",
+      "grasp(skirt)",
+      "fold(skirt)",
+      "move(wardrobe)",
+      "place(skirt)"
+    ],
+    "instruction": "服装护理：整理并护理裙子（skirt）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\skirt\\images",
+    "object_id": "skirt",
+    "object_name": "裙子",
+    "relation_key": "clothing_care::skirt",
+    "source_row": 77,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_070_clothing_care_socks",
+    "canonical_actions": [
+      "locate(socks)",
+      "grasp(socks)",
+      "fold(socks)",
+      "move(wardrobe)",
+      "place(socks)"
+    ],
+    "instruction": "服装护理：整理并护理袜子（socks）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\socks\\images",
+    "object_id": "socks",
+    "object_name": "袜子",
+    "relation_key": "clothing_care::socks",
+    "source_row": 78,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_071_clothing_care_scarf",
+    "canonical_actions": [
+      "locate(scarf)",
+      "grasp(scarf)",
+      "fold(scarf)",
+      "move(wardrobe)",
+      "place(scarf)"
+    ],
+    "instruction": "服装护理：整理并护理围巾（scarf）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\scarf\\images",
+    "object_id": "scarf",
+    "object_name": "围巾",
+    "relation_key": "clothing_care::scarf",
+    "source_row": 79,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_072_clothing_care_bed_sheet",
+    "canonical_actions": [
+      "locate(bed_sheet)",
+      "grasp(bed_sheet)",
+      "fold(bed_sheet)",
+      "move(wardrobe)",
+      "place(bed_sheet)"
+    ],
+    "instruction": "服装护理：整理并护理床单（bed_sheet）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 243,
+      "images": 224,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\bed_sheet\\images",
+    "object_id": "bed_sheet",
+    "object_name": "床单",
+    "relation_key": "clothing_care::bed_sheet",
+    "source_row": 80,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_073_clothing_care_iron",
+    "canonical_actions": [
+      "locate(iron)",
+      "grasp(iron)",
+      "fold(iron)",
+      "move(wardrobe)",
+      "place(iron)"
+    ],
+    "instruction": "服装护理：用熨斗熨平衣物（iron）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 327,
+      "images": 305,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\clothing_care__服装护理\\objects\\iron\\images",
+    "object_id": "iron",
+    "object_name": "熨斗",
+    "relation_key": "clothing_care::iron",
+    "source_row": 81,
+    "target": "none",
+    "task_id": "clothing_care",
+    "task_name": "服装护理"
+  },
+  {
+    "benchmark_id": "acceptance_074_window_care_window",
+    "canonical_actions": [
+      "locate(window)",
+      "open(window)",
+      "inspect(window)"
+    ],
+    "instruction": "门窗护理：打开窗户（window）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1976,
+      "images": 988,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\window\\images",
+    "object_id": "window",
+    "object_name": "窗户",
+    "relation_key": "window_care::window",
+    "source_row": 82,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_075_window_care_window_glass",
+    "canonical_actions": [
+      "locate(window_glass)",
+      "wipe(window_glass)",
+      "inspect(window_glass)"
+    ],
+    "instruction": "门窗护理：清洁并检查窗玻璃（window_glass）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 845,
+      "images": 845,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\window_glass\\images",
+    "object_id": "window_glass",
+    "object_name": "窗玻璃",
+    "relation_key": "window_care::window_glass",
+    "source_row": 83,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_076_window_care_window_frame",
+    "canonical_actions": [
+      "locate(window_frame)",
+      "wipe(window_frame)",
+      "inspect(window_frame)"
+    ],
+    "instruction": "门窗护理：清洁并检查窗框（window_frame）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 295,
+      "images": 295,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\window_frame\\images",
+    "object_id": "window_frame",
+    "object_name": "窗框",
+    "relation_key": "window_care::window_frame",
+    "source_row": 84,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_077_window_care_curtain",
+    "canonical_actions": [
+      "locate(curtain)",
+      "open(curtain)",
+      "inspect(curtain)"
+    ],
+    "instruction": "门窗护理：打开窗帘（curtain）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 744,
+      "images": 372,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\curtain\\images",
+    "object_id": "curtain",
+    "object_name": "窗帘",
+    "relation_key": "window_care::curtain",
+    "source_row": 85,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_078_window_care_blind",
+    "canonical_actions": [
+      "locate(blind)",
+      "open(blind)",
+      "inspect(blind)"
+    ],
+    "instruction": "门窗护理：打开百叶窗（blind）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 450,
+      "images": 225,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\blind\\images",
+    "object_id": "blind",
+    "object_name": "百叶窗",
+    "relation_key": "window_care::blind",
+    "source_row": 86,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_079_window_care_screen_window",
+    "canonical_actions": [
+      "locate(screen_window)",
+      "wipe(screen_window)",
+      "inspect(screen_window)"
+    ],
+    "instruction": "门窗护理：清洁并检查纱窗（screen_window）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 311,
+      "images": 311,
+      "metadata": 624,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\screen_window\\images",
+    "object_id": "screen_window",
+    "object_name": "纱窗",
+    "relation_key": "window_care::screen_window",
+    "source_row": 87,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_080_window_care_balcony_railing",
+    "canonical_actions": [
+      "locate(balcony_railing)",
+      "wipe(balcony_railing)",
+      "inspect(balcony_railing)"
+    ],
+    "instruction": "门窗护理：清洁并检查阳台栏杆（balcony_railing）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 161,
+      "images": 161,
+      "metadata": 200,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\balcony_railing\\images",
+    "object_id": "balcony_railing",
+    "object_name": "阳台栏杆",
+    "relation_key": "window_care::balcony_railing",
+    "source_row": 88,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_081_window_care_window_sill",
+    "canonical_actions": [
+      "locate(window_sill)",
+      "wipe(window_sill)",
+      "inspect(window_sill)"
+    ],
+    "instruction": "门窗护理：清洁并检查窗台（window_sill）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 221,
+      "images": 221,
+      "metadata": 442,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\window_care__门窗护理\\objects\\window_sill\\images",
+    "object_id": "window_sill",
+    "object_name": "窗台",
+    "relation_key": "window_care::window_sill",
+    "source_row": 89,
+    "target": "none",
+    "task_id": "window_care",
+    "task_name": "门窗护理"
+  },
+  {
+    "benchmark_id": "acceptance_090_bedroom_service_bed",
+    "canonical_actions": [
+      "locate(bed)",
+      "straighten(bed)",
+      "inspect(bed)"
+    ],
+    "instruction": "卧室服务：把床铺整理平整（bed）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 8768,
+      "images": 4384,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\bed\\images",
+    "object_id": "bed",
+    "object_name": "床",
+    "relation_key": "bedroom_service::bed",
+    "source_row": 90,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_091_bedroom_service_pillow",
+    "canonical_actions": [
+      "locate(pillow)",
+      "grasp(pillow)",
+      "fluff(pillow)",
+      "orient(pillow)",
+      "place(pillow)",
+      "inspect(pillow)"
+    ],
+    "instruction": "卧室服务：拍松并摆好枕头（pillow）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 682,
+      "images": 341,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\pillow\\images",
+    "object_id": "pillow",
+    "object_name": "枕头",
+    "relation_key": "bedroom_service::pillow",
+    "source_row": 91,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_092_bedroom_service_quilt",
+    "canonical_actions": [
+      "locate(quilt)",
+      "grasp(quilt)",
+      "spread(quilt)",
+      "smooth(quilt)",
+      "inspect(quilt)"
+    ],
+    "instruction": "卧室服务：铺平并整理被子（quilt）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 660,
+      "images": 571,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\quilt\\images",
+    "object_id": "quilt",
+    "object_name": "被子",
+    "relation_key": "bedroom_service::quilt",
+    "source_row": 92,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_093_bedroom_service_mattress",
+    "canonical_actions": [
+      "locate(mattress)",
+      "inspect(mattress)",
+      "straighten(mattress)",
+      "inspect(mattress)"
+    ],
+    "instruction": "卧室服务：整理床垫（mattress）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 488,
+      "images": 415,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\mattress\\images",
+    "object_id": "mattress",
+    "object_name": "床垫",
+    "relation_key": "bedroom_service::mattress",
+    "source_row": 93,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_094_bedroom_service_nightstand",
+    "canonical_actions": [
+      "locate(nightstand)",
+      "organize(nightstand)",
+      "wipe(nightstand)",
+      "inspect(nightstand)"
+    ],
+    "instruction": "卧室服务：整理床头柜（nightstand）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 501,
+      "images": 501,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\nightstand\\images",
+    "object_id": "nightstand",
+    "object_name": "床头柜",
+    "relation_key": "bedroom_service::nightstand",
+    "source_row": 94,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_095_bedroom_service_bedroom_lamp",
+    "canonical_actions": [
+      "locate(bedroom_lamp)",
+      "turn_on(bedroom_lamp)",
+      "inspect(bedroom_lamp)"
+    ],
+    "instruction": "卧室服务：打开卧室灯（bedroom_lamp）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\bedroom_lamp\\images",
+    "object_id": "bedroom_lamp",
+    "object_name": "卧室灯",
+    "relation_key": "bedroom_service::bedroom_lamp",
+    "source_row": 95,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_096_bedroom_service_clothes_hanger",
+    "canonical_actions": [
+      "locate(clothes_hanger)",
+      "grasp(clothes_hanger)",
+      "orient(clothes_hanger)",
+      "place(clothes_hanger)",
+      "inspect(clothes_hanger)"
+    ],
+    "instruction": "卧室服务：整理衣架（clothes_hanger）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 317,
+      "images": 208,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\clothes_hanger\\images",
+    "object_id": "clothes_hanger",
+    "object_name": "衣架",
+    "relation_key": "bedroom_service::clothes_hanger",
+    "source_row": 96,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_097_bedroom_service_laundry_basket",
+    "canonical_actions": [
+      "locate(laundry_basket)",
+      "organize(laundry_basket)",
+      "move(laundry_basket)",
+      "place(laundry_basket)",
+      "inspect(laundry_basket)"
+    ],
+    "instruction": "卧室服务：整理洗衣篮（laundry_basket）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 605,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\bedroom_service__卧室服务\\objects\\laundry_basket\\images",
+    "object_id": "laundry_basket",
+    "object_name": "洗衣篮",
+    "relation_key": "bedroom_service::laundry_basket",
+    "source_row": 97,
+    "target": "none",
+    "task_id": "bedroom_service",
+    "task_name": "卧室服务"
+  },
+  {
+    "benchmark_id": "acceptance_098_food_serving_water_cup",
+    "canonical_actions": [
+      "locate(water_cup)",
+      "grasp(water_cup)",
+      "move(water_source)",
+      "fill(water_cup)",
+      "pour(water_cup)",
+      "move(person)",
+      "place(water_cup)"
+    ],
+    "instruction": "送餐饮水：帮我倒杯水并送过来（water_cup）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\water_cup\\images",
+    "object_id": "water_cup",
+    "object_name": "水杯",
+    "relation_key": "food_serving::water_cup",
+    "source_row": 98,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_099_food_serving_wine_glass",
+    "canonical_actions": [
+      "locate(wine_glass)",
+      "grasp(wine_glass)",
+      "move(person)",
+      "place(wine_glass)"
+    ],
+    "instruction": "送餐饮水：把酒杯平稳送给用户（wine_glass）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2133,
+      "images": 818,
+      "metadata": 0,
+      "videos": 249
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\wine_glass\\images",
+    "object_id": "wine_glass",
+    "object_name": "酒杯",
+    "relation_key": "food_serving::wine_glass",
+    "source_row": 99,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_100_food_serving_bottle",
+    "canonical_actions": [
+      "locate(bottle)",
+      "grasp(bottle)",
+      "move(person)",
+      "place(bottle)"
+    ],
+    "instruction": "送餐饮水：把饮料瓶平稳送给用户（bottle）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 19391,
+      "images": 9430,
+      "metadata": 0,
+      "videos": 74
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\bottle\\images",
+    "object_id": "bottle",
+    "object_name": "饮料瓶",
+    "relation_key": "food_serving::bottle",
+    "source_row": 100,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_101_food_serving_food_tray",
+    "canonical_actions": [
+      "locate(food_tray)",
+      "grasp(food_tray)",
+      "move(person)",
+      "place(food_tray)"
+    ],
+    "instruction": "送餐饮水：把餐盘平稳送给用户（food_tray）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 265,
+      "images": 158,
+      "metadata": 0,
+      "videos": 70
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\food_tray\\images",
+    "object_id": "food_tray",
+    "object_name": "餐盘",
+    "relation_key": "food_serving::food_tray",
+    "source_row": 101,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_102_food_serving_dinner_plate",
+    "canonical_actions": [
+      "locate(dinner_plate)",
+      "grasp(dinner_plate)",
+      "move(person)",
+      "place(dinner_plate)"
+    ],
+    "instruction": "送餐饮水：把餐碟平稳送给用户（dinner_plate）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\dinner_plate\\images",
+    "object_id": "dinner_plate",
+    "object_name": "餐碟",
+    "relation_key": "food_serving::dinner_plate",
+    "source_row": 102,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_103_food_serving_serving_bowl",
+    "canonical_actions": [
+      "locate(serving_bowl)",
+      "grasp(serving_bowl)",
+      "move(person)",
+      "place(serving_bowl)"
+    ],
+    "instruction": "送餐饮水：把汤碗平稳送给用户（serving_bowl）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\serving_bowl\\images",
+    "object_id": "serving_bowl",
+    "object_name": "汤碗",
+    "relation_key": "food_serving::serving_bowl",
+    "source_row": 103,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_104_food_serving_chopsticks",
+    "canonical_actions": [
+      "locate(chopsticks)",
+      "grasp(chopsticks)",
+      "move(person)",
+      "place(chopsticks)"
+    ],
+    "instruction": "送餐饮水：把筷子平稳送给用户（chopsticks）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 640,
+      "images": 555,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\chopsticks\\images",
+    "object_id": "chopsticks",
+    "object_name": "筷子",
+    "relation_key": "food_serving::chopsticks",
+    "source_row": 104,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_105_food_serving_thermos",
+    "canonical_actions": [
+      "locate(thermos)",
+      "grasp(thermos)",
+      "move(person)",
+      "place(thermos)"
+    ],
+    "instruction": "送餐饮水：把保温杯平稳送给用户（thermos）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 652,
+      "images": 645,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\food_serving__送餐饮水\\objects\\thermos\\images",
+    "object_id": "thermos",
+    "object_name": "保温杯",
+    "relation_key": "food_serving::thermos",
+    "source_row": 105,
+    "target": "none",
+    "task_id": "food_serving",
+    "task_name": "送餐饮水"
+  },
+  {
+    "benchmark_id": "acceptance_106_object_fetching_remote_control",
+    "canonical_actions": [
+      "locate(remote_control)",
+      "grasp(remote_control)",
+      "move(person)",
+      "release(remote_control)"
+    ],
+    "instruction": "物品取送：把遥控器拿给我（remote_control）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 4867,
+      "images": 2829,
+      "metadata": 0,
+      "videos": 7
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\remote_control\\images",
+    "object_id": "remote_control",
+    "object_name": "遥控器",
+    "relation_key": "object_fetching::remote_control",
+    "source_row": 106,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_107_object_fetching_mobile_phone",
+    "canonical_actions": [
+      "locate(mobile_phone)",
+      "grasp(mobile_phone)",
+      "move(person)",
+      "release(mobile_phone)"
+    ],
+    "instruction": "物品取送：把手机拿给我（mobile_phone）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2059,
+      "images": 617,
+      "metadata": 0,
+      "videos": 5
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\mobile_phone\\images",
+    "object_id": "mobile_phone",
+    "object_name": "手机",
+    "relation_key": "object_fetching::mobile_phone",
+    "source_row": 107,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_108_object_fetching_laptop",
+    "canonical_actions": [
+      "locate(laptop)",
+      "grasp(laptop)",
+      "move(person)",
+      "release(laptop)"
+    ],
+    "instruction": "物品取送：把笔记本电脑拿给我（laptop）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 5405,
+      "images": 2323,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\laptop\\images",
+    "object_id": "laptop",
+    "object_name": "笔记本电脑",
+    "relation_key": "object_fetching::laptop",
+    "source_row": 108,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_109_object_fetching_book",
+    "canonical_actions": [
+      "locate(book)",
+      "grasp(book)",
+      "move(person)",
+      "release(book)"
+    ],
+    "instruction": "物品取送：把书拿给我（book）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 19658,
+      "images": 9095,
+      "metadata": 0,
+      "videos": 19
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\book\\images",
+    "object_id": "book",
+    "object_name": "书",
+    "relation_key": "object_fetching::book",
+    "source_row": 109,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_110_object_fetching_spectacles",
+    "canonical_actions": [
+      "locate(spectacles)",
+      "grasp(spectacles)",
+      "move(person)",
+      "release(spectacles)"
+    ],
+    "instruction": "物品取送：把眼镜递给用户（spectacles）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 3816,
+      "images": 2197,
+      "metadata": 1156,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\spectacles\\images",
+    "object_id": "spectacles",
+    "object_name": "眼镜",
+    "relation_key": "object_fetching::spectacles",
+    "source_row": 110,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_111_object_fetching_walking_cane",
+    "canonical_actions": [
+      "locate(walking_cane)",
+      "grasp(walking_cane)",
+      "move(person)",
+      "release(walking_cane)"
+    ],
+    "instruction": "物品取送：把拐杖拿给我（walking_cane）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 681,
+      "images": 664,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\walking_cane\\images",
+    "object_id": "walking_cane",
+    "object_name": "拐杖",
+    "relation_key": "object_fetching::walking_cane",
+    "source_row": 111,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_112_object_fetching_keys",
+    "canonical_actions": [
+      "locate(keys)",
+      "grasp(keys)",
+      "move(person)",
+      "release(keys)"
+    ],
+    "instruction": "物品取送：把钥匙拿给我（keys）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 990,
+      "images": 895,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\keys\\images",
+    "object_id": "keys",
+    "object_name": "钥匙",
+    "relation_key": "object_fetching::keys",
+    "source_row": 112,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_113_object_fetching_wallet",
+    "canonical_actions": [
+      "locate(wallet)",
+      "grasp(wallet)",
+      "move(person)",
+      "release(wallet)"
+    ],
+    "instruction": "物品取送：把钱包拿给我（wallet）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 858,
+      "images": 829,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\wallet\\images",
+    "object_id": "wallet",
+    "object_name": "钱包",
+    "relation_key": "object_fetching::wallet",
+    "source_row": 113,
+    "target": "none",
+    "task_id": "object_fetching",
+    "task_name": "物品取送"
+  },
+  {
+    "benchmark_id": "acceptance_114_elderly_assistance_blood_pressure_monitor",
+    "canonical_actions": [
+      "locate(blood_pressure_monitor)",
+      "grasp(blood_pressure_monitor)",
+      "move(person)",
+      "place(blood_pressure_monitor)",
+      "inspect(blood_pressure_monitor)"
+    ],
+    "instruction": "健康辅助：准备血压计协助用户测量血压（blood_pressure_monitor）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 800,
+      "images": 800,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\blood_pressure_monitor\\images",
+    "object_id": "blood_pressure_monitor",
+    "object_name": "血压计",
+    "relation_key": "elderly_assistance::blood_pressure_monitor",
+    "source_row": 114,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_115_elderly_assistance_thermometer",
+    "canonical_actions": [
+      "locate(thermometer)",
+      "grasp(thermometer)",
+      "move(person)",
+      "place(thermometer)",
+      "inspect(thermometer)"
+    ],
+    "instruction": "健康辅助：把体温计递给用户（thermometer）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 529,
+      "images": 510,
+      "metadata": 0,
+      "videos": 19
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\thermometer\\images",
+    "object_id": "thermometer",
+    "object_name": "体温计",
+    "relation_key": "elderly_assistance::thermometer",
+    "source_row": 115,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_116_elderly_assistance_bandage",
+    "canonical_actions": [
+      "locate(bandage)",
+      "grasp(bandage)",
+      "move(person)",
+      "place(bandage)",
+      "inspect(bandage)"
+    ],
+    "instruction": "健康辅助：把绷带准备好并递给用户（bandage）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 800,
+      "images": 768,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\bandage\\images",
+    "object_id": "bandage",
+    "object_name": "绷带",
+    "relation_key": "elderly_assistance::bandage",
+    "source_row": 116,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_117_elderly_assistance_first_aid_kit",
+    "canonical_actions": [
+      "locate(first_aid_kit)",
+      "grasp(first_aid_kit)",
+      "move(person)",
+      "place(first_aid_kit)",
+      "inspect(first_aid_kit)"
+    ],
+    "instruction": "健康辅助：把急救箱准备好并递给用户（first_aid_kit）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 65,
+      "images": 65,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\first_aid_kit\\images",
+    "object_id": "first_aid_kit",
+    "object_name": "急救箱",
+    "relation_key": "elderly_assistance::first_aid_kit",
+    "source_row": 117,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_118_elderly_assistance_wheelchair",
+    "canonical_actions": [
+      "locate(wheelchair)",
+      "grasp(wheelchair)",
+      "move(person)",
+      "place(wheelchair)",
+      "inspect(wheelchair)"
+    ],
+    "instruction": "健康辅助：把轮椅推到用户身边（wheelchair）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 620,
+      "images": 610,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\wheelchair\\images",
+    "object_id": "wheelchair",
+    "object_name": "轮椅",
+    "relation_key": "elderly_assistance::wheelchair",
+    "source_row": 118,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_119_elderly_assistance_sanitary_pad",
+    "canonical_actions": [
+      "locate(sanitary_pad)",
+      "grasp(sanitary_pad)",
+      "move(person)",
+      "place(sanitary_pad)",
+      "inspect(sanitary_pad)"
+    ],
+    "instruction": "健康辅助：把卫生巾递给用户（sanitary_pad）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 800,
+      "images": 800,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\sanitary_pad\\images",
+    "object_id": "sanitary_pad",
+    "object_name": "卫生巾",
+    "relation_key": "elderly_assistance::sanitary_pad",
+    "source_row": 119,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_120_elderly_assistance_medical_mask",
+    "canonical_actions": [
+      "locate(medical_mask)",
+      "grasp(medical_mask)",
+      "move(person)",
+      "place(medical_mask)",
+      "inspect(medical_mask)"
+    ],
+    "instruction": "健康辅助：把医用口罩递给用户（medical_mask）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 942,
+      "images": 471,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\medical_mask\\images",
+    "object_id": "medical_mask",
+    "object_name": "医用口罩",
+    "relation_key": "elderly_assistance::medical_mask",
+    "source_row": 120,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_121_elderly_assistance_medical_glove",
+    "canonical_actions": [
+      "locate(medical_glove)",
+      "grasp(medical_glove)",
+      "move(person)",
+      "place(medical_glove)",
+      "inspect(medical_glove)"
+    ],
+    "instruction": "健康辅助：把医用手套递给用户（medical_glove）。",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1464,
+      "images": 713,
+      "metadata": 0,
+      "videos": 14
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\elderly_assistance__Medical_service\\objects\\medical_glove\\images",
+    "object_id": "medical_glove",
+    "object_name": "医用手套",
+    "relation_key": "elderly_assistance::medical_glove",
+    "source_row": 121,
+    "target": "none",
+    "task_id": "elderly_assistance",
+    "task_name": "健康辅助"
+  },
+  {
+    "benchmark_id": "acceptance_122_maintenance_management_robot_vacuum",
+    "canonical_actions": [
+      "locate(robot_vacuum)",
+      "inspect(robot_vacuum)",
+      "service_brush(robot_vacuum)",
+      "maintain(robot_vacuum)",
+      "confirm_state(robot_vacuum)"
+    ],
+    "instruction": "执行 maintenance_management：操作 robot_vacuum",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 370,
+      "images": 360,
+      "metadata": 0,
+      "videos": 10
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\floor_cleaning__地面清洁\\objects\\robot_vacuum",
+    "object_id": "robot_vacuum",
+    "object_name": "扫地机器人",
+    "relation_key": "maintenance_management::robot_vacuum",
+    "source_row": 122,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_123_maintenance_management_fire_alarm",
+    "canonical_actions": [
+      "locate(fire_alarm)",
+      "inspect(fire_alarm)",
+      "test_alarm(fire_alarm)",
+      "maintain(fire_alarm)",
+      "confirm_state(fire_alarm)"
+    ],
+    "instruction": "执行 maintenance_management：操作 fire_alarm",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 568,
+      "images": 462,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\fire_alarm",
+    "object_id": "fire_alarm",
+    "object_name": "烟雾报警器",
+    "relation_key": "maintenance_management::fire_alarm",
+    "source_row": 123,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_124_maintenance_management_washing_machine",
+    "canonical_actions": [
+      "locate(washing_machine)",
+      "inspect(washing_machine)",
+      "clean_drum(washing_machine)",
+      "maintain(washing_machine)",
+      "confirm_state(washing_machine)"
+    ],
+    "instruction": "执行 maintenance_management：操作 washing_machine",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 805,
+      "images": 466,
+      "metadata": 0,
+      "videos": 33
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\washing_machine",
+    "object_id": "washing_machine",
+    "object_name": "洗衣机",
+    "relation_key": "maintenance_management::washing_machine",
+    "source_row": 124,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_125_maintenance_management_air_conditioner",
+    "canonical_actions": [
+      "locate(air_conditioner)",
+      "inspect(air_conditioner)",
+      "clean_filter(air_conditioner)",
+      "maintain(air_conditioner)",
+      "confirm_state(air_conditioner)"
+    ],
+    "instruction": "执行 maintenance_management：操作 air_conditioner",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1030,
+      "images": 571,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\air_conditioner",
+    "object_id": "air_conditioner",
+    "object_name": "空调",
+    "relation_key": "maintenance_management::air_conditioner",
+    "source_row": 125,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_126_maintenance_management_refrigerator",
+    "canonical_actions": [
+      "locate(refrigerator)",
+      "inspect(refrigerator)",
+      "check_seal(refrigerator)",
+      "maintain(refrigerator)",
+      "confirm_state(refrigerator)"
+    ],
+    "instruction": "执行 maintenance_management：操作 refrigerator",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1099,
+      "images": 513,
+      "metadata": 0,
+      "videos": 34
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\refrigerator",
+    "object_id": "refrigerator",
+    "object_name": "冰箱",
+    "relation_key": "maintenance_management::refrigerator",
+    "source_row": 126,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_127_maintenance_management_fan",
+    "canonical_actions": [
+      "locate(fan)",
+      "inspect(fan)",
+      "clean_blades(fan)",
+      "maintain(fan)",
+      "confirm_state(fan)"
+    ],
+    "instruction": "执行 maintenance_management：操作 fan",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1020,
+      "images": 510,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\fan",
+    "object_id": "fan",
+    "object_name": "风扇",
+    "relation_key": "maintenance_management::fan",
+    "source_row": 127,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_128_maintenance_management_electric_curtain",
+    "canonical_actions": [
+      "locate(electric_curtain)",
+      "inspect(electric_curtain)",
+      "service_track(electric_curtain)",
+      "maintain(electric_curtain)",
+      "confirm_state(electric_curtain)"
+    ],
+    "instruction": "执行 maintenance_management：操作 electric_curtain",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 600,
+      "images": 300,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\electric_curtain",
+    "object_id": "electric_curtain",
+    "object_name": "电动窗帘",
+    "relation_key": "maintenance_management::electric_curtain",
+    "source_row": 128,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_129_maintenance_management_smart_lock",
+    "canonical_actions": [
+      "locate(smart_lock)",
+      "inspect(smart_lock)",
+      "test_lock(smart_lock)",
+      "maintain(smart_lock)",
+      "confirm_state(smart_lock)"
+    ],
+    "instruction": "执行 maintenance_management：操作 smart_lock",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 42,
+      "images": 21,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\security_monitoring__智慧安防\\objects\\smart_lock",
+    "object_id": "smart_lock",
+    "object_name": "智能门锁",
+    "relation_key": "maintenance_management::smart_lock",
+    "source_row": 129,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_130_maintenance_management_flower_pot",
+    "canonical_actions": [
+      "locate(flower_pot)",
+      "inspect_plant_and_pests(flower_pot)",
+      "remove_pests(flower_pot)",
+      "organize(flower_pot)",
+      "inspect(flower_pot)"
+    ],
+    "instruction": "执行 maintenance_management：操作 flower_pot",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1388,
+      "images": 1388,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject",
+    "object_id": "flower_pot",
+    "object_name": "花盆",
+    "relation_key": "maintenance_management::flower_pot",
+    "source_row": 130,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_131_maintenance_management_watering_can",
+    "canonical_actions": [
+      "locate(watering_can)",
+      "grasp(watering_can)",
+      "fill(watering_can)",
+      "move(flower_pot)",
+      "water(flower_pot,watering_can)",
+      "place(watering_can)"
+    ],
+    "instruction": "执行 maintenance_management：操作 watering_can",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 27,
+      "images": 27,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject",
+    "object_id": "watering_can",
+    "object_name": "浇水壶",
+    "relation_key": "maintenance_management::watering_can",
+    "source_row": 131,
+    "target": "none",
+    "task_id": "maintenance_management",
+    "task_name": "维护管理"
+  },
+  {
+    "benchmark_id": "acceptance_132_entertainment_service_remote_control",
+    "canonical_actions": [
+      "locate(remote_control)",
+      "grasp(remote_control)",
+      "aim(remote_control,television)",
+      "press(remote_control)",
+      "control(remote_control,television)",
+      "confirm_state(television)"
+    ],
+    "instruction": "执行 entertainment_service：操作 remote_control",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 4867,
+      "images": 2829,
+      "metadata": 0,
+      "videos": 7
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\remote_control",
+    "object_id": "remote_control",
+    "object_name": "遥控器",
+    "relation_key": "entertainment_service::remote_control",
+    "source_row": 132,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_133_entertainment_service_television",
+    "canonical_actions": [
+      "locate(television)",
+      "turn_on(television)",
+      "play(television)",
+      "confirm_state(television)"
+    ],
+    "instruction": "执行 entertainment_service：操作 television",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1121,
+      "images": 956,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\appliance_management__家电综合管理\\objects\\television",
+    "object_id": "television",
+    "object_name": "电视",
+    "relation_key": "entertainment_service::television",
+    "source_row": 133,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_134_entertainment_service_laptop",
+    "canonical_actions": [
+      "locate(laptop)",
+      "turn_on(laptop)",
+      "play(laptop)",
+      "control(laptop)",
+      "confirm_state(laptop)"
+    ],
+    "instruction": "执行 entertainment_service：操作 laptop",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 5405,
+      "images": 2323,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\laptop",
+    "object_id": "laptop",
+    "object_name": "笔记本电脑",
+    "relation_key": "entertainment_service::laptop",
+    "source_row": 134,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_135_entertainment_service_book",
+    "canonical_actions": [
+      "locate(book)",
+      "grasp(book)",
+      "move(entertainment_area)",
+      "open(book)",
+      "present(book)"
+    ],
+    "instruction": "执行 entertainment_service：操作 book",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 19658,
+      "images": 9095,
+      "metadata": 0,
+      "videos": 19
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\book",
+    "object_id": "book",
+    "object_name": "书",
+    "relation_key": "entertainment_service::book",
+    "source_row": 135,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_136_entertainment_service_mobile_phone",
+    "canonical_actions": [
+      "locate(mobile_phone)",
+      "turn_on(mobile_phone)",
+      "play(mobile_phone)",
+      "control(mobile_phone)",
+      "confirm_state(mobile_phone)"
+    ],
+    "instruction": "执行 entertainment_service：操作 mobile_phone",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2059,
+      "images": 617,
+      "metadata": 0,
+      "videos": 5
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\object_fetching__物品取送\\objects\\mobile_phone",
+    "object_id": "mobile_phone",
+    "object_name": "手机",
+    "relation_key": "entertainment_service::mobile_phone",
+    "source_row": 136,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_137_entertainment_service_toy",
+    "canonical_actions": [
+      "locate(toy)",
+      "grasp(toy)",
+      "move(entertainment_area)",
+      "play(toy)",
+      "confirm_state(toy)"
+    ],
+    "instruction": "执行 entertainment_service：操作 toy",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 2294,
+      "images": 924,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject\\datasets\\midterm_15task_delivery\\organizing__整理任务\\objects\\toy",
+    "object_id": "toy",
+    "object_name": "玩具",
+    "relation_key": "entertainment_service::toy",
+    "source_row": 137,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_138_entertainment_service_game_controller",
+    "canonical_actions": [
+      "locate(game_controller)",
+      "grasp(game_controller)",
+      "connect(game_controller,entertainment_device)",
+      "start_game(entertainment_device)",
+      "control(game_controller,entertainment_device)",
+      "place(game_controller)"
+    ],
+    "instruction": "执行 entertainment_service：操作 game_controller",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 561,
+      "images": 561,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject",
+    "object_id": "game_controller",
+    "object_name": "游戏手柄",
+    "relation_key": "entertainment_service::game_controller",
+    "source_row": 138,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  },
+  {
+    "benchmark_id": "acceptance_139_entertainment_service_speaker",
+    "canonical_actions": [
+      "locate(speaker)",
+      "turn_on(speaker)",
+      "connect(speaker,audio_source)",
+      "play(speaker)",
+      "adjust_volume(speaker)"
+    ],
+    "instruction": "执行 entertainment_service：操作 speaker",
+    "legacy_task_id": null,
+    "media_counts": {
+      "annotations": 1272,
+      "images": 1272,
+      "metadata": 0,
+      "videos": 0
+    },
+    "object_dir": "C:\\RobotProject\\RobotProject",
+    "object_id": "speaker",
+    "object_name": "音箱",
+    "relation_key": "entertainment_service::speaker",
+    "source_row": 139,
+    "target": "none",
+    "task_id": "entertainment_service",
+    "task_name": "娱乐服务"
+  }
+]

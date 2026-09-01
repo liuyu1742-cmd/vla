@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-016",
+  "semantic_class": "凉鞋",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\operation.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_8_物品递送\\书籍\\rgb_head.mp4",
+  "source_video_sha256": "f0b5274b2b986b45c7e6e479947c9d4dc38805b0583ae43bf6a8fab93c66627a",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-016\\aux-02\\source_texture.png",
+  "source_frame_sha256": "6f53501aeef9d7ae06bd58d05e35a186a793564d704cc2ba046279c8a4a6ab5f",
+  "geometry": "sandal",
+  "dimensions": [
+    0.105,
+    0.04,
+    0.025
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.65,
+      0.006,
+      0.0002
+    ],
+    "friction_material": "paper_cardboard",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-016\\aux-02\\model.xml",
+  "model_sha256": "2c2d8b7d4559890bba0cdc57778ad967478d1ad81c723e21330864b38bb0b91a"
+}

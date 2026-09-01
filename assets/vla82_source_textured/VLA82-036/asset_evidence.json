@@ -1,0 +1,40 @@
+{
+  "selection_id": "VLA82-036",
+  "semantic_class": "咖啡杯",
+  "source_path": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\instruction.json",
+  "source_video": "C:\\OpenVLA-Simulator\\datasets\\chapter5_5_2_12_餐具与容器摆放\\咖啡杯\\rgb_robot0_agentview_left.mp4",
+  "source_video_sha256": "037d85908fc95654a088ce29a6c50277b5f61c3fdade35437a6796d76f9ba279",
+  "source_frame": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-036\\source_texture.png",
+  "source_frame_sha256": "c4b51bdb7d94d221c087241409dcce1069dd1f92dbb1eda29cb0d0a4f54485bb",
+  "geometry": "cup",
+  "dimensions": [
+    0.04,
+    0.04,
+    0.055
+  ],
+  "physics_profile": {
+    "density": 300,
+    "friction": [
+      0.4,
+      0.004,
+      0.0001
+    ],
+    "friction_material": "smooth_ceramic_glass",
+    "friction_material_source": "selection_id",
+    "friction_profile_version": "vla82-material-friction-v2",
+    "solref": [
+      0.02,
+      1.0
+    ],
+    "solimp": [
+      0.9,
+      0.95,
+      0.001
+    ],
+    "mass_basis": "geometry-density",
+    "collision_model": "single collision geometry"
+  },
+  "collision_geom_count": 2,
+  "model": "C:\\OpenVLA-Simulator\\assets\\vla82_source_textured\\VLA82-036\\model.xml",
+  "model_sha256": "b17505285c265bf64964401aa443bc206c8cfa5763535c8e51a0ea6af6d0d3ec"
+}
